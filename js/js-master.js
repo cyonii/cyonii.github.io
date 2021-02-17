@@ -1,5 +1,3 @@
-'use strict'
-
 const body = document.body
 const navToggler = document.getElementById('navbar-menu-toggler')
 const navbarCollapse = document.querySelector('.navbar-collapse')
@@ -7,50 +5,49 @@ const navbarCollapse = document.querySelector('.navbar-collapse')
 // Toggle Navigation Menu - Mobile
 navToggler.addEventListener('click', (event) => {
   event.stopPropagation()
-  navbarCollapse.classList.toggle('show')
-  navToggler.classList.toggle('close')
-
-  if(navbarCollapse.classList.contains('show')) {
-    body.style.overflow = 'hidden'
-    body.style.height = '100vh'
-  }else {
-    body.style.removeProperty('overflow')
-    body.style.removeProperty('height')
-  }
+  menuIsOpen() ? closeMenu() : showMenu()
 })
 
-// Hide menu if click happens outside of it - Mobile
-window.addEventListener('click', (event, menu=navbarCollapse) => {
-  event.stopPropagation()
-  if(menu.classList.contains('show')){
-    if(!menu.contains(event.target) || event.target.tagName == 'A'){
-      menu.classList.remove('show')
-    }
+function showMenu(event) {
+  navbarCollapse.classList.add('show')
+  navToggler.classList.add('close')
+  body.classList.add('menu-open')
+  window.addEventListener('click', closeMenu)
+}
+
+function closeMenu(event) {
+  if (event.target !== navbarCollapse){
+    navbarCollapse.classList.remove('show')
+    navToggler.classList.remove('close')
+    body.classList.remove('menu-open')
+    window.removeEventListener('click', closeMenu)
   }
-})
+}
+
+function menuIsOpen() {
+  return navbarCollapse.classList.contains('show')
+}
 
 // Hide call to scroll on scrool
 window.addEventListener('scroll', () => {
-  let landing = document.getElementById('landing')
+  let scrollCall = document.getElementById('call-to-scroll')
 
-  if (window.scrollY > 100){
-    landing.classList.add('scrolled')
-  }else {
-    landing.classList.remove('scrolled')
-  }
+  window.scrollY > 100
+    ? scrollCall.style.visibility = 'hidden'
+    : scrollCall.style.visibility = 'visible'
 })
 
 // EXPERIMENT
 const stack = [
   'Fullstack',
-  'Freelancer',
+  'Freelance',
   'Python / Django',
   'Ruby / Rails',
   'JS / React',
   'Bootstrap',
   'HTML',
   'CSS(SASS)',
-  '================='
+  ' '.repeat(15)
 ]
 const experiment = document.getElementById('experiment')
 let stackCounter = 0
