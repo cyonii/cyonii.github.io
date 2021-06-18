@@ -1,0 +1,142 @@
+#projects {
+  // border-radius: 25px 25px 0 0;
+  box-shadow: -5px -10px 0 -10px $primary;
+
+  .p-card {
+    display: flex;
+    flex-direction: column;
+    @include breakpoint-and-up('md') {
+      flex-direction: row;
+      align-items: end;
+    }
+
+    .p-images-wrapper {
+      width: auto;
+      height: 290px;
+      box-shadow: 200px 25px 0 2px darken($white, 9%);
+      border: 3px solid $dark;
+      overflow: hidden;
+      position: relative;
+      @include breakpoint-and-up('md') {
+        width: 50%;
+        height: 400px;
+      }
+
+      @keyframes glow {
+        100% {
+          color: $grey;
+        }
+      }
+
+      &::after {
+        content: '...loading';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $font-mono;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        color: $grey;
+        color: lighten($dark, 1);
+        z-index: -1;
+        animation: glow 0.3s linear infinite;
+      }
+
+      .slide-control {
+        width: 2.6rem;
+        height: 2.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        box-shadow: 0 0 0 2px $primary;
+        background: transparentize($white, 0.9);
+        animation: rays 5s linear infinite;
+        box-shadow: 0 -4px 0 2px $dark;
+        line-height: 1;
+
+        &.next {
+          right: 0.35rem;
+        }
+
+        &.prev {
+          left: 0.35rem;
+        }
+      }
+    }
+
+    .p-image {
+      width: 100%;
+      height: 100%;
+      display: none;
+      object-fit: cover;
+
+      &.active {
+        display: initial;
+      }
+    }
+
+    .p-content {
+      background: darken($white, 9%);
+      z-index: 0;
+      @include breakpoint-and-up('md') {
+        width: 50%;
+      }
+      @include breakpoint-and-up('lg') {
+        width: 40%;
+      }
+
+      .p-title {
+        color: $dark;
+        font-size: 1.5rem;
+      }
+
+      .p-desc {
+        width: 85%;
+        margin-left: auto;
+        color: darken($dark, 15%);
+        line-height: 1.2;
+        @include breakpoint-and-up('md') {
+          width: 100%;
+        }
+      }
+
+      .p-link {
+        border-radius: 4px;
+        font-size: 16px;
+        background: $dark;
+        outline-offset: -6px;
+        transition: 0.3s;
+
+        &:hover {
+          background: lighten($dark, 10%);
+        }
+      }
+    }
+  }
+
+  .p-control {
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 2px 2px $primary;
+    line-height: 1;
+    transition: 0.3s;
+    background: $dark;
+
+    &:active,
+    &:hover {
+      opacity: 0.9;
+      box-shadow: 0 0 0 2px $white;
+      opacity: 0.95;
+      color: $grey;
+    }
+  }
+}

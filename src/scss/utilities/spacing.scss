@@ -1,0 +1,127 @@
+.m-auto {
+  margin: auto;
+}
+
+$spacing-types: (
+  'p': 'padding',
+  'm': 'margin'
+);
+$sides: (
+  'l': 'left',
+  't': 'top',
+  'r': 'right',
+  'b': 'bottom'
+);
+
+// Padding and Margin ONLY for X and Y axis for all breakpoints
+@each $name, $value in $spacers {
+  .px-#{$name} {
+    padding-left: $value !important;
+    padding-right: $value !important;
+  }
+
+  .mx-#{$name} {
+    margin-left: $value !important;
+    margin-right: $value !important;
+  }
+
+  .py-#{$name} {
+    padding-top: $value !important;
+    padding-bottom: $value !important;
+  }
+
+  .my-#{$name} {
+    margin-top: $value !important;
+    margin-bottom: $value !important;
+  }
+
+  @each $bp in map-keys($media-min-breakpoints) {
+    @include breakpoint-and-up($bp) {
+      .py-#{$bp}-#{$name} {
+        padding-top: $value !important;
+        padding-bottom: $value !important;
+      }
+
+      .px-#{$bp}-#{$name} {
+        padding-left: $value !important;
+        padding-right: $value !important;
+      }
+    }
+  }
+}
+
+// Margin AUTO for X and Y axis for all breakpoints
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.mr-auto {
+  margin-right: auto !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+@each $breakpoints in map-keys($media-min-breakpoints) {
+  @include breakpoint-and-up($breakpoints) {
+    .mx-#{$breakpoints}-auto {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .my-#{$breakpoints}-auto {
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+    }
+  }
+}
+
+// Padding and Margin for ALL SIDES for all breakpoints
+@each $key, $type in $spacing-types {
+  @each $name, $value in $spacers {
+    .#{$key}-#{$name} {
+      #{$type}: $value !important;
+    }
+
+    @each $bp in map-keys($media-min-breakpoints) {
+      @include breakpoint-and-up($bp) {
+        .#{$key}-#{$bp}-#{$name} {
+          #{$type}: $value !important;
+        }
+      }
+    }
+  }
+}
+
+// Paddings and Margins ONLY for sides(l,t,r,b) FOR all breakpoints
+@each $key, $type in $spacing-types {
+  @each $name, $value in $spacers {
+    @each $char, $side in $sides {
+      .#{$key}#{$char}-#{$name} {
+        #{$type}-#{$side}: $value !important;
+      }
+    }
+  }
+}
+
+// Paddings and Margins for ONLY sides(l,t,r,b) FOR min breakpoints and up
+@each $bp in map-keys($media-min-breakpoints) {
+  @include breakpoint-and-up($bp) {
+    @each $key, $type in $spacing-types {
+      @each $name, $value in $spacers {
+        @each $char, $side in $sides {
+          .#{$key}#{$char}-#{$bp}-#{$name} {
+            #{$type}-#{$side}: $value !important;
+          }
+        }
+      }
+    }
+  }
+}
