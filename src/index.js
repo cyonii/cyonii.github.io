@@ -41,3 +41,37 @@ function engraveStack() {
   }
 }
 setInterval(engraveStack, 100);
+
+// Hide call to scroll button on scroll
+window.addEventListener('scroll', () => {
+  let scrollCall = document.getElementById('call-to-scroll');
+
+  window.scrollY > 100
+    ? (scrollCall.style.visibility = 'hidden')
+    : (scrollCall.style.visibility = 'visible');
+});
+
+// Stack accordion
+const stackTogglers = document.querySelectorAll('.stack-toggler');
+stackTogglers.forEach((toggler) => {
+  toggler.addEventListener('click', (event) => {
+    event.stopPropagation();
+    event.preventDefault();
+
+    const activeStack = document.querySelector('.stack-toggler.active');
+    if (activeStack.contains(event.target)) {
+      return;
+    } else {
+      activeStack.classList.remove('active');
+      activeStack.nextElementSibling.classList.remove('show');
+
+      if (event.target.nextElementSibling) {
+        event.target.classList.add('active');
+        event.target.nextElementSibling.classList.add('show');
+      } else {
+        event.target.parentElement.classList.add('active');
+        event.target.parentElement.nextElementSibling.classList.add('show');
+      }
+    }
+  });
+});
