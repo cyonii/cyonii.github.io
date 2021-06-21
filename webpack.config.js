@@ -11,6 +11,9 @@ module.exports = {
   },
   mode: 'development',
   devtool: 'source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+  },
   module: {
     rules: [
       {
@@ -20,7 +23,10 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
-            plugins: ['@babel/plugin-proposal-object-rest-spread'],
+            plugins: [
+              '@babel/plugin-proposal-object-rest-spread',
+              '@babel/plugin-transform-runtime',
+            ],
             cacheDirectory: true,
           },
         },
