@@ -2,3 +2,43 @@
   padding: 0.5rem 1.5rem;
   cursor: pointer;
 }
+
+// Project carousel card
+.project-card {
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint-and-up('md') {
+    flex-direction: row;
+    align-items: end;
+  }
+
+  & > div {
+    width: 100%;
+
+    @include breakpoint-and-up('md') {
+      width: 50%;
+    }
+  }
+
+  .project-cover {
+    height: 400px;
+
+    & > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: 100px 0 160px 0 $grey;
+    }
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    @include breakpoint-and-up('md') {
+      border-left: 2px solid $grey;
+    }
+  }
+}

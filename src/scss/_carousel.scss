@@ -8,8 +8,7 @@
     width: 100%;
 
     &.active {
-      background: #eee;
-      animation-name: zoom-out;
+      animation-name: faded;
       animation-duration: 0.3s;
       animation-timing-function: ease-in-out;
       animation-fill-mode: forwards;
@@ -19,14 +18,29 @@
       display: none;
     }
   }
+
+  &-control {
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 2px 2px $primary;
+    background-color: $dark;
+    color: $primary;
+    font-weight: bold;
+
+    &:hover {
+      box-shadow: 0 0 2px 2px $white;
+      background-color: $dark;
+      color: $white;
+    }
+  }
 }
 
-@keyframes zoom-out {
+@keyframes faded {
   from {
-    transform: scale(0.1) rotate(15deg);
+    opacity: 0;
   }
 
   to {
-    transform: scale(1) rotate(0);
+    opacity: 1;
   }
 }
