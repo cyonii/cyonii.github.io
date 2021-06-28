@@ -4,13 +4,15 @@ $secondary: #efcc20;
 $dark: #121619;
 $grey: #edf2f8;
 $white: #fff;
+$muted: rgb(136, 136, 136);
 
 $color-map: (
   'primary': $primary,
   'secondary': $secondary,
   'dark': $dark,
   'grey': $grey,
-  'white': $white
+  'white': $white,
+  'muted': $muted,
 );
 
 // Fonts families
@@ -21,7 +23,7 @@ $font-mono: 'Roboto Mono', monospace;
 $font-families: (
   'primary': $font-primary,
   'secondary': $font-secondary,
-  'mono': $font-mono
+  'mono': $font-mono,
 );
 
 // Font sizes
@@ -34,7 +36,7 @@ $font-weights: (
   'light': 300,
   'normal': 400,
   'bold': bold,
-  'bolder': bolder
+  'bolder': bolder,
 );
 
 // Media breakpoints for media query
@@ -42,7 +44,7 @@ $media-min-breakpoints: (
   'sm': 576px,
   'md': 768px,
   'lg': 992px,
-  'xl': 1200px
+  'xl': 1200px,
 );
 
 // Max width for containers
@@ -50,15 +52,23 @@ $container-max-widths: (
   'sm': 540px,
   'md': 720px,
   'lg': 960px,
-  'xl': 1140px
+  'xl': 1140px,
 );
 
 $spacer: 1rem;
 $spacers: (
   0: 0,
-  1: ($spacer * .25),
-  2: ($spacer * .5),
+  1: (
+    $spacer * 0.25,
+  ),
+  2: (
+    $spacer * 0.5,
+  ),
   3: $spacer,
-  4: ($spacer * 1.5),
-  5: ($spacer * 3)
+  4: (
+    $spacer * 1.5,
+  ),
+  5: (
+    $spacer * 3,
+  ),
 );

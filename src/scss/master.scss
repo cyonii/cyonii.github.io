@@ -1,6 +1,8 @@
 @import 'variables';
 @import 'mixins';
 @import 'defaults';
+@import 'carousel';
+@import 'components';
 @import 'grid';
 @import 'header';
 @import 'footer';
@@ -19,6 +21,10 @@ body.menu-open {
 
 ul {
   list-style: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .section-title {

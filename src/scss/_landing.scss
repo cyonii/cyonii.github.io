@@ -69,16 +69,17 @@ section#landing {
     .bg-drop-#{$i} {
       position: absolute;
       z-index: -1;
+      box-shadow: -1px -1px 1px 0px rgb(34, 34, 34), 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
       @include celestial-body();
       @if $i > 2 {
         @media (max-width: 767px) {
           display: none;
-        };
+        }
       }
       @if $i > 4 {
         @media (max-width: 991px) {
           display: none;
-        };
+        }
       }
 
       &::after {

@@ -40,7 +40,7 @@
 
           <div class="navbar-nav navbar-collapse">
             <div class="nav-item d-flex"><a href="#about" class="nav-link">Me</a></div>
-            <div class="nav-item d-flex"><a href="#projects" class="nav-link">Work</a></div>
+            <div class="nav-item d-flex"><a href="#projects" class="nav-link">Projects</a></div>
             <div class="nav-item d-flex"><a href="#contact" class="nav-link">Contact</a></div>
             <div class="nav-item nav-social d-flex">
               <a class="social-link" href="https://github.com/cyonii/" target="_blank">
@@ -58,12 +58,12 @@
       </div>
     </nav>
   </header>
-
   <main>
+    <!-- Intro section -->
     <section class="container pt-header-justice" id="landing">
       <div class="row mt-4">
         <div class="col">
-          <h1 class="mega-title fw-bolder">
+          <h1 class="mega-title fw-bolder lh-1">
             Hello, I am <br>CY Kalu.
           </h1>
           <p class="short-intro ff-mono fw-light">
@@ -74,7 +74,9 @@
         </div>
 
         <div class="col">
-          <div id="experiment" class="ff-mono fw-light"></div>
+          <h6 class="text-right fw-bolder text-muted"> </h6>
+          <div id="experiment" class="ff-mono fw-light">
+          </div>
         </div>
       </div>
     </section>
@@ -101,7 +103,7 @@
         </div>
         <div class="col">
           <div class="stack-collection mb-3">
-            <a class="stack-toggler active fw-light fs-20" href="#">
+            <a class="stack-toggler active fw-bold fs-20" href="#">
               Languages
               <i class="fas fa-chevron-down"></i>
             </a>
@@ -133,7 +135,7 @@
             </ul>
           </div>
           <div class="stack-collection mb-3">
-            <a class="stack-toggler fw-light fs-20" href="#">
+            <a class="stack-toggler fw-bold fs-20" href="#">
               Frameworks
               <i class="fas fa-chevron-down"></i>
             </a>
@@ -156,7 +158,7 @@
             </ul>
           </div>
           <div class="stack-collection mb-3">
-            <a class="stack-toggler fw-light fs-20" href="#">
+            <a class="stack-toggler fw-bold fs-20" href="#">
               Skills
               <i class="fas fa-chevron-down"></i>
             </a>
@@ -183,38 +185,50 @@
     <section class="container pt-header-justice" id="projects">
       <h2 class="section-title mt-md-5 text-white ff-secondary">Featured Projects</h2>
       <p class="fst-italic fw-light text-primary mb-3 mb-md-5">Checkout my previous projects.</p>
-      <div class="">
-        <div class="p-card mx-auto mb-5">
-          <div class="p-images-wrapper">
-            <img class="p-image" src="#" loading="lazy">
-          </div>
-          <div class="p-content mt-4 mt-md-0 px-3 py-3 py-md-3">
-            <h3 class="p-title fw-bold my-3 lh-1">Lorem ipsum dolor sit amet consectetur.</h3>
-            <p class="p-desc fw-normal">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolor sapiente
-              accusantium officiis minima ipsam? Facilis nisi nemo, eaque sapiente asperiores laborum eligendi
-              voluptas quisquam eum totam aspernatur id odio?
-            </p>
-            <p class="lh-2">
-              <span class="bg-secondary text-dark fw-bold px-3 mr-1">stack-one</span>
-              <span class="bg-secondary text-dark fw-bold px-3 mr-1">stack-two</span>
-            </p>
-            <div class="d-flex mt-4">
-              <a class="" href="#" target="_blank">Live link
-                <i class="fas fa-external-link-alt ml-1"></i>
-              </a>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a class="" href="#" target="_blank">Repo
-                <i class="fas fa-code-branch ml-1"></i>
-              </a>
+
+      <!-- Projects carousel -->
+      <div class="carousel" data-slide="carousel" id="projectsSlide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="project-card">
+              <div class="project-cover">
+                <img src="./images/projects/jotleaf_cover.png" loading="lazy">
+              </div>
+              <div class="project-content mt-4 mt-md-0 px-3 py-3 py-md-3">
+                <h3 class="project-title fw-bold my-3 lh-1">JotLeaf - A lifestyle blog platform</h3>
+                <p class="project-desc fw-normal">
+                  A lifestyle blog where users post 'jot' articles with an image attached to each article and are tagged
+                  by categories.
+                </p>
+                <p class="lh-2">
+                  <span class="bg-secondary text-dark fw-bold px-3 mr-1">Ruby</span>
+                  <span class="bg-secondary text-dark fw-bold px-3 mr-1">Ruby on Rails</span>
+                  <span class="bg-secondary text-dark fw-bold px-3 mr-1">Bootstrap</span>
+                  <span class="bg-secondary text-dark fw-bold px-3 mr-1">CSS (SASS)</span>
+                </p>
+                <div class="d-flex mt-4">
+                  <a class="" href="#" target="_blank">Live link
+                    <i class="fas fa-external-link-alt ml-1"></i>
+                  </a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="" href="#" target="_blank">Repo
+                    <i class="fas fa-code-branch ml-1"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
+          <div class="carousel-item">2</div>
+          <div class="carousel-item">3</div>
+          <div class="carousel-item">4</div>
+          <div class="carousel-item">5</div>
         </div>
-      </div>
-      <div class="mt-5 text-center">
-        <a href="#" class="p-control fw-bold fs-20 px-5 py-1">Prev</a>
-        &nbsp;
-        <a href="#" class="p-control fw-bold fs-20 px-5 py-1">Next</a>
+        <div class="d-flex mt-3">
+          <button class="btn mr-1 carousel-control" data-slide-target="#projectsSlide"
+            data-slide-ctrl="prev">Prev</button>
+          <button class="btn ml-1 carousel-control" data-slide-target="#projectsSlide"
+            data-slide-ctrl="next">Next</button>
+        </div>
       </div>
     </section>
 
@@ -249,6 +263,34 @@
       </div>
     </section>
   </main>
+
+  <footer id="footer">
+    <div class="container py-5">
+      <p class="mb-0 text-white fs-20 ff-mono">CY Kalu</p>
+      <ul class="d-flex flex-wrap text-white ff-mono fs-18 fw-light mt-3">
+        <li class="mb-2">
+          <a href="https://github.com/cyonii/" target="_blank">
+            <i class="fab fa-github"></i>
+            Github
+          </a>
+        </li>
+        <li class="mx-2">|</li>
+        <li class="mb-2">
+          <a href="https://twitter.com/__cypy__/" target="_blank">
+            <i class="fab fa-twitter"></i>
+            Twitter
+          </a>
+        </li>
+        <li class="mx-2">|</li>
+        <li class="mb-2">
+          <a href="https://linkedin.com/in/cyonii/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 
 </body>
 
