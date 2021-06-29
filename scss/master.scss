@@ -1,0 +1,57 @@
+@import 'variables';
+@import 'mixins';
+@import 'defaults';
+@import 'carousel';
+@import 'components';
+@import 'grid';
+@import 'header';
+@import 'footer';
+@import 'animations';
+@import 'about';
+@import 'landing';
+@import 'contact';
+@import 'utilities';
+
+// Menu-open class for body
+body.menu-open {
+  height: 100vh;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section-title {
+  font-size: 3rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.5rem;
+  position: sticky;
+  position: 0;
+}
+
+// Pad sections on the top to give enough space to fixed heder
+.pt-header-justice {
+  padding-top: 61px;
+  @include breakpoint-and-up('md') {
+    padding-top: 92px;
+  }
+}
+
+// Call to scroll button
+#call-to-scroll {
+  padding: 1rem 0.25rem;
+  border: 1px solid $dark;
+  position: absolute;
+  left: 50%;
+  bottom: 0.75rem;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px lighten($primary, 10%);
+  transition: 0.5s;
+  animation: rays 5s linear infinite alternate;
+}

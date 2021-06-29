@@ -1,0 +1,99 @@
+#about {
+  .row {
+    justify-content: space-between;
+
+    .col {
+      width: 100%;
+
+      &:first-child {
+        @include breakpoint-and-up('md') {
+          width: 50%;
+        }
+
+        p {
+          color: $grey;
+        }
+      }
+
+      &:nth-child(2) {
+        @include breakpoint-and-up('md') {
+          width: 45%;
+          min-height: 420px;
+        }
+      }
+    }
+  }
+}
+
+.stack-collection {
+  .stack-toggler {
+    overflow: hidden;
+    transition: 0.3s;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lighten($dark, 7);
+    padding-bottom: 0.5rem;
+
+    &.active {
+      color: $white;
+
+      i {
+        transform: rotate(180deg);
+      }
+    }
+
+    &:hover {
+      color: darken($white, 15) !important;
+    }
+
+    &:not(.active) {
+      color: darken($white, 40%);
+    }
+
+    i {
+      font-size: 14px;
+      transition: 0.3s;
+    }
+  }
+
+  .stack-group {
+    display: none;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    @include breakpoint-and-up('sm') {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem;
+    }
+    @include breakpoint-and-up('lg') {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    &.show {
+      display: grid;
+      overflow: initial;
+    }
+
+    .stack-item {
+      display: flex;
+      align-items: center;
+      background: lighten($dark, 3);
+      border-radius: 5px;
+      box-shadow: -5px -5px 4px 2px lighten($dark, 2), 1px 1px 5px 4px darken($dark, 5);
+      color: $primary;
+      @include breakpoint-and-up('md') {
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      i {
+        font-size: 1.5rem;
+        color: lighten($dark, 25);
+        @include breakpoint-and-up('md') {
+          font-size: 3.5rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+// Font families
+@each $name, $family in $font-families {
+  .ff-#{$name} {
+    font-family: $family !important;
+  }
+}
+
+// Font weights
+@each $name, $weight in $font-weights {
+  .fw-#{$name} {
+    font-weight: $weight !important;
+  }
+}
+
+// Text colors
+@each $name, $value in $color-map {
+  .text-#{$name} {
+    color: $value !important;
+  }
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+// Sizes
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+// Style
+.fst-italic {
+  font-style: italic !important;
+}
+
+// Line heights
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-2 {
+  line-height: 1.5;
+}
+
+.lh-normal {
+  line-height: normal;
+}

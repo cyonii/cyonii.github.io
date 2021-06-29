@@ -1,0 +1,43 @@
+%container-defaults {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container,
+.container-0 {
+  @extend %container-defaults;
+}
+
+@each $screen, $_ in $media-min-breakpoints {
+  @include breakpoint-and-up($screen) {
+    .container {
+      max-width: map-get($container-max-widths, $screen);
+    }
+  }
+}
+
+// Row and flex boxes
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-inline-flex {
+  display: inline-flex !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap-reverse;
+}
+
+.col {
+  position: relative;
+  width: 100%;
+}
