@@ -70,12 +70,12 @@ section#landing {
       position: absolute;
       z-index: -1;
       @include celestial-body();
-      @if $i > 2 {
+      @if $i > 4 {
         @media (max-width: 767px) {
           display: none;
         }
       }
-      @if $i > 4 {
+      @if $i > 6 {
         @media (max-width: 991px) {
           display: none;
         }
