@@ -389,7 +389,7 @@ p {
     display: none; }
   50% {
     display: initial;
-    background: #14191c; } }
+    background: #161a1e; } }
 #about .row {
   justify-content: space-between; }
   #about .row .col {
@@ -443,7 +443,7 @@ p {
     align-items: center;
     background: #181e22;
     border-radius: 5px;
-    box-shadow: -5px -5px 4px 2px #161b1f, 1px 1px 5px 4px #07090a;
+    box-shadow: -5px -5px 4px 2px #161b1f, -6px -6px 0 0 #91b0d4, 1px 1px 5px 4px #07090a, 2px 2px 0 0 #8497a6;
     color: dodgerblue; }
     @media (min-width: 768px) {
       .stack-collection .stack-group .stack-item {
@@ -508,48 +508,48 @@ section#landing {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 4rem;
-    height: 4rem;
-    top: 31%;
-    left: 68%;
-    border: 1px solid #3d4a54;
-    border-radius: 43%;
-    transform: rotate(234deg);
+    width: 2rem;
+    height: 2rem;
+    top: 4%;
+    left: 67%;
+    border: 1px solid #3b4851;
+    border-radius: 15%;
+    transform: rotate(330deg);
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.1737081275s; }
+    animation-delay: 1.0358688572s; }
     section#landing .bg-drop-1::after {
       content: '';
       position: absolute;
-      padding: 1.1991370572rem;
+      padding: 0.9203365377rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1d2328;
+      background: #1b2025;
       z-index: -1; }
   section#landing .bg-drop-2 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 3rem;
-    height: 3rem;
-    top: 9%;
-    left: 95%;
-    border: 1px solid #1f262b;
-    border-radius: 33%;
-    transform: rotate(149deg);
+    width: 2rem;
+    height: 2rem;
+    top: 44%;
+    left: 75%;
+    border: 1px solid #4a5a66;
+    border-radius: 35%;
+    transform: rotate(60deg);
     animation-name: appear;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.1742580756s; }
+    animation-delay: 0.7723840856s; }
     section#landing .bg-drop-2::after {
       content: '';
       position: absolute;
-      padding: 0.8761733143rem;
+      padding: 0.4879825978rem;
       width: 2px;
       height: 100%;
       top: -300%;
@@ -560,76 +560,76 @@ section#landing {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 2rem;
-    height: 2rem;
-    top: 26%;
-    left: 94%;
-    border: 1px solid #43525d;
-    border-radius: 2%;
-    transform: rotate(33deg);
+    width: 1rem;
+    height: 1rem;
+    top: 39%;
+    left: 54%;
+    border: 1px solid #323d45;
+    border-radius: 21%;
+    transform: rotate(25deg);
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.2763129326s; }
+    animation-delay: 1.0424109038s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-3 {
         display: none; } }
     section#landing .bg-drop-3::after {
       content: '';
       position: absolute;
-      padding: 0.7729468194rem;
+      padding: 0.304466343rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1d2328;
+      background: #1b2025;
       z-index: -1; }
   section#landing .bg-drop-4 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 3rem;
-    height: 3rem;
-    top: 79%;
-    left: 86%;
-    border: 1px solid #4e5f6c;
-    border-radius: 22%;
-    transform: rotate(1deg);
+    width: 4rem;
+    height: 4rem;
+    top: 40%;
+    left: 95%;
+    border: 1px solid #455560;
+    border-radius: 46%;
+    transform: rotate(209deg);
     animation-name: appear;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.3849516356s; }
+    animation-delay: 0.6843830723s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-4 {
         display: none; } }
     section#landing .bg-drop-4::after {
       content: '';
       position: absolute;
-      padding: 0.5882746505rem;
+      padding: 0.7632641412rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1d2328;
+      background: #181e22;
       z-index: -1; }
   section#landing .bg-drop-5 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 2rem;
-    height: 2rem;
-    top: 96%;
-    left: 84%;
-    border: 1px solid #50626f;
-    border-radius: 33%;
-    transform: rotate(303deg);
+    width: 3rem;
+    height: 3rem;
+    top: 44%;
+    left: 97%;
+    border: 1px solid #14191c;
+    border-radius: 41%;
+    transform: rotate(194deg);
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.1655152971s; }
+    animation-delay: 0.5843598663s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-5 {
         display: none; } }
@@ -639,7 +639,7 @@ section#landing {
     section#landing .bg-drop-5::after {
       content: '';
       position: absolute;
-      padding: 0.7926101342rem;
+      padding: 1.0250354201rem;
       width: 2px;
       height: 100%;
       top: -300%;
@@ -650,18 +650,18 @@ section#landing {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 3rem;
-    height: 3rem;
-    top: 8%;
-    left: 75%;
-    border: 1px solid #3d4a54;
-    border-radius: 9%;
-    transform: rotate(1deg);
+    width: 2rem;
+    height: 2rem;
+    top: 22%;
+    left: 78%;
+    border: 1px solid #414f5a;
+    border-radius: 43%;
+    transform: rotate(140deg);
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 0.7654034204s; }
+    animation-delay: 0.6500456077s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-6 {
         display: none; } }
@@ -671,29 +671,29 @@ section#landing {
     section#landing .bg-drop-6::after {
       content: '';
       position: absolute;
-      padding: 1.1231643671rem;
+      padding: 1.2784242999rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #161b1f;
+      background: #1b2025;
       z-index: -1; }
   section#landing .bg-drop-7 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 1rem;
-    height: 1rem;
-    top: 96%;
-    left: 99%;
-    border: 1px solid #43525d;
-    border-radius: 3%;
-    transform: rotate(81deg);
+    width: 3rem;
+    height: 3rem;
+    top: 11%;
+    left: 87%;
+    border: 1px solid #566978;
+    border-radius: 6%;
+    transform: rotate(219deg);
     animation-name: appear;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 0.5116959722s; }
+    animation-delay: 0.9357726279s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-7 {
         display: none; } }
@@ -703,12 +703,12 @@ section#landing {
     section#landing .bg-drop-7::after {
       content: '';
       position: absolute;
-      padding: 0.6595308785rem;
+      padding: 0.3347918536rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1b2025;
+      background: #14191c;
       z-index: -1; }
   section#landing .bg-drop-8 {
     position: absolute;
@@ -716,16 +716,16 @@ section#landing {
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
     width: 3rem;
     height: 3rem;
-    top: 64%;
-    left: 65%;
-    border: 1px solid #4e5f6c;
-    border-radius: 13%;
-    transform: rotate(245deg);
+    top: 73%;
+    left: 84%;
+    border: 1px solid #4a5a66;
+    border-radius: 15%;
+    transform: rotate(306deg);
     animation-name: appear;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 0.5027029815s; }
+    animation-delay: 0.6950527599s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-8 {
         display: none; } }
@@ -735,29 +735,29 @@ section#landing {
     section#landing .bg-drop-8::after {
       content: '';
       position: absolute;
-      padding: 0.695952078rem;
+      padding: 0.8695412429rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #14191c;
+      background: #1b2025;
       z-index: -1; }
   section#landing .bg-drop-9 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 2rem;
-    height: 2rem;
-    top: 79%;
-    left: 93%;
-    border: 1px solid #3f4d57;
-    border-radius: 13%;
-    transform: rotate(36deg);
+    width: 4rem;
+    height: 4rem;
+    top: 74%;
+    left: 58%;
+    border: 1px solid #1d2328;
+    border-radius: 45%;
+    transform: rotate(338deg);
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.1218753823s; }
+    animation-delay: 0.7312727012s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-9 {
         display: none; } }
@@ -767,12 +767,12 @@ section#landing {
     section#landing .bg-drop-9::after {
       content: '';
       position: absolute;
-      padding: 0.9241642379rem;
+      padding: 0.6837251692rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1d2328;
+      background: #181e22;
       z-index: -1; }
   section#landing .bg-drop-10 {
     position: absolute;
@@ -780,16 +780,16 @@ section#landing {
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
     width: 1rem;
     height: 1rem;
-    top: 81%;
-    left: 72%;
-    border: 1px solid #3b4851;
-    border-radius: 18%;
-    transform: rotate(112deg);
+    top: 23%;
+    left: 54%;
+    border: 1px solid #273037;
+    border-radius: 17%;
+    transform: rotate(262deg);
     animation-name: appear;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.0930389508s; }
+    animation-delay: 0.9896839742s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-10 {
         display: none; } }
@@ -799,29 +799,29 @@ section#landing {
     section#landing .bg-drop-10::after {
       content: '';
       position: absolute;
-      padding: 0.4295826357rem;
+      padding: 1.0070491779rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1d2328;
+      background: #1b2025;
       z-index: -1; }
   section#landing .bg-drop-11 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 4rem;
-    height: 4rem;
-    top: 65%;
-    left: 79%;
-    border: 1px solid #38454e;
-    border-radius: 14%;
-    transform: rotate(279deg);
+    width: 2rem;
+    height: 2rem;
+    top: 13%;
+    left: 76%;
+    border: 1px solid #3b4851;
+    border-radius: 35%;
+    transform: rotate(5deg);
     animation-name: appear;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.4842266207s; }
+    animation-delay: 0.8168451535s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-11 {
         display: none; } }
@@ -831,12 +831,12 @@ section#landing {
     section#landing .bg-drop-11::after {
       content: '';
       position: absolute;
-      padding: 1.065640398rem;
+      padding: 0.5314797961rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #161b1f;
+      background: #1d2328;
       z-index: -1; }
   section#landing .bg-drop-12 {
     position: absolute;
@@ -844,16 +844,16 @@ section#landing {
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
     width: 2rem;
     height: 2rem;
-    top: 80%;
-    left: 90%;
-    border: 1px solid #232b31;
-    border-radius: 8%;
-    transform: rotate(352deg);
+    top: 23%;
+    left: 83%;
+    border: 1px solid #586c7b;
+    border-radius: 15%;
+    transform: rotate(208deg);
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 0.942740283s; }
+    animation-delay: 0.9288325567s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-12 {
         display: none; } }
@@ -863,7 +863,7 @@ section#landing {
     section#landing .bg-drop-12::after {
       content: '';
       position: absolute;
-      padding: 0.9380357694rem;
+      padding: 0.4063653663rem;
       width: 2px;
       height: 100%;
       top: -300%;
@@ -874,18 +874,18 @@ section#landing {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 2rem;
-    height: 2rem;
-    top: 36%;
-    left: 62%;
-    border: 1px solid #2e3840;
-    border-radius: 20%;
-    transform: rotate(37deg);
+    width: 3rem;
+    height: 3rem;
+    top: 3%;
+    left: 93%;
+    border: 1px solid #273037;
+    border-radius: 30%;
+    transform: rotate(172deg);
     animation-name: appear;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 0.6260505241s; }
+    animation-delay: 1.4846917657s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-13 {
         display: none; } }
@@ -895,29 +895,29 @@ section#landing {
     section#landing .bg-drop-13::after {
       content: '';
       position: absolute;
-      padding: 0.4338034623rem;
+      padding: 1.0899666687rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1d2328;
+      background: #181e22;
       z-index: -1; }
   section#landing .bg-drop-14 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 2rem;
-    height: 2rem;
-    top: 32%;
-    left: 55%;
-    border: 1px solid #232b31;
-    border-radius: 46%;
-    transform: rotate(94deg);
+    width: 4rem;
+    height: 4rem;
+    top: 49%;
+    left: 94%;
+    border: 1px solid #566978;
+    border-radius: 9%;
+    transform: rotate(202deg);
     animation-name: appear;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 0.5926615467s; }
+    animation-delay: 1.05437834s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-14 {
         display: none; } }
@@ -927,29 +927,29 @@ section#landing {
     section#landing .bg-drop-14::after {
       content: '';
       position: absolute;
-      padding: 1.0158957rem;
+      padding: 0.6768996712rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #14191c;
+      background: #1d2328;
       z-index: -1; }
   section#landing .bg-drop-15 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 1rem;
-    height: 1rem;
-    top: 50%;
-    left: 67%;
-    border: 1px solid #50626f;
-    border-radius: 18%;
-    transform: rotate(165deg);
+    width: 3rem;
+    height: 3rem;
+    top: 16%;
+    left: 77%;
+    border: 1px solid #36424b;
+    border-radius: 11%;
+    transform: rotate(215deg);
     animation-name: appear;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 0.835032153s; }
+    animation-delay: 1.1727058596s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-15 {
         display: none; } }
@@ -959,12 +959,12 @@ section#landing {
     section#landing .bg-drop-15::after {
       content: '';
       position: absolute;
-      padding: 1.2274901069rem;
+      padding: 1.0037930168rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #181e22;
+      background: #14191c;
       z-index: -1; }
   section#landing .bg-drop-16 {
     position: absolute;
@@ -973,15 +973,15 @@ section#landing {
     width: 2rem;
     height: 2rem;
     top: 88%;
-    left: 96%;
-    border: 1px solid #3f4d57;
-    border-radius: 22%;
-    transform: rotate(104deg);
+    left: 100%;
+    border: 1px solid #303b43;
+    border-radius: 23%;
+    transform: rotate(335deg);
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 0.5713995017s; }
+    animation-delay: 0.9846416817s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-16 {
         display: none; } }
@@ -991,29 +991,29 @@ section#landing {
     section#landing .bg-drop-16::after {
       content: '';
       position: absolute;
-      padding: 1.1897648057rem;
+      padding: 1.2876335101rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1b2025;
+      background: #14191c;
       z-index: -1; }
   section#landing .bg-drop-17 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 1rem;
-    height: 1rem;
-    top: 22%;
-    left: 59%;
-    border: 1px solid #323d45;
-    border-radius: 23%;
-    transform: rotate(181deg);
+    width: 3rem;
+    height: 3rem;
+    top: 42%;
+    left: 53%;
+    border: 1px solid #50626f;
+    border-radius: 22%;
+    transform: rotate(229deg);
     animation-name: appear;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 0.6843731535s; }
+    animation-delay: 1.238963915s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-17 {
         display: none; } }
@@ -1023,29 +1023,29 @@ section#landing {
     section#landing .bg-drop-17::after {
       content: '';
       position: absolute;
-      padding: 0.8614133373rem;
+      padding: 0.5706174338rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #181e22;
+      background: #1d2328;
       z-index: -1; }
   section#landing .bg-drop-18 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 1rem;
-    height: 1rem;
-    top: 22%;
-    left: 93%;
-    border: 1px solid #50626f;
-    border-radius: 13%;
-    transform: rotate(271deg);
+    width: 2rem;
+    height: 2rem;
+    top: 59%;
+    left: 85%;
+    border: 1px solid #4a5a66;
+    border-radius: 45%;
+    transform: rotate(76deg);
     animation-name: appear;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.1139196993s; }
+    animation-delay: 1.2790498059s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-18 {
         display: none; } }
@@ -1055,7 +1055,7 @@ section#landing {
     section#landing .bg-drop-18::after {
       content: '';
       position: absolute;
-      padding: 0.4789284006rem;
+      padding: 0.7572579989rem;
       width: 2px;
       height: 100%;
       top: -300%;
@@ -1066,18 +1066,18 @@ section#landing {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 2rem;
-    height: 2rem;
-    top: 12%;
-    left: 85%;
-    border: 1px solid #586c7b;
-    border-radius: 11%;
-    transform: rotate(240deg);
+    width: 1rem;
+    height: 1rem;
+    top: 2%;
+    left: 88%;
+    border: 1px solid #1d2328;
+    border-radius: 22%;
+    transform: rotate(307deg);
     animation-name: appear;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.473026331s; }
+    animation-delay: 0.8263804203s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-19 {
         display: none; } }
@@ -1087,29 +1087,29 @@ section#landing {
     section#landing .bg-drop-19::after {
       content: '';
       position: absolute;
-      padding: 1.1711697883rem;
+      padding: 0.4302008467rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1b2025;
+      background: #1d2328;
       z-index: -1; }
   section#landing .bg-drop-20 {
     position: absolute;
     z-index: -1;
     box-shadow: -1px -1px 1px 0px #222222, 2px 2px 2px 0 rgba(0, 0, 0, 0.692);
-    width: 4rem;
-    height: 4rem;
-    top: 6%;
-    left: 56%;
-    border: 1px solid #36424b;
-    border-radius: 8%;
-    transform: rotate(144deg);
+    width: 3rem;
+    height: 3rem;
+    top: 1%;
+    left: 97%;
+    border: 1px solid #232b31;
+    border-radius: 18%;
+    transform: rotate(93deg);
     animation-name: appear;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 1.1599059774s; }
+    animation-delay: 0.6589182898s; }
     @media (max-width: 767px) {
       section#landing .bg-drop-20 {
         display: none; } }
@@ -1119,12 +1119,12 @@ section#landing {
     section#landing .bg-drop-20::after {
       content: '';
       position: absolute;
-      padding: 1.0887418046rem;
+      padding: 1.2279466942rem;
       width: 2px;
       height: 100%;
       top: -300%;
       left: calc(50% - 2px);
-      background: #1b2025;
+      background: #1d2328;
       z-index: -1; }
 
 @media (min-width: 768px) {

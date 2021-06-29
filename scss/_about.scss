@@ -80,7 +80,8 @@
       align-items: center;
       background: lighten($dark, 3);
       border-radius: 5px;
-      box-shadow: -5px -5px 4px 2px lighten($dark, 2), 1px 1px 5px 4px darken($dark, 5);
+      box-shadow: -5px -5px 4px 2px lighten($dark, 2), -6px -6px 0 0 darken($grey, 25),
+        1px 1px 5px 4px darken($dark, 5), 2px 2px 0 0 lighten($dark, 50);
       color: $primary;
       @include breakpoint-and-up('md') {
         flex-direction: column;
