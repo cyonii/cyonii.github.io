@@ -83,6 +83,8 @@
       box-shadow: -5px -5px 4px 2px lighten($dark, 2), -6px -6px 0 0 darken($grey, 25),
         1px 1px 5px 4px darken($dark, 5), 2px 2px 0 0 lighten($dark, 50);
       color: $primary;
+      font-size: 14px !important;
+      font-weight: bolder;
       @include breakpoint-and-up('md') {
         flex-direction: column;
         justify-content: center;
@@ -91,8 +93,15 @@
       i {
         font-size: 1.5rem;
         color: lighten($dark, 25);
+        animation: glow 3s ease-in infinite;
         @include breakpoint-and-up('md') {
           font-size: 3.5rem;
+        }
+      }
+
+      @keyframes glow {
+        50% {
+          color: lighten($dark, 35);
         }
       }
     }
