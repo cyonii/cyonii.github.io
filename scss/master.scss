@@ -46,7 +46,8 @@ button {
 #call-to-scroll {
   padding: 1rem 0.25rem;
   border: 1px solid $dark;
-  position: absolute;
+  position: fixed;
+  z-index: 1;
   left: 50%;
   bottom: 0.75rem;
   transform: translateX(-50%);
