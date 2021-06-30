@@ -30,7 +30,7 @@
     & > img {
       width: 100%;
       height: auto;
-      box-shadow: 100px 0 160px 0 $grey;
+      box-shadow: 100px 0 160px 0 $primary;
 
       @include breakpoint-and-up('md') {
         height: 100%;
