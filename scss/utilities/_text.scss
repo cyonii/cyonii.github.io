@@ -12,13 +12,14 @@
   }
 }
 
-// Text colors
+// Colors
 @each $name, $value in $color-map {
   .text-#{$name} {
     color: $value !important;
   }
 }
 
+// Positioning
 .text-center {
   text-align: center !important;
 }
@@ -52,4 +53,16 @@
 
 .lh-normal {
   line-height: normal;
+}
+
+// Text clip backgrounds
+.text-clip {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-1 {
+  background: linear-gradient(-90deg, #92f1c3, #569df0);
+  background: -webkit-linear-gradient(-90deg, #92f1c3, #569df0);
 }
