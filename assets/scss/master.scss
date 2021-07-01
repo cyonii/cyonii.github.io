@@ -1,37 +1,18 @@
 @import 'variables';
 @import 'mixins';
 @import 'defaults';
-@import 'carousel';
 @import 'components';
 @import 'grid';
 @import 'header';
-@import 'footer';
 @import 'animations';
-@import 'about';
 @import 'landing';
-@import 'contact';
+@import 'forms';
 @import 'utilities';
 
 // Menu-open class for body
 body.menu-open {
   height: 100vh;
   overflow: hidden;
-}
-
-ul {
-  list-style: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-.section-title {
-  font-size: 3rem;
-  line-height: 2.5rem;
-  letter-spacing: -0.5rem;
-  position: sticky;
-  position: 0;
 }
 
 // Pad sections on the top to give enough space to fixed heder
@@ -55,4 +36,61 @@ button {
   box-shadow: 0 0 0 1px lighten($primary, 10%);
   transition: 0.5s;
   animation: rays 5s linear infinite alternate;
+}
+
+// About section columns
+#about {
+  .row {
+    justify-content: space-between;
+    .col {
+      width: 100%;
+
+      &:first-child {
+        @include breakpoint-and-up('md') {
+          width: 50%;
+        }
+      }
+
+      &:nth-child(2) {
+        @include breakpoint-and-up('md') {
+          width: 45%;
+          min-height: 420px;
+        }
+      }
+    }
+  }
+}
+
+// Contact section
+#contact {
+  @include breakpoint-and-up('md') {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    display: grid !important;
+    grid-gap: 2rem;
+    grid-template-columns: auto;
+    align-items: center;
+    @include breakpoint-and-up('md') {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// Footer
+#footer {
+  .container {
+    border-radius: 5px 5px 0 0 !important;
+    background: lighten($dark, 3%);
+  }
 }

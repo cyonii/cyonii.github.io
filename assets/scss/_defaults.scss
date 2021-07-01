@@ -74,7 +74,6 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
   margin-bottom: 0.25em;
 }
 
@@ -104,20 +103,14 @@ h6 {
 
 mark {
   background-color: lighten($secondary, 40%);
+  color: $dark !important;
 }
 
 ol,
 ul {
-  margin: 0;
-  padding: 0;
-
-  li {
-    padding: 0;
-    margin: 0;
-  }
+  list-style: none;
 }
 
 p {
-  margin-top: 0;
   margin-bottom: 0.25em;
 }

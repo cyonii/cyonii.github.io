@@ -57,7 +57,7 @@ for (let i = 1; i < 20; i++) {
 }
 
 // Engrave stack
-const experiment = document.getElementById('experiment');
+const stackEngraving = document.getElementById('stack-engraving');
 let stackIndex = 0;
 let textIndex = 0;
 let featuredStack = '';
@@ -70,20 +70,20 @@ function engraveStack() {
   span.append(featuredStack[textIndex]);
   span.onmouseenter = (event) => console.log(event);
 
-  experiment.appendChild(span);
+  stackEngraving.appendChild(span);
   textIndex++;
 
   setTimeout(() => (span.style.opacity = 0.16), 100);
 
   if (textIndex >= featuredStack.length) {
     textIndex = 0;
-    experiment.appendChild(document.createElement('br'));
+    stackEngraving.appendChild(document.createElement('br'));
 
     if (stackIndex < stack.length - 1) {
       stackIndex++;
     } else {
       stackIndex = 0;
-      experiment.innerHTML = '';
+      stackEngraving.innerHTML = '';
     }
   }
 }
