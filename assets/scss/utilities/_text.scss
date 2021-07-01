@@ -29,7 +29,7 @@
 }
 
 // Sizes
-@for $size from 16 to 36 {
+@for $size from 16 to 60 {
   .fs-#{$size} {
     font-size: #{$size}px !important;
   }
@@ -67,4 +67,8 @@
 
 .text-gradient-2 {
   background: -webkit-linear-gradient(-75deg, #ff7170, #ffe57f);
+}
+
+.text-gradient-3 {
+  background: -webkit-linear-gradient(45deg, $primary 10%, $white 90%);
 }

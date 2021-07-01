@@ -45,16 +45,10 @@ section#landing {
     .mega-title {
       font-size: 4em;
       color: $white;
-      opacity: 0.9;
 
       @include breakpoint-and-up('md') {
         font-size: 5em;
       }
-    }
-
-    .short-intro {
-      font-size: 20px;
-      color: lighten($secondary, 15%);
     }
   }
 
