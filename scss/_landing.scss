@@ -46,10 +46,6 @@ section#landing {
       font-size: 4em;
       color: $white;
       opacity: 0.9;
-      background: -webkit-linear-gradient(-70deg, #a2facf, #64acff);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
 
       @include breakpoint-and-up('md') {
         font-size: 5em;
