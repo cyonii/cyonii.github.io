@@ -1,18 +1,14 @@
 @import 'variables';
 @import 'mixins';
-@import 'defaults';
-@import 'components';
-@import 'grid';
-@import 'header';
-@import 'animations';
-@import 'landing';
-@import 'forms';
-@import 'utilities';
 
 // Menu-open class for body
 body.menu-open {
   height: 100vh;
   overflow: hidden;
+}
+
+section {
+  background-color: $dark;
 }
 
 // Pad sections on the top to give enough space to fixed heder
@@ -94,3 +90,11 @@ body.menu-open {
     background: lighten($dark, 3%);
   }
 }
+
+@import 'defaults';
+@import 'components';
+@import 'header';
+@import 'animations';
+@import 'landing';
+@import 'forms';
+@import 'utilities';
