@@ -8,6 +8,8 @@
 .project-card {
   display: flex;
   flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
 
   @include breakpoint-and-up('md') {
     flex-direction: row;
