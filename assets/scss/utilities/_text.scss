@@ -29,12 +29,10 @@
 }
 
 // Sizes
-.fs-18 {
-  font-size: 18px !important;
-}
-
-.fs-20 {
-  font-size: 20px !important;
+@for $size from 16 to 36 {
+  .fs-#{$size} {
+    font-size: #{$size}px !important;
+  }
 }
 
 // Style
