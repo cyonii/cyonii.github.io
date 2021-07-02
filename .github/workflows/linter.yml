@@ -1,6 +1,10 @@
 name: Linters
 
-on: push
+on: pull_request
+
+env:
+  FORCE_COLOR: 1
+  GITHUB_TOKEN: ${{ secrets.github_token }}
 
 jobs:
   super-lint:
@@ -12,5 +16,4 @@ jobs:
 
       - name: Run Super-Linter
         uses: github/super-linter@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.github_token }}
+          
