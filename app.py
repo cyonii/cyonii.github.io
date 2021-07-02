@@ -26,6 +26,7 @@ def compile():
         file.write(sample.render())
 
     copytree(STATIC_DIR, OUTPUT_PATH / 'static')
+    print('\n===========\nOperation completed successfully.\n')
 
 
 compile()
