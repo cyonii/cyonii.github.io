@@ -282,25 +282,25 @@ p {
 .bg-drop-1 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
+  width: 1rem;
+  height: 1rem;
   top: 81%;
-  left: 71%;
-  border: 1px solid #121419;
+  left: 56%;
+  border: 1px solid #333a49;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2632888594s; }
+  animation-delay: 1.1490913302s; }
   .bg-drop-1::after {
     content: '';
     position: absolute;
-    padding: 1.2100929115rem;
+    padding: 0.722238594rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-2 {
@@ -308,71 +308,71 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 21%;
-  left: 71%;
-  border: 1px solid #2d3340;
+  top: 45%;
+  left: 73%;
+  border: 1px solid #444e61;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.121970638s; }
+  animation-delay: 1.4431085522s; }
   .bg-drop-2::after {
     content: '';
     position: absolute;
-    padding: 0.4258038673rem;
+    padding: 0.363126528rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-3 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 12%;
-  left: 76%;
-  border: 1px solid #4e5a70;
+  width: 1rem;
+  height: 1rem;
+  top: 92%;
+  left: 73%;
+  border: 1px solid #313846;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8585565307s; }
+  animation-delay: 1.1775969516s; }
   .bg-drop-3::after {
     content: '';
     position: absolute;
-    padding: 0.4786729787rem;
+    padding: 0.9954356372rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #090a0d;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-4 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 61%;
-  left: 75%;
-  border: 1px solid #181b22;
+  width: 1rem;
+  height: 1rem;
+  top: 73%;
+  left: 57%;
+  border: 1px solid #465064;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6388689443s; }
+  animation-delay: 1.1353361134s; }
   .bg-drop-4::after {
     content: '';
     position: absolute;
-    padding: 1.0532337519rem;
+    padding: 0.5275281068rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-5 {
@@ -380,68 +380,68 @@ p {
   z-index: -1;
   width: 1rem;
   height: 1rem;
-  top: 8%;
-  left: 82%;
-  border: 1px solid #4c576d;
+  top: 33%;
+  left: 97%;
+  border: 1px solid #465064;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7857006382s; }
+  animation-delay: 1.2773671659s; }
   @media (max-width: 767px) {
     .bg-drop-5 {
       display: none; } }
   .bg-drop-5::after {
     content: '';
     position: absolute;
-    padding: 0.7061120823rem;
+    padding: 0.5978276863rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-6 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 26%;
-  left: 56%;
-  border: 1px solid #20252e;
+  width: 2rem;
+  height: 2rem;
+  top: 27%;
+  left: 81%;
+  border: 1px solid #4c576d;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6522117762s; }
+  animation-delay: 0.7793822542s; }
   @media (max-width: 767px) {
     .bg-drop-6 {
       display: none; } }
   .bg-drop-6::after {
     content: '';
     position: absolute;
-    padding: 0.5644486106rem;
+    padding: 0.4531290169rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #090a0d;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-7 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 4%;
-  left: 82%;
-  border: 1px solid #485267;
+  width: 1rem;
+  height: 1rem;
+  top: 59%;
+  left: 86%;
+  border: 1px solid #2f3643;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7026330228s; }
+  animation-delay: 0.5997848619s; }
   @media (max-width: 767px) {
     .bg-drop-7 {
       display: none; } }
@@ -451,7 +451,7 @@ p {
   .bg-drop-7::after {
     content: '';
     position: absolute;
-    padding: 0.768277709rem;
+    padding: 0.6613333287rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -462,16 +462,16 @@ p {
 .bg-drop-8 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 7%;
-  left: 87%;
-  border: 1px solid #515c73;
+  width: 2rem;
+  height: 2rem;
+  top: 27%;
+  left: 59%;
+  border: 1px solid #1e222b;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7059903073s; }
+  animation-delay: 1.1273098444s; }
   @media (max-width: 767px) {
     .bg-drop-8 {
       display: none; } }
@@ -481,27 +481,27 @@ p {
   .bg-drop-8::after {
     content: '';
     position: absolute;
-    padding: 1.1851858919rem;
+    padding: 1.2513587917rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-9 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 63%;
-  left: 59%;
-  border: 1px solid #353d4c;
+  width: 4rem;
+  height: 4rem;
+  top: 67%;
+  left: 57%;
+  border: 1px solid #2b313d;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9928691462s; }
+  animation-delay: 0.6666102867s; }
   @media (max-width: 767px) {
     .bg-drop-9 {
       display: none; } }
@@ -511,27 +511,27 @@ p {
   .bg-drop-9::after {
     content: '';
     position: absolute;
-    padding: 0.9548453366rem;
+    padding: 0.7473631366rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-10 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 8%;
-  left: 94%;
+  width: 3rem;
+  height: 3rem;
+  top: 57%;
+  left: 64%;
   border: 1px solid #333a49;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5687637071s; }
+  animation-delay: 0.9481652771s; }
   @media (max-width: 767px) {
     .bg-drop-10 {
       display: none; } }
@@ -541,27 +541,27 @@ p {
   .bg-drop-10::after {
     content: '';
     position: absolute;
-    padding: 0.9988008574rem;
+    padding: 0.9389971754rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-11 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 32%;
-  left: 79%;
-  border: 1px solid #0d0f13;
+  width: 4rem;
+  height: 4rem;
+  top: 30%;
+  left: 71%;
+  border: 1px solid #0b0d10;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.819554505s; }
+  animation-delay: 1.0731131232s; }
   @media (max-width: 767px) {
     .bg-drop-11 {
       display: none; } }
@@ -571,27 +571,27 @@ p {
   .bg-drop-11::after {
     content: '';
     position: absolute;
-    padding: 0.7021197819rem;
+    padding: 1.2543846908rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #090a0d;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-12 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 51%;
-  left: 90%;
-  border: 1px solid #14161c;
+  width: 1rem;
+  height: 1rem;
+  top: 44%;
+  left: 74%;
+  border: 1px solid #3e4658;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2006088895s; }
+  animation-delay: 0.7023281261s; }
   @media (max-width: 767px) {
     .bg-drop-12 {
       display: none; } }
@@ -601,27 +601,27 @@ p {
   .bg-drop-12::after {
     content: '';
     position: absolute;
-    padding: 0.5947969438rem;
+    padding: 0.4985466842rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-13 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 76%;
-  left: 91%;
-  border: 1px solid #465064;
+  width: 1rem;
+  height: 1rem;
+  top: 56%;
+  left: 81%;
+  border: 1px solid #394252;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7534456782s; }
+  animation-delay: 0.7713355907s; }
   @media (max-width: 767px) {
     .bg-drop-13 {
       display: none; } }
@@ -631,27 +631,27 @@ p {
   .bg-drop-13::after {
     content: '';
     position: absolute;
-    padding: 0.4982738145rem;
+    padding: 0.334996946rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-14 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 5%;
-  left: 79%;
-  border: 1px solid #4c576d;
+  width: 3rem;
+  height: 3rem;
+  top: 41%;
+  left: 87%;
+  border: 1px solid #181b22;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2994476408s; }
+  animation-delay: 1.4265166445s; }
   @media (max-width: 767px) {
     .bg-drop-14 {
       display: none; } }
@@ -661,12 +661,12 @@ p {
   .bg-drop-14::after {
     content: '';
     position: absolute;
-    padding: 1.0182835716rem;
+    padding: 0.3214155472rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-15 {
@@ -674,14 +674,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 35%;
-  left: 96%;
-  border: 1px solid #353d4c;
+  top: 73%;
+  left: 59%;
+  border: 1px solid #3c4455;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.1426241882s; }
+  animation-delay: 0.7659508096s; }
   @media (max-width: 767px) {
     .bg-drop-15 {
       display: none; } }
@@ -691,27 +691,27 @@ p {
   .bg-drop-15::after {
     content: '';
     position: absolute;
-    padding: 0.7295000539rem;
+    padding: 0.9687489562rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-16 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 42%;
-  left: 75%;
-  border: 1px solid #16191f;
+  width: 1rem;
+  height: 1rem;
+  top: 30%;
+  left: 86%;
+  border: 1px solid #242a34;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9717674662s; }
+  animation-delay: 0.7368345763s; }
   @media (max-width: 767px) {
     .bg-drop-16 {
       display: none; } }
@@ -721,12 +721,12 @@ p {
   .bg-drop-16::after {
     content: '';
     position: absolute;
-    padding: 1.0421031947rem;
+    padding: 0.6352639003rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-17 {
@@ -734,14 +734,14 @@ p {
   z-index: -1;
   width: 1rem;
   height: 1rem;
-  top: 13%;
-  left: 56%;
-  border: 1px solid #4e5a70;
+  top: 55%;
+  left: 63%;
+  border: 1px solid #1a1e25;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6046937939s; }
+  animation-delay: 0.6266625307s; }
   @media (max-width: 767px) {
     .bg-drop-17 {
       display: none; } }
@@ -751,27 +751,27 @@ p {
   .bg-drop-17::after {
     content: '';
     position: absolute;
-    padding: 0.8076663763rem;
+    padding: 0.7033989583rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-18 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 65%;
-  left: 98%;
-  border: 1px solid #485267;
+  width: 2rem;
+  height: 2rem;
+  top: 58%;
+  left: 61%;
+  border: 1px solid #1e222b;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.4863145503s; }
+  animation-delay: 1.1680225572s; }
   @media (max-width: 767px) {
     .bg-drop-18 {
       display: none; } }
@@ -781,27 +781,27 @@ p {
   .bg-drop-18::after {
     content: '';
     position: absolute;
-    padding: 0.4598951341rem;
+    padding: 1.0338305035rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #090a0d;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-19 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 98%;
-  left: 91%;
-  border: 1px solid #515c73;
+  width: 2rem;
+  height: 2rem;
+  top: 30%;
+  left: 72%;
+  border: 1px solid #292e3a;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.1992996408s; }
+  animation-delay: 1.134937405s; }
   @media (max-width: 767px) {
     .bg-drop-19 {
       display: none; } }
@@ -811,7 +811,7 @@ p {
   .bg-drop-19::after {
     content: '';
     position: absolute;
-    padding: 1.2019054101rem;
+    padding: 1.1947120848rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -822,16 +822,16 @@ p {
 .bg-drop-20 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 28%;
-  left: 87%;
-  border: 1px solid #3e4658;
+  width: 1rem;
+  height: 1rem;
+  top: 36%;
+  left: 78%;
+  border: 1px solid #444e61;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7535349187s; }
+  animation-delay: 0.8595935242s; }
   @media (max-width: 767px) {
     .bg-drop-20 {
       display: none; } }
@@ -841,7 +841,7 @@ p {
   .bg-drop-20::after {
     content: '';
     position: absolute;
-    padding: 0.5389717331rem;
+    padding: 0.4663130133rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -852,16 +852,16 @@ p {
 .bg-drop-21 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 23%;
-  left: 81%;
-  border: 1px solid #16191f;
+  width: 3rem;
+  height: 3rem;
+  top: 41%;
+  left: 69%;
+  border: 1px solid #181b22;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.373897681s; }
+  animation-delay: 1.4485908132s; }
   @media (max-width: 767px) {
     .bg-drop-21 {
       display: none; } }
@@ -871,27 +871,27 @@ p {
   .bg-drop-21::after {
     content: '';
     position: absolute;
-    padding: 0.3651498039rem;
+    padding: 0.6985552838rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-22 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 27%;
-  left: 74%;
-  border: 1px solid #242a34;
+  width: 3rem;
+  height: 3rem;
+  top: 74%;
+  left: 58%;
+  border: 1px solid #0b0d10;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7827204625s; }
+  animation-delay: 0.9712330372s; }
   @media (max-width: 767px) {
     .bg-drop-22 {
       display: none; } }
@@ -901,27 +901,27 @@ p {
   .bg-drop-22::after {
     content: '';
     position: absolute;
-    padding: 0.5488171015rem;
+    padding: 0.8962250754rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-23 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 61%;
-  left: 96%;
-  border: 1px solid #0d0f13;
+  width: 1rem;
+  height: 1rem;
+  top: 10%;
+  left: 100%;
+  border: 1px solid #14161c;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7096698011s; }
+  animation-delay: 1.1504213306s; }
   @media (max-width: 767px) {
     .bg-drop-23 {
       display: none; } }
@@ -931,27 +931,27 @@ p {
   .bg-drop-23::after {
     content: '';
     position: absolute;
-    padding: 0.9926309444rem;
+    padding: 0.5433286555rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-24 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 30%;
-  left: 99%;
-  border: 1px solid #1a1e25;
+  width: 4rem;
+  height: 4rem;
+  top: 97%;
+  left: 61%;
+  border: 1px solid #272c37;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6168370996s; }
+  animation-delay: 0.7415789944s; }
   @media (max-width: 767px) {
     .bg-drop-24 {
       display: none; } }
@@ -961,12 +961,12 @@ p {
   .bg-drop-24::after {
     content: '';
     position: absolute;
-    padding: 0.7445442857rem;
+    padding: 1.2323051019rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-25 {
@@ -974,14 +974,14 @@ p {
   z-index: -1;
   width: 3rem;
   height: 3rem;
-  top: 60%;
-  left: 59%;
-  border: 1px solid #16191f;
+  top: 33%;
+  left: 53%;
+  border: 1px solid #222731;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.1068871522s; }
+  animation-delay: 0.6941896457s; }
   @media (max-width: 767px) {
     .bg-drop-25 {
       display: none; } }
@@ -991,27 +991,27 @@ p {
   .bg-drop-25::after {
     content: '';
     position: absolute;
-    padding: 1.273931344rem;
+    padding: 1.0732932372rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-26 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 87%;
-  left: 66%;
-  border: 1px solid #2b313d;
+  width: 2rem;
+  height: 2rem;
+  top: 51%;
+  left: 77%;
+  border: 1px solid #272c37;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7875220376s; }
+  animation-delay: 0.5684045312s; }
   @media (max-width: 767px) {
     .bg-drop-26 {
       display: none; } }
@@ -1021,12 +1021,12 @@ p {
   .bg-drop-26::after {
     content: '';
     position: absolute;
-    padding: 0.7166953021rem;
+    padding: 0.7473631831rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-27 {
@@ -1034,14 +1034,14 @@ p {
   z-index: -1;
   width: 3rem;
   height: 3rem;
-  top: 43%;
-  left: 78%;
-  border: 1px solid #0b0d10;
+  top: 10%;
+  left: 65%;
+  border: 1px solid #1c2028;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.4633028977s; }
+  animation-delay: 1.0131125581s; }
   @media (max-width: 767px) {
     .bg-drop-27 {
       display: none; } }
@@ -1051,27 +1051,27 @@ p {
   .bg-drop-27::after {
     content: '';
     position: absolute;
-    padding: 0.9490097084rem;
+    padding: 0.4213865679rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #090a0d;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-28 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 3%;
-  left: 88%;
-  border: 1px solid #1e222b;
+  width: 2rem;
+  height: 2rem;
+  top: 95%;
+  left: 98%;
+  border: 1px solid #222731;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3785121408s; }
+  animation-delay: 0.6873890765s; }
   @media (max-width: 767px) {
     .bg-drop-28 {
       display: none; } }
@@ -1081,7 +1081,7 @@ p {
   .bg-drop-28::after {
     content: '';
     position: absolute;
-    padding: 0.3539232457rem;
+    padding: 0.7135173277rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1092,16 +1092,16 @@ p {
 .bg-drop-29 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 53%;
-  left: 69%;
-  border: 1px solid #1e222b;
+  width: 1rem;
+  height: 1rem;
+  top: 92%;
+  left: 71%;
+  border: 1px solid #353d4c;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8762612999s; }
+  animation-delay: 1.0613812591s; }
   @media (max-width: 767px) {
     .bg-drop-29 {
       display: none; } }
@@ -1111,7 +1111,7 @@ p {
   .bg-drop-29::after {
     content: '';
     position: absolute;
-    padding: 0.5720225489rem;
+    padding: 0.6499096907rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1122,16 +1122,16 @@ p {
 .bg-drop-30 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 69%;
-  left: 64%;
-  border: 1px solid #2b313d;
+  width: 2rem;
+  height: 2rem;
+  top: 62%;
+  left: 100%;
+  border: 1px solid #3e4658;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8190449829s; }
+  animation-delay: 1.2117021518s; }
   @media (max-width: 767px) {
     .bg-drop-30 {
       display: none; } }
@@ -1141,27 +1141,27 @@ p {
   .bg-drop-30::after {
     content: '';
     position: absolute;
-    padding: 1.0442261107rem;
+    padding: 0.6889526059rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-31 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 11%;
-  left: 88%;
-  border: 1px solid #0f1216;
+  width: 3rem;
+  height: 3rem;
+  top: 74%;
+  left: 73%;
+  border: 1px solid #4c576d;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9047690245s; }
+  animation-delay: 0.9102846361s; }
   @media (max-width: 767px) {
     .bg-drop-31 {
       display: none; } }
@@ -1171,27 +1171,27 @@ p {
   .bg-drop-31::after {
     content: '';
     position: absolute;
-    padding: 0.4103951408rem;
+    padding: 0.664544591rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-32 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 72%;
-  left: 74%;
-  border: 1px solid #333a49;
+  width: 3rem;
+  height: 3rem;
+  top: 17%;
+  left: 78%;
+  border: 1px solid #313846;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2695103287s; }
+  animation-delay: 0.8571878265s; }
   @media (max-width: 767px) {
     .bg-drop-32 {
       display: none; } }
@@ -1201,7 +1201,7 @@ p {
   .bg-drop-32::after {
     content: '';
     position: absolute;
-    padding: 0.4945196102rem;
+    padding: 0.5227236923rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1212,16 +1212,16 @@ p {
 .bg-drop-33 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 72%;
+  width: 1rem;
+  height: 1rem;
+  top: 89%;
   left: 59%;
-  border: 1px solid #0d0f13;
+  border: 1px solid #242a34;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9697566855s; }
+  animation-delay: 1.3099643865s; }
   @media (max-width: 767px) {
     .bg-drop-33 {
       display: none; } }
@@ -1231,27 +1231,27 @@ p {
   .bg-drop-33::after {
     content: '';
     position: absolute;
-    padding: 0.4995984709rem;
+    padding: 0.7249428962rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-34 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 34%;
-  left: 94%;
-  border: 1px solid #444e61;
+  width: 1rem;
+  height: 1rem;
+  top: 37%;
+  left: 96%;
+  border: 1px solid #40495b;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6636704401s; }
+  animation-delay: 1.4192481047s; }
   @media (max-width: 767px) {
     .bg-drop-34 {
       display: none; } }
@@ -1261,27 +1261,27 @@ p {
   .bg-drop-34::after {
     content: '';
     position: absolute;
-    padding: 0.7357608207rem;
+    padding: 1.2521585113rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-35 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 12%;
-  left: 68%;
-  border: 1px solid #444e61;
+  width: 2rem;
+  height: 2rem;
+  top: 3%;
+  left: 64%;
+  border: 1px solid #1c2028;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.1669657705s; }
+  animation-delay: 1.3919279806s; }
   @media (max-width: 767px) {
     .bg-drop-35 {
       display: none; } }
@@ -1291,27 +1291,27 @@ p {
   .bg-drop-35::after {
     content: '';
     position: absolute;
-    padding: 0.7524088862rem;
+    padding: 1.0594569266rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-36 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 2%;
-  left: 76%;
-  border: 1px solid #4c576d;
+  width: 4rem;
+  height: 4rem;
+  top: 41%;
+  left: 89%;
+  border: 1px solid #2d3340;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9517812402s; }
+  animation-delay: 0.7652932538s; }
   @media (max-width: 767px) {
     .bg-drop-36 {
       display: none; } }
@@ -1321,7 +1321,7 @@ p {
   .bg-drop-36::after {
     content: '';
     position: absolute;
-    padding: 0.6393464112rem;
+    padding: 0.9506699222rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1332,16 +1332,16 @@ p {
 .bg-drop-37 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 99%;
-  left: 92%;
-  border: 1px solid #0b0d10;
+  width: 4rem;
+  height: 4rem;
+  top: 30%;
+  left: 82%;
+  border: 1px solid #2f3643;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7252482621s; }
+  animation-delay: 1.1501231354s; }
   @media (max-width: 767px) {
     .bg-drop-37 {
       display: none; } }
@@ -1351,7 +1351,7 @@ p {
   .bg-drop-37::after {
     content: '';
     position: absolute;
-    padding: 0.7813419033rem;
+    padding: 1.2841215653rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1362,16 +1362,16 @@ p {
 .bg-drop-38 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 28%;
-  left: 73%;
-  border: 1px solid #2f3643;
+  width: 2rem;
+  height: 2rem;
+  top: 81%;
+  left: 78%;
+  border: 1px solid #0f1216;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9531718862s; }
+  animation-delay: 1.0935422178s; }
   @media (max-width: 767px) {
     .bg-drop-38 {
       display: none; } }
@@ -1381,7 +1381,7 @@ p {
   .bg-drop-38::after {
     content: '';
     position: absolute;
-    padding: 0.9654461595rem;
+    padding: 0.7236042746rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1392,16 +1392,16 @@ p {
 .bg-drop-39 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 13%;
-  left: 55%;
-  border: 1px solid #16191f;
+  width: 4rem;
+  height: 4rem;
+  top: 48%;
+  left: 88%;
+  border: 1px solid #4c576d;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8925985002s; }
+  animation-delay: 0.5160345099s; }
   @media (max-width: 767px) {
     .bg-drop-39 {
       display: none; } }
@@ -1411,7 +1411,7 @@ p {
   .bg-drop-39::after {
     content: '';
     position: absolute;
-    padding: 1.2557215673rem;
+    padding: 1.1120595195rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1424,14 +1424,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 63%;
-  left: 87%;
-  border: 1px solid #16191f;
+  top: 24%;
+  left: 79%;
+  border: 1px solid #353d4c;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9442883542s; }
+  animation-delay: 1.3849052334s; }
   @media (max-width: 767px) {
     .bg-drop-40 {
       display: none; } }
@@ -1441,7 +1441,7 @@ p {
   .bg-drop-40::after {
     content: '';
     position: absolute;
-    padding: 0.530474859rem;
+    padding: 0.3997323609rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1452,16 +1452,16 @@ p {
 .bg-drop-41 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 82%;
-  left: 68%;
-  border: 1px solid #242a34;
+  width: 1rem;
+  height: 1rem;
+  top: 75%;
+  left: 94%;
+  border: 1px solid #121419;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.4537919911s; }
+  animation-delay: 1.1208185441s; }
   @media (max-width: 767px) {
     .bg-drop-41 {
       display: none; } }
@@ -1471,12 +1471,12 @@ p {
   .bg-drop-41::after {
     content: '';
     position: absolute;
-    padding: 0.5378861421rem;
+    padding: 1.0356997385rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-42 {
@@ -1484,14 +1484,14 @@ p {
   z-index: -1;
   width: 3rem;
   height: 3rem;
-  top: 32%;
-  left: 78%;
-  border: 1px solid #292e3a;
+  top: 10%;
+  left: 97%;
+  border: 1px solid #2f3643;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9746150793s; }
+  animation-delay: 1.4681852967s; }
   @media (max-width: 767px) {
     .bg-drop-42 {
       display: none; } }
@@ -1501,12 +1501,12 @@ p {
   .bg-drop-42::after {
     content: '';
     position: absolute;
-    padding: 1.089055047rem;
+    padding: 0.6782544067rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-43 {
@@ -1514,14 +1514,14 @@ p {
   z-index: -1;
   width: 4rem;
   height: 4rem;
-  top: 17%;
-  left: 95%;
-  border: 1px solid #1a1e25;
+  top: 34%;
+  left: 57%;
+  border: 1px solid #333a49;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.4098759019s; }
+  animation-delay: 1.4140896365s; }
   @media (max-width: 767px) {
     .bg-drop-43 {
       display: none; } }
@@ -1531,12 +1531,12 @@ p {
   .bg-drop-43::after {
     content: '';
     position: absolute;
-    padding: 0.5148952369rem;
+    padding: 0.4348497428rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-44 {
@@ -1544,14 +1544,14 @@ p {
   z-index: -1;
   width: 4rem;
   height: 4rem;
-  top: 90%;
-  left: 99%;
-  border: 1px solid #2b313d;
+  top: 46%;
+  left: 86%;
+  border: 1px solid #313846;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.125762679s; }
+  animation-delay: 1.2071442604s; }
   @media (max-width: 767px) {
     .bg-drop-44 {
       display: none; } }
@@ -1561,27 +1561,27 @@ p {
   .bg-drop-44::after {
     content: '';
     position: absolute;
-    padding: 1.0808330885rem;
+    padding: 0.5514029058rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #090a0d;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-45 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 5%;
-  left: 74%;
-  border: 1px solid #333a49;
+  width: 4rem;
+  height: 4rem;
+  top: 29%;
+  left: 76%;
+  border: 1px solid #2b313d;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3085816416s; }
+  animation-delay: 0.924980356s; }
   @media (max-width: 767px) {
     .bg-drop-45 {
       display: none; } }
@@ -1591,27 +1591,27 @@ p {
   .bg-drop-45::after {
     content: '';
     position: absolute;
-    padding: 0.8492177189rem;
+    padding: 0.6449233076rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-46 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 2%;
-  left: 61%;
-  border: 1px solid #272c37;
+  width: 4rem;
+  height: 4rem;
+  top: 46%;
+  left: 91%;
+  border: 1px solid #0d0f13;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6584287193s; }
+  animation-delay: 0.8745409571s; }
   @media (max-width: 767px) {
     .bg-drop-46 {
       display: none; } }
@@ -1621,27 +1621,27 @@ p {
   .bg-drop-46::after {
     content: '';
     position: absolute;
-    padding: 0.5589380245rem;
+    padding: 1.1277236578rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-47 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 30%;
-  left: 90%;
-  border: 1px solid #1a1e25;
+  width: 3rem;
+  height: 3rem;
+  top: 78%;
+  left: 91%;
+  border: 1px solid #465064;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7237583619s; }
+  animation-delay: 1.1158915259s; }
   @media (max-width: 767px) {
     .bg-drop-47 {
       display: none; } }
@@ -1651,27 +1651,27 @@ p {
   .bg-drop-47::after {
     content: '';
     position: absolute;
-    padding: 0.6652869291rem;
+    padding: 0.6616595861rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-48 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 10%;
-  left: 84%;
-  border: 1px solid #16191f;
+  width: 3rem;
+  height: 3rem;
+  top: 79%;
+  left: 66%;
+  border: 1px solid #20252e;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.912591944s; }
+  animation-delay: 0.9147571715s; }
   @media (max-width: 767px) {
     .bg-drop-48 {
       display: none; } }
@@ -1681,27 +1681,27 @@ p {
   .bg-drop-48::after {
     content: '';
     position: absolute;
-    padding: 0.6157255729rem;
+    padding: 0.8008220148rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-49 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 95%;
-  left: 81%;
-  border: 1px solid #16191f;
+  width: 2rem;
+  height: 2rem;
+  top: 56%;
+  left: 88%;
+  border: 1px solid #394252;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6536774009s; }
+  animation-delay: 1.2462001565s; }
   @media (max-width: 767px) {
     .bg-drop-49 {
       display: none; } }
@@ -1711,27 +1711,27 @@ p {
   .bg-drop-49::after {
     content: '';
     position: absolute;
-    padding: 1.0880643714rem;
+    padding: 0.345518235rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-50 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 13%;
+  width: 2rem;
+  height: 2rem;
+  top: 24%;
   left: 77%;
-  border: 1px solid #121419;
+  border: 1px solid #485267;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9844858106s; }
+  animation-delay: 0.8841125026s; }
   @media (max-width: 767px) {
     .bg-drop-50 {
       display: none; } }
@@ -1741,7 +1741,7 @@ p {
   .bg-drop-50::after {
     content: '';
     position: absolute;
-    padding: 0.3402923649rem;
+    padding: 0.4675658222rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1752,16 +1752,16 @@ p {
 .bg-drop-51 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 29%;
-  left: 99%;
-  border: 1px solid #353d4c;
+  width: 1rem;
+  height: 1rem;
+  top: 90%;
+  left: 89%;
+  border: 1px solid #14161c;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.1398117071s; }
+  animation-delay: 0.9775431832s; }
   @media (max-width: 767px) {
     .bg-drop-51 {
       display: none; } }
@@ -1771,7 +1771,7 @@ p {
   .bg-drop-51::after {
     content: '';
     position: absolute;
-    padding: 1.1064625344rem;
+    padding: 1.1533171431rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1782,16 +1782,16 @@ p {
 .bg-drop-52 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 99%;
-  left: 75%;
-  border: 1px solid #4c576d;
+  width: 2rem;
+  height: 2rem;
+  top: 11%;
+  left: 56%;
+  border: 1px solid #0d0f13;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2533206172s; }
+  animation-delay: 1.4651554317s; }
   @media (max-width: 767px) {
     .bg-drop-52 {
       display: none; } }
@@ -1801,12 +1801,12 @@ p {
   .bg-drop-52::after {
     content: '';
     position: absolute;
-    padding: 0.3164266492rem;
+    padding: 1.0328642586rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-53 {
@@ -1814,14 +1814,14 @@ p {
   z-index: -1;
   width: 4rem;
   height: 4rem;
-  top: 94%;
-  left: 74%;
-  border: 1px solid #222731;
+  top: 73%;
+  left: 63%;
+  border: 1px solid #1c2028;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6585300811s; }
+  animation-delay: 0.5988359132s; }
   @media (max-width: 767px) {
     .bg-drop-53 {
       display: none; } }
@@ -1831,7 +1831,7 @@ p {
   .bg-drop-53::after {
     content: '';
     position: absolute;
-    padding: 0.5257998228rem;
+    padding: 0.7909886745rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -1842,16 +1842,16 @@ p {
 .bg-drop-54 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 3%;
-  left: 87%;
-  border: 1px solid #121419;
+  width: 1rem;
+  height: 1rem;
+  top: 45%;
+  left: 93%;
+  border: 1px solid #0d0f13;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5042820695s; }
+  animation-delay: 1.2146290725s; }
   @media (max-width: 767px) {
     .bg-drop-54 {
       display: none; } }
@@ -1861,27 +1861,27 @@ p {
   .bg-drop-54::after {
     content: '';
     position: absolute;
-    padding: 1.2629227327rem;
+    padding: 0.4912448168rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-55 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 31%;
-  left: 73%;
-  border: 1px solid #333a49;
+  width: 1rem;
+  height: 1rem;
+  top: 68%;
+  left: 97%;
+  border: 1px solid #181b22;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8211724147s; }
+  animation-delay: 1.3665902117s; }
   @media (max-width: 767px) {
     .bg-drop-55 {
       display: none; } }
@@ -1891,27 +1891,27 @@ p {
   .bg-drop-55::after {
     content: '';
     position: absolute;
-    padding: 0.3458502493rem;
+    padding: 0.635594073rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-56 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 35%;
-  left: 68%;
-  border: 1px solid #373f4f;
+  width: 3rem;
+  height: 3rem;
+  top: 40%;
+  left: 92%;
+  border: 1px solid #465064;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7794500875s; }
+  animation-delay: 0.9233853956s; }
   @media (max-width: 767px) {
     .bg-drop-56 {
       display: none; } }
@@ -1921,12 +1921,12 @@ p {
   .bg-drop-56::after {
     content: '';
     position: absolute;
-    padding: 0.9156380519rem;
+    padding: 1.0305627271rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-57 {
@@ -1934,14 +1934,14 @@ p {
   z-index: -1;
   width: 1rem;
   height: 1rem;
-  top: 92%;
-  left: 97%;
-  border: 1px solid #2d3340;
+  top: 44%;
+  left: 56%;
+  border: 1px solid #0b0d10;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.1951907587s; }
+  animation-delay: 1.0933742643s; }
   @media (max-width: 767px) {
     .bg-drop-57 {
       display: none; } }
@@ -1951,27 +1951,27 @@ p {
   .bg-drop-57::after {
     content: '';
     position: absolute;
-    padding: 0.5253237362rem;
+    padding: 0.4779651739rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-58 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 83%;
-  left: 65%;
-  border: 1px solid #333a49;
+  width: 1rem;
+  height: 1rem;
+  top: 40%;
+  left: 59%;
+  border: 1px solid #20252e;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.4501523281s; }
+  animation-delay: 0.5882050331s; }
   @media (max-width: 767px) {
     .bg-drop-58 {
       display: none; } }
@@ -1981,12 +1981,12 @@ p {
   .bg-drop-58::after {
     content: '';
     position: absolute;
-    padding: 1.222261705rem;
+    padding: 1.2575981675rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #090a0d;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-59 {
@@ -1994,14 +1994,14 @@ p {
   z-index: -1;
   width: 3rem;
   height: 3rem;
-  top: 11%;
-  left: 99%;
-  border: 1px solid #444e61;
+  top: 57%;
+  left: 60%;
+  border: 1px solid #485267;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2054122487s; }
+  animation-delay: 0.6328320775s; }
   @media (max-width: 767px) {
     .bg-drop-59 {
       display: none; } }
@@ -2011,27 +2011,27 @@ p {
   .bg-drop-59::after {
     content: '';
     position: absolute;
-    padding: 0.9280564067rem;
+    padding: 0.7820458812rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-60 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 10%;
-  left: 58%;
-  border: 1px solid #0f1216;
+  width: 4rem;
+  height: 4rem;
+  top: 83%;
+  left: 54%;
+  border: 1px solid #3c4455;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7570515759s; }
+  animation-delay: 0.8397658892s; }
   @media (max-width: 767px) {
     .bg-drop-60 {
       display: none; } }
@@ -2041,12 +2041,12 @@ p {
   .bg-drop-60::after {
     content: '';
     position: absolute;
-    padding: 1.0353653289rem;
+    padding: 0.7095925515rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-61 {
@@ -2054,14 +2054,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 66%;
-  left: 92%;
-  border: 1px solid #1a1e25;
+  top: 31%;
+  left: 64%;
+  border: 1px solid #1e222b;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5939919801s; }
+  animation-delay: 0.5711902621s; }
   @media (max-width: 767px) {
     .bg-drop-61 {
       display: none; } }
@@ -2071,12 +2071,12 @@ p {
   .bg-drop-61::after {
     content: '';
     position: absolute;
-    padding: 1.1390778493rem;
+    padding: 0.9981627726rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-62 {
@@ -2084,14 +2084,14 @@ p {
   z-index: -1;
   width: 3rem;
   height: 3rem;
-  top: 97%;
-  left: 62%;
-  border: 1px solid #121419;
+  top: 36%;
+  left: 52%;
+  border: 1px solid #1c2028;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8298908426s; }
+  animation-delay: 0.5532153084s; }
   @media (max-width: 767px) {
     .bg-drop-62 {
       display: none; } }
@@ -2101,27 +2101,27 @@ p {
   .bg-drop-62::after {
     content: '';
     position: absolute;
-    padding: 1.1025635165rem;
+    padding: 0.594088335rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-63 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 84%;
-  left: 82%;
-  border: 1px solid #3e4658;
+  width: 2rem;
+  height: 2rem;
+  top: 17%;
+  left: 85%;
+  border: 1px solid #465064;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3392572732s; }
+  animation-delay: 1.4202756465s; }
   @media (max-width: 767px) {
     .bg-drop-63 {
       display: none; } }
@@ -2131,12 +2131,12 @@ p {
   .bg-drop-63::after {
     content: '';
     position: absolute;
-    padding: 0.4332505192rem;
+    padding: 0.9510482537rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-64 {
@@ -2144,14 +2144,14 @@ p {
   z-index: -1;
   width: 3rem;
   height: 3rem;
-  top: 2%;
-  left: 91%;
-  border: 1px solid #2b313d;
+  top: 23%;
+  left: 61%;
+  border: 1px solid #242a34;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9274643058s; }
+  animation-delay: 1.4597410049s; }
   @media (max-width: 767px) {
     .bg-drop-64 {
       display: none; } }
@@ -2161,7 +2161,7 @@ p {
   .bg-drop-64::after {
     content: '';
     position: absolute;
-    padding: 0.4302233328rem;
+    padding: 0.5399653702rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -2172,16 +2172,16 @@ p {
 .bg-drop-65 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 50%;
-  left: 92%;
-  border: 1px solid #292e3a;
+  width: 4rem;
+  height: 4rem;
+  top: 20%;
+  left: 51%;
+  border: 1px solid #0f1216;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6928741277s; }
+  animation-delay: 0.9970662019s; }
   @media (max-width: 767px) {
     .bg-drop-65 {
       display: none; } }
@@ -2191,27 +2191,27 @@ p {
   .bg-drop-65::after {
     content: '';
     position: absolute;
-    padding: 1.223065013rem;
+    padding: 0.6554339287rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-66 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 17%;
-  left: 76%;
-  border: 1px solid #0b0d10;
+  width: 4rem;
+  height: 4rem;
+  top: 86%;
+  left: 52%;
+  border: 1px solid #242a34;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5280626405s; }
+  animation-delay: 0.9404911818s; }
   @media (max-width: 767px) {
     .bg-drop-66 {
       display: none; } }
@@ -2221,27 +2221,27 @@ p {
   .bg-drop-66::after {
     content: '';
     position: absolute;
-    padding: 0.9718099522rem;
+    padding: 1.1898792397rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-67 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 60%;
-  left: 55%;
-  border: 1px solid #394252;
+  width: 2rem;
+  height: 2rem;
+  top: 9%;
+  left: 51%;
+  border: 1px solid #14161c;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2509442003s; }
+  animation-delay: 1.1512729408s; }
   @media (max-width: 767px) {
     .bg-drop-67 {
       display: none; } }
@@ -2251,12 +2251,12 @@ p {
   .bg-drop-67::after {
     content: '';
     position: absolute;
-    padding: 1.015560566rem;
+    padding: 1.0514119411rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-68 {
@@ -2264,14 +2264,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 96%;
-  left: 78%;
-  border: 1px solid #2d3340;
+  top: 95%;
+  left: 86%;
+  border: 1px solid #394252;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9830849745s; }
+  animation-delay: 1.2566948667s; }
   @media (max-width: 767px) {
     .bg-drop-68 {
       display: none; } }
@@ -2281,27 +2281,27 @@ p {
   .bg-drop-68::after {
     content: '';
     position: absolute;
-    padding: 0.7066549757rem;
+    padding: 0.8533385236rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-69 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 33%;
-  left: 52%;
-  border: 1px solid #4a556a;
+  width: 4rem;
+  height: 4rem;
+  top: 30%;
+  left: 98%;
+  border: 1px solid #20252e;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9898619849s; }
+  animation-delay: 0.7795137607s; }
   @media (max-width: 767px) {
     .bg-drop-69 {
       display: none; } }
@@ -2311,12 +2311,12 @@ p {
   .bg-drop-69::after {
     content: '';
     position: absolute;
-    padding: 1.0379614267rem;
+    padding: 1.0063422032rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-70 {
@@ -2324,14 +2324,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 21%;
-  left: 92%;
-  border: 1px solid #1a1e25;
+  top: 49%;
+  left: 79%;
+  border: 1px solid #4a556a;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5613092068s; }
+  animation-delay: 1.4947365476s; }
   @media (max-width: 767px) {
     .bg-drop-70 {
       display: none; } }
@@ -2341,27 +2341,27 @@ p {
   .bg-drop-70::after {
     content: '';
     position: absolute;
-    padding: 1.1353395523rem;
+    padding: 0.533893708rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-71 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 71%;
-  left: 92%;
-  border: 1px solid #394252;
+  width: 2rem;
+  height: 2rem;
+  top: 54%;
+  left: 95%;
+  border: 1px solid #1e222b;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9241350157s; }
+  animation-delay: 0.5431525627s; }
   @media (max-width: 767px) {
     .bg-drop-71 {
       display: none; } }
@@ -2371,27 +2371,27 @@ p {
   .bg-drop-71::after {
     content: '';
     position: absolute;
-    padding: 1.0415224315rem;
+    padding: 0.910284211rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-72 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 11%;
-  left: 98%;
-  border: 1px solid #16191f;
+  width: 3rem;
+  height: 3rem;
+  top: 25%;
+  left: 89%;
+  border: 1px solid #373f4f;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8699638697s; }
+  animation-delay: 1.1523855997s; }
   @media (max-width: 767px) {
     .bg-drop-72 {
       display: none; } }
@@ -2401,7 +2401,7 @@ p {
   .bg-drop-72::after {
     content: '';
     position: absolute;
-    padding: 1.2894698902rem;
+    padding: 0.4358456645rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -2412,16 +2412,16 @@ p {
 .bg-drop-73 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 28%;
-  left: 84%;
+  width: 3rem;
+  height: 3rem;
+  top: 97%;
+  left: 74%;
   border: 1px solid #222731;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5675232382s; }
+  animation-delay: 0.5104977746s; }
   @media (max-width: 767px) {
     .bg-drop-73 {
       display: none; } }
@@ -2431,7 +2431,7 @@ p {
   .bg-drop-73::after {
     content: '';
     position: absolute;
-    padding: 1.2970610663rem;
+    padding: 0.4418298865rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -2442,16 +2442,16 @@ p {
 .bg-drop-74 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 36%;
-  left: 63%;
-  border: 1px solid #20252e;
+  width: 4rem;
+  height: 4rem;
+  top: 66%;
+  left: 53%;
+  border: 1px solid #181b22;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3444520108s; }
+  animation-delay: 0.9188496647s; }
   @media (max-width: 767px) {
     .bg-drop-74 {
       display: none; } }
@@ -2461,7 +2461,7 @@ p {
   .bg-drop-74::after {
     content: '';
     position: absolute;
-    padding: 0.4988300346rem;
+    padding: 0.3642840637rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -2472,16 +2472,16 @@ p {
 .bg-drop-75 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 36%;
-  left: 70%;
-  border: 1px solid #485267;
+  width: 4rem;
+  height: 4rem;
+  top: 30%;
+  left: 77%;
+  border: 1px solid #20252e;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7907907541s; }
+  animation-delay: 0.7684276763s; }
   @media (max-width: 767px) {
     .bg-drop-75 {
       display: none; } }
@@ -2491,27 +2491,27 @@ p {
   .bg-drop-75::after {
     content: '';
     position: absolute;
-    padding: 0.7938091312rem;
+    padding: 0.5640983865rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-76 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 41%;
-  left: 98%;
-  border: 1px solid #1a1e25;
+  width: 1rem;
+  height: 1rem;
+  top: 14%;
+  left: 79%;
+  border: 1px solid #1c2028;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8561553452s; }
+  animation-delay: 1.0969959274s; }
   @media (max-width: 767px) {
     .bg-drop-76 {
       display: none; } }
@@ -2521,12 +2521,12 @@ p {
   .bg-drop-76::after {
     content: '';
     position: absolute;
-    padding: 1.2902587963rem;
+    padding: 0.5443743445rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-77 {
@@ -2534,14 +2534,14 @@ p {
   z-index: -1;
   width: 4rem;
   height: 4rem;
-  top: 74%;
-  left: 69%;
-  border: 1px solid #485267;
+  top: 55%;
+  left: 84%;
+  border: 1px solid #465064;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5227284532s; }
+  animation-delay: 1.4827592815s; }
   @media (max-width: 767px) {
     .bg-drop-77 {
       display: none; } }
@@ -2551,27 +2551,27 @@ p {
   .bg-drop-77::after {
     content: '';
     position: absolute;
-    padding: 0.6235976027rem;
+    padding: 1.0452388772rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-78 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 97%;
-  left: 99%;
-  border: 1px solid #1a1e25;
+  width: 2rem;
+  height: 2rem;
+  top: 64%;
+  left: 66%;
+  border: 1px solid #1c2028;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2993349838s; }
+  animation-delay: 0.7127745216s; }
   @media (max-width: 767px) {
     .bg-drop-78 {
       display: none; } }
@@ -2581,12 +2581,12 @@ p {
   .bg-drop-78::after {
     content: '';
     position: absolute;
-    padding: 1.0457248626rem;
+    padding: 1.2776152464rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-79 {
@@ -2594,14 +2594,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 74%;
-  left: 87%;
-  border: 1px solid #3e4658;
+  top: 63%;
+  left: 61%;
+  border: 1px solid #242a34;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.0858726391s; }
+  animation-delay: 1.0250027399s; }
   @media (max-width: 767px) {
     .bg-drop-79 {
       display: none; } }
@@ -2611,27 +2611,27 @@ p {
   .bg-drop-79::after {
     content: '';
     position: absolute;
-    padding: 0.8058613057rem;
+    padding: 0.936647637rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #090a0d;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-80 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 33%;
-  left: 87%;
-  border: 1px solid #373f4f;
+  width: 4rem;
+  height: 4rem;
+  top: 57%;
+  left: 91%;
+  border: 1px solid #121419;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3559285395s; }
+  animation-delay: 0.9056711143s; }
   @media (max-width: 767px) {
     .bg-drop-80 {
       display: none; } }
@@ -2641,27 +2641,27 @@ p {
   .bg-drop-80::after {
     content: '';
     position: absolute;
-    padding: 1.1898294125rem;
+    padding: 0.8059275557rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-81 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 6%;
-  left: 77%;
-  border: 1px solid #0d0f13;
+  width: 1rem;
+  height: 1rem;
+  top: 100%;
+  left: 65%;
+  border: 1px solid #333a49;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2808028163s; }
+  animation-delay: 0.8578719505s; }
   @media (max-width: 767px) {
     .bg-drop-81 {
       display: none; } }
@@ -2671,27 +2671,27 @@ p {
   .bg-drop-81::after {
     content: '';
     position: absolute;
-    padding: 0.787436439rem;
+    padding: 0.9390185005rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-82 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 14%;
-  left: 57%;
-  border: 1px solid #1c2028;
+  width: 1rem;
+  height: 1rem;
+  top: 61%;
+  left: 56%;
+  border: 1px solid #4e5a70;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2965855525s; }
+  animation-delay: 0.5996833601s; }
   @media (max-width: 767px) {
     .bg-drop-82 {
       display: none; } }
@@ -2701,27 +2701,27 @@ p {
   .bg-drop-82::after {
     content: '';
     position: absolute;
-    padding: 1.1680679495rem;
+    padding: 0.8386129398rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #121419;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-83 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 56%;
-  left: 82%;
-  border: 1px solid #242a34;
+  width: 4rem;
+  height: 4rem;
+  top: 74%;
+  left: 79%;
+  border: 1px solid #444e61;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9740252742s; }
+  animation-delay: 0.8306646061s; }
   @media (max-width: 767px) {
     .bg-drop-83 {
       display: none; } }
@@ -2731,27 +2731,27 @@ p {
   .bg-drop-83::after {
     content: '';
     position: absolute;
-    padding: 0.5096651905rem;
+    padding: 0.8400435839rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-84 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 53%;
-  left: 91%;
-  border: 1px solid #222731;
+  width: 1rem;
+  height: 1rem;
+  top: 82%;
+  left: 60%;
+  border: 1px solid #394252;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7815416604s; }
+  animation-delay: 0.7084200893s; }
   @media (max-width: 767px) {
     .bg-drop-84 {
       display: none; } }
@@ -2761,27 +2761,27 @@ p {
   .bg-drop-84::after {
     content: '';
     position: absolute;
-    padding: 0.5051441173rem;
+    padding: 1.0094023738rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-85 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 49%;
-  left: 85%;
-  border: 1px solid #373f4f;
+  width: 4rem;
+  height: 4rem;
+  top: 56%;
+  left: 100%;
+  border: 1px solid #0b0d10;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2595282622s; }
+  animation-delay: 1.2264850768s; }
   @media (max-width: 767px) {
     .bg-drop-85 {
       display: none; } }
@@ -2791,12 +2791,12 @@ p {
   .bg-drop-85::after {
     content: '';
     position: absolute;
-    padding: 0.7764137013rem;
+    padding: 0.4805253797rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-86 {
@@ -2804,14 +2804,14 @@ p {
   z-index: -1;
   width: 3rem;
   height: 3rem;
-  top: 12%;
-  left: 100%;
-  border: 1px solid #3e4658;
+  top: 36%;
+  left: 70%;
+  border: 1px solid #394252;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.699849232s; }
+  animation-delay: 1.0929298417s; }
   @media (max-width: 767px) {
     .bg-drop-86 {
       display: none; } }
@@ -2821,27 +2821,27 @@ p {
   .bg-drop-86::after {
     content: '';
     position: absolute;
-    padding: 1.2674317309rem;
+    padding: 0.7367266432rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #090a0d;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-87 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 45%;
-  left: 78%;
-  border: 1px solid #090a0d;
+  width: 4rem;
+  height: 4rem;
+  top: 83%;
+  left: 66%;
+  border: 1px solid #0b0d10;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8464412289s; }
+  animation-delay: 0.777473243s; }
   @media (max-width: 767px) {
     .bg-drop-87 {
       display: none; } }
@@ -2851,7 +2851,7 @@ p {
   .bg-drop-87::after {
     content: '';
     position: absolute;
-    padding: 1.2432287582rem;
+    padding: 1.2516490135rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -2862,16 +2862,16 @@ p {
 .bg-drop-88 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 43%;
-  left: 60%;
-  border: 1px solid #181b22;
+  width: 3rem;
+  height: 3rem;
+  top: 23%;
+  left: 81%;
+  border: 1px solid #0b0d10;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2757776381s; }
+  animation-delay: 1.2912188442s; }
   @media (max-width: 767px) {
     .bg-drop-88 {
       display: none; } }
@@ -2881,12 +2881,12 @@ p {
   .bg-drop-88::after {
     content: '';
     position: absolute;
-    padding: 1.0179994294rem;
+    padding: 0.6669588056rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-89 {
@@ -2894,14 +2894,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 76%;
-  left: 71%;
-  border: 1px solid #353d4c;
+  top: 54%;
+  left: 63%;
+  border: 1px solid #181b22;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.0790075066s; }
+  animation-delay: 0.8634289564s; }
   @media (max-width: 767px) {
     .bg-drop-89 {
       display: none; } }
@@ -2911,27 +2911,27 @@ p {
   .bg-drop-89::after {
     content: '';
     position: absolute;
-    padding: 0.8704402462rem;
+    padding: 0.869899509rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-90 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 73%;
-  left: 53%;
-  border: 1px solid #272c37;
+  width: 3rem;
+  height: 3rem;
+  top: 2%;
+  left: 97%;
+  border: 1px solid #394252;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3629447799s; }
+  animation-delay: 1.0270439438s; }
   @media (max-width: 767px) {
     .bg-drop-90 {
       display: none; } }
@@ -2941,27 +2941,27 @@ p {
   .bg-drop-90::after {
     content: '';
     position: absolute;
-    padding: 0.3799168595rem;
+    padding: 1.2970425936rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-91 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 9%;
-  left: 68%;
-  border: 1px solid #515c73;
+  width: 4rem;
+  height: 4rem;
+  top: 92%;
+  left: 81%;
+  border: 1px solid #242a34;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2192957518s; }
+  animation-delay: 0.5726127859s; }
   @media (max-width: 767px) {
     .bg-drop-91 {
       display: none; } }
@@ -2971,12 +2971,12 @@ p {
   .bg-drop-91::after {
     content: '';
     position: absolute;
-    padding: 0.7879150438rem;
+    padding: 0.8455776694rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-92 {
@@ -2984,14 +2984,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 98%;
-  left: 84%;
-  border: 1px solid #0b0d10;
+  top: 90%;
+  left: 93%;
+  border: 1px solid #121419;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6454874193s; }
+  animation-delay: 1.2320610249s; }
   @media (max-width: 767px) {
     .bg-drop-92 {
       display: none; } }
@@ -3001,27 +3001,27 @@ p {
   .bg-drop-92::after {
     content: '';
     position: absolute;
-    padding: 0.64197405rem;
+    padding: 1.1003042205rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-93 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 18%;
-  left: 98%;
-  border: 1px solid #0f1216;
+  width: 3rem;
+  height: 3rem;
+  top: 21%;
+  left: 80%;
+  border: 1px solid #1c2028;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3180872756s; }
+  animation-delay: 0.8368139908s; }
   @media (max-width: 767px) {
     .bg-drop-93 {
       display: none; } }
@@ -3031,27 +3031,27 @@ p {
   .bg-drop-93::after {
     content: '';
     position: absolute;
-    padding: 0.3219491505rem;
+    padding: 0.8193389717rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-94 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 5%;
-  left: 85%;
-  border: 1px solid #3c4455;
+  width: 4rem;
+  height: 4rem;
+  top: 2%;
+  left: 74%;
+  border: 1px solid #313846;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8669632458s; }
+  animation-delay: 1.0501134883s; }
   @media (max-width: 767px) {
     .bg-drop-94 {
       display: none; } }
@@ -3061,7 +3061,7 @@ p {
   .bg-drop-94::after {
     content: '';
     position: absolute;
-    padding: 0.9965487212rem;
+    padding: 0.487038383rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -3072,16 +3072,16 @@ p {
 .bg-drop-95 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 33%;
-  left: 55%;
-  border: 1px solid #2d3340;
+  width: 1rem;
+  height: 1rem;
+  top: 24%;
+  left: 65%;
+  border: 1px solid #3e4658;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9700772443s; }
+  animation-delay: 0.794882084s; }
   @media (max-width: 767px) {
     .bg-drop-95 {
       display: none; } }
@@ -3091,12 +3091,12 @@ p {
   .bg-drop-95::after {
     content: '';
     position: absolute;
-    padding: 0.9511415213rem;
+    padding: 0.5383551089rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-96 {
@@ -3104,14 +3104,14 @@ p {
   z-index: -1;
   width: 4rem;
   height: 4rem;
-  top: 83%;
-  left: 97%;
-  border: 1px solid #2f3643;
+  top: 26%;
+  left: 59%;
+  border: 1px solid #16191f;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7806592884s; }
+  animation-delay: 1.0308150084s; }
   @media (max-width: 767px) {
     .bg-drop-96 {
       display: none; } }
@@ -3121,27 +3121,27 @@ p {
   .bg-drop-96::after {
     content: '';
     position: absolute;
-    padding: 0.6074685662rem;
+    padding: 0.8896603149rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0d0f13;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-97 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 60%;
-  left: 73%;
-  border: 1px solid #313846;
+  width: 4rem;
+  height: 4rem;
+  top: 8%;
+  left: 67%;
+  border: 1px solid #1c2028;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.4810808852s; }
+  animation-delay: 0.8124543683s; }
   @media (max-width: 767px) {
     .bg-drop-97 {
       display: none; } }
@@ -3151,12 +3151,12 @@ p {
   .bg-drop-97::after {
     content: '';
     position: absolute;
-    padding: 0.6913081484rem;
+    padding: 0.7528757338rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-98 {
@@ -3164,14 +3164,14 @@ p {
   z-index: -1;
   width: 1rem;
   height: 1rem;
-  top: 15%;
-  left: 74%;
-  border: 1px solid #353d4c;
+  top: 11%;
+  left: 51%;
+  border: 1px solid #0b0d10;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.773420919s; }
+  animation-delay: 1.2043113707s; }
   @media (max-width: 767px) {
     .bg-drop-98 {
       display: none; } }
@@ -3181,27 +3181,27 @@ p {
   .bg-drop-98::after {
     content: '';
     position: absolute;
-    padding: 0.7359376024rem;
+    padding: 0.3379525606rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0f1216;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-99 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 7%;
-  left: 73%;
-  border: 1px solid #0f1216;
+  width: 2rem;
+  height: 2rem;
+  top: 72%;
+  left: 85%;
+  border: 1px solid #1e222b;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9182238594s; }
+  animation-delay: 1.4966288604s; }
   @media (max-width: 767px) {
     .bg-drop-99 {
       display: none; } }
@@ -3211,27 +3211,27 @@ p {
   .bg-drop-99::after {
     content: '';
     position: absolute;
-    padding: 1.1543740439rem;
+    padding: 0.3548876706rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #0b0d10;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-100 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 68%;
-  left: 68%;
-  border: 1px solid #20252e;
+  width: 4rem;
+  height: 4rem;
+  top: 95%;
+  left: 60%;
+  border: 1px solid #0d0f13;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5558067467s; }
+  animation-delay: 0.7097120894s; }
   @media (max-width: 767px) {
     .bg-drop-100 {
       display: none; } }
@@ -3241,7 +3241,7 @@ p {
   .bg-drop-100::after {
     content: '';
     position: absolute;
-    padding: 0.5484259339rem;
+    padding: 1.0480982315rem;
     width: 2px;
     height: 100%;
     top: -300%;
@@ -3438,7 +3438,7 @@ p {
     display: none; }
   50% {
     display: initial;
-    background: #090b0d; } }
+    background: #090a0d; } }
 section#landing {
   min-height: 100vh;
   position: relative;
@@ -3693,13 +3693,13 @@ section#landing {
   background-clip: text !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent; }
-  .text-clip::-moz-selection {
+  .text-clip > *::-moz-selection, .text-clip::-moz-selection {
     background: #efcc20;
     background-clip: initial !important;
     -webkit-background-clip: none !important;
     -webkit-text-fill-color: #07080a !important; }
-  .text-clip::selection {
-    background: #efcc20 !important;
+  .text-clip > *::selection, .text-clip::selection {
+    background: #efcc20;
     background-clip: initial !important;
     -webkit-background-clip: none !important;
     -webkit-text-fill-color: #07080a !important; }

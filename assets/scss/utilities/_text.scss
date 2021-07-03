@@ -59,6 +59,7 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
 
+  & > *::-moz-selection,
   &::-moz-selection {
     background: $secondary;
     background-clip: initial !important;
@@ -66,8 +67,9 @@
     -webkit-text-fill-color: $dark !important;
   }
 
+  & > *::selection,
   &::selection {
-    background: $secondary !important;
+    background: $secondary;
     background-clip: initial !important;
     -webkit-background-clip: none !important;
     -webkit-text-fill-color: $dark !important;
