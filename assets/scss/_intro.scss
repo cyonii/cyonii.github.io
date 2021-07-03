@@ -53,6 +53,14 @@ section#landing {
       @include breakpoint-and-up('md') {
         font-size: 5em;
       }
+
+      @include breakpoint-and-up('lg') {
+        font-size: 6em;
+      }
+
+      @include breakpoint-and-up('xl') {
+        font-size: 7em;
+      }
     }
   }
 }
