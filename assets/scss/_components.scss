@@ -200,12 +200,12 @@
     position: absolute;
     z-index: -1;
     @include celestial-body();
-    @if $i > 4 {
+    @if $i > 10 {
       @media (max-width: 767px) {
         display: none;
       }
     }
-    @if $i > 6 {
+    @if $i > 15 {
       @media (max-width: 991px) {
         display: none;
       }
