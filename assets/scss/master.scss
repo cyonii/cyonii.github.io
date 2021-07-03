@@ -22,7 +22,7 @@ section {
 // Call to scroll button
 #call-to-scroll {
   padding: 1rem 0.25rem;
-  border: 1px solid $dark;
+  border: none;
   position: fixed;
   z-index: 1;
   left: 50%;
@@ -95,6 +95,6 @@ section {
 @import 'components';
 @import 'header';
 @import 'animations';
-@import 'landing';
+@import 'intro';
 @import 'forms';
 @import 'utilities';

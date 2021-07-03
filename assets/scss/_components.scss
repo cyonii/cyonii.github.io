@@ -195,7 +195,7 @@
 }
 
 // Background objects
-@for $i from 1 through 20 {
+@for $i from 1 through 100 {
   .bg-drop-#{$i} {
     position: absolute;
     z-index: -1;

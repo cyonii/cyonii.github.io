@@ -14,20 +14,25 @@ section#landing {
   }
 
   &::before {
-    content: 'CY Kalu';
+    content: 'Welcome';
     position: fixed;
     width: 100%;
     bottom: 0;
     display: flex;
     justify-content: start;
     font-family: $font-mono;
-    font-size: 200px;
+    font-size: 160px;
     font-weight: bolder;
-    line-height: 140px;
-    letter-spacing: -50px;
-    color: darken($white, 50%);
-    opacity: 0.07;
+    line-height: 120px;
+    letter-spacing: -20px;
+    opacity: 0.4;
     overflow: hidden;
+
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(45deg, $white 20%, darken($grey, 40%) 30%);
+    background: -webkit-linear-gradient(45deg, $white 10%, rgb(71, 71, 71) 20%);
   }
 
   .col:first-child {

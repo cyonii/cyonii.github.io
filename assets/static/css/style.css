@@ -4,7 +4,7 @@ body.menu-open {
   overflow: hidden; }
 
 section {
-  background-color: #121619; }
+  background-color: #07080a; }
 
 .pt-header-justice {
   padding-top: 61px; }
@@ -14,7 +14,7 @@ section {
 
 #call-to-scroll {
   padding: 1rem 0.25rem;
-  border: 1px solid #121619;
+  border: none;
   position: fixed;
   z-index: 1;
   left: 50%;
@@ -58,15 +58,15 @@ section {
 
 #footer .container {
   border-radius: 5px 5px 0 0 !important;
-  background: #181e22; }
+  background: #0d0f13; }
 
 ::-moz-selection {
   background: #efcc20;
-  color: #121619; }
+  color: #07080a; }
 
 ::selection {
   background: #efcc20;
-  color: #121619; }
+  color: #07080a; }
 
 ::-moz-focus-inner {
   border: 0; }
@@ -92,7 +92,7 @@ section {
   scroll-behavior: smooth; }
 
 html {
-  background: #121619;
+  background: #07080a;
   font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 1rem;
   overflow-x: hidden; }
@@ -142,7 +142,7 @@ h6 {
 
 mark {
   background-color: #fdf8de;
-  color: #121619 !important; }
+  color: #07080a !important; }
 
 ol,
 ul {
@@ -200,7 +200,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #21282e;
+  border-bottom: 1px solid #16191f;
   padding-bottom: 0.5rem; }
   .stack-collection .stack-toggler.active {
     color: #fff; }
@@ -230,9 +230,9 @@ p {
   .stack-collection .stack-group .stack-item {
     display: flex;
     align-items: center;
-    background: #181e22;
+    background: #0d0f13;
     border-radius: 5px;
-    box-shadow: -5px -5px 4px 2px #161b1f, -6px -6px 0 0 #91b0d4, 1px 1px 5px 4px #07090a, 2px 2px 0 0 #8497a6;
+    box-shadow: -5px -5px 4px 2px #0b0d10, -6px -6px 0 0 #91b0d4, 1px 1px 5px 4px black, 2px 2px 0 0 #73819d;
     color: dodgerblue;
     font-size: 14px !important;
     font-weight: bolder; }
@@ -242,14 +242,14 @@ p {
         justify-content: center; } }
     .stack-collection .stack-group .stack-item i {
       font-size: 1.5rem;
-      color: #475763;
+      color: #3c4455;
       animation: glow 3s ease-in infinite; }
       @media (min-width: 768px) {
         .stack-collection .stack-group .stack-item i {
           font-size: 3.5rem; } }
 @keyframes glow {
   50% {
-    color: #5d7181; } }
+    color: #515c73; } }
 .carousel-inner {
   position: relative;
   overflow: hidden; }
@@ -266,12 +266,12 @@ p {
   border: none;
   border-radius: 6px;
   box-shadow: 0 0 2px 2px dodgerblue;
-  background-color: #121619;
+  background-color: #07080a;
   color: dodgerblue;
   font-weight: bold; }
   .carousel-control:hover {
     box-shadow: 0 0 2px 2px #fff;
-    background-color: #121619;
+    background-color: #07080a;
     color: #fff; }
 
 @keyframes faded {
@@ -282,79 +282,73 @@ p {
 .bg-drop-1 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 79%;
-  left: 89%;
-  border: 1px solid #2e3840;
-  border-radius: 20%;
-  transform: rotate(175deg);
+  width: 4rem;
+  height: 4rem;
+  top: 81%;
+  left: 71%;
+  border: 1px solid #121419;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8027397196s; }
+  animation-delay: 1.2632888594s; }
   .bg-drop-1::after {
     content: '';
     position: absolute;
-    padding: 1.0490344577rem;
+    padding: 1.2100929115rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #181e22;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-2 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 78%;
-  left: 87%;
-  border: 1px solid #303b43;
-  border-radius: 41%;
-  transform: rotate(48deg);
+  width: 2rem;
+  height: 2rem;
+  top: 21%;
+  left: 71%;
+  border: 1px solid #2d3340;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7528039706s; }
+  animation-delay: 1.121970638s; }
   .bg-drop-2::after {
     content: '';
     position: absolute;
-    padding: 1.142100791rem;
+    padding: 0.4258038673rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #1d2328;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-3 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 1%;
-  left: 75%;
-  border: 1px solid #161b1f;
-  border-radius: 9%;
-  transform: rotate(339deg);
+  width: 2rem;
+  height: 2rem;
+  top: 12%;
+  left: 76%;
+  border: 1px solid #4e5a70;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.7734133189s; }
+  animation-delay: 0.8585565307s; }
   .bg-drop-3::after {
     content: '';
     position: absolute;
-    padding: 1.0506670365rem;
+    padding: 0.4786729787rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #1b2025;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-4 {
@@ -362,83 +356,77 @@ p {
   z-index: -1;
   width: 3rem;
   height: 3rem;
-  top: 93%;
-  left: 88%;
-  border: 1px solid #273037;
-  border-radius: 45%;
-  transform: rotate(185deg);
+  top: 61%;
+  left: 75%;
+  border: 1px solid #181b22;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6643219986s; }
+  animation-delay: 0.6388689443s; }
   .bg-drop-4::after {
     content: '';
     position: absolute;
-    padding: 1.2363043112rem;
+    padding: 1.0532337519rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #1b2025;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-5 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 31%;
+  width: 1rem;
+  height: 1rem;
+  top: 8%;
   left: 82%;
-  border: 1px solid #1f262b;
-  border-radius: 2%;
-  transform: rotate(341deg);
+  border: 1px solid #4c576d;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3560537777s; }
+  animation-delay: 0.7857006382s; }
   @media (max-width: 767px) {
     .bg-drop-5 {
       display: none; } }
   .bg-drop-5::after {
     content: '';
     position: absolute;
-    padding: 0.3869923034rem;
+    padding: 0.7061120823rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #181e22;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-6 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 29%;
-  left: 96%;
-  border: 1px solid #3b4851;
-  border-radius: 22%;
-  transform: rotate(106deg);
+  width: 4rem;
+  height: 4rem;
+  top: 26%;
+  left: 56%;
+  border: 1px solid #20252e;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3130755763s; }
+  animation-delay: 0.6522117762s; }
   @media (max-width: 767px) {
     .bg-drop-6 {
       display: none; } }
   .bg-drop-6::after {
     content: '';
     position: absolute;
-    padding: 0.5494950528rem;
+    padding: 0.5644486106rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #161b1f;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-7 {
@@ -446,16 +434,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 11%;
-  left: 52%;
-  border: 1px solid #21282e;
-  border-radius: 28%;
-  transform: rotate(205deg);
+  top: 4%;
+  left: 82%;
+  border: 1px solid #485267;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2588986268s; }
+  animation-delay: 0.7026330228s; }
   @media (max-width: 767px) {
     .bg-drop-7 {
       display: none; } }
@@ -465,29 +451,27 @@ p {
   .bg-drop-7::after {
     content: '';
     position: absolute;
-    padding: 1.0336583895rem;
+    padding: 0.768277709rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #161b1f;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-8 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 41%;
-  left: 67%;
-  border: 1px solid #475763;
-  border-radius: 13%;
-  transform: rotate(192deg);
+  width: 4rem;
+  height: 4rem;
+  top: 7%;
+  left: 87%;
+  border: 1px solid #515c73;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5125648907s; }
+  animation-delay: 0.7059903073s; }
   @media (max-width: 767px) {
     .bg-drop-8 {
       display: none; } }
@@ -497,29 +481,27 @@ p {
   .bg-drop-8::after {
     content: '';
     position: absolute;
-    padding: 0.7447960184rem;
+    padding: 1.1851858919rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #1b2025;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-9 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 42%;
-  left: 73%;
-  border: 1px solid #526472;
-  border-radius: 37%;
-  transform: rotate(240deg);
+  width: 1rem;
+  height: 1rem;
+  top: 63%;
+  left: 59%;
+  border: 1px solid #353d4c;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.2880450603s; }
+  animation-delay: 0.9928691462s; }
   @media (max-width: 767px) {
     .bg-drop-9 {
       display: none; } }
@@ -529,29 +511,27 @@ p {
   .bg-drop-9::after {
     content: '';
     position: absolute;
-    padding: 0.9927770113rem;
+    padding: 0.9548453366rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #161b1f;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-10 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 36%;
-  left: 97%;
-  border: 1px solid #21282e;
-  border-radius: 4%;
-  transform: rotate(351deg);
+  width: 2rem;
+  height: 2rem;
+  top: 8%;
+  left: 94%;
+  border: 1px solid #333a49;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6508723128s; }
+  animation-delay: 0.5687637071s; }
   @media (max-width: 767px) {
     .bg-drop-10 {
       display: none; } }
@@ -561,12 +541,12 @@ p {
   .bg-drop-10::after {
     content: '';
     position: absolute;
-    padding: 0.620242823rem;
+    padding: 0.9988008574rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #1b2025;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-11 {
@@ -574,16 +554,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 70%;
-  left: 78%;
-  border: 1px solid #4c5c69;
-  border-radius: 6%;
-  transform: rotate(41deg);
+  top: 32%;
+  left: 79%;
+  border: 1px solid #0d0f13;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.9161009403s; }
+  animation-delay: 0.819554505s; }
   @media (max-width: 767px) {
     .bg-drop-11 {
       display: none; } }
@@ -593,29 +571,27 @@ p {
   .bg-drop-11::after {
     content: '';
     position: absolute;
-    padding: 0.6059650793rem;
+    padding: 0.7021197819rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #161b1f;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-12 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 1%;
-  left: 58%;
-  border: 1px solid #38454e;
-  border-radius: 39%;
-  transform: rotate(22deg);
+  width: 3rem;
+  height: 3rem;
+  top: 51%;
+  left: 90%;
+  border: 1px solid #14161c;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.4942429581s; }
+  animation-delay: 1.2006088895s; }
   @media (max-width: 767px) {
     .bg-drop-12 {
       display: none; } }
@@ -625,29 +601,27 @@ p {
   .bg-drop-12::after {
     content: '';
     position: absolute;
-    padding: 0.4034986959rem;
+    padding: 0.5947969438rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #1b2025;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-13 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 21%;
-  left: 57%;
-  border: 1px solid #5d7181;
-  border-radius: 46%;
-  transform: rotate(155deg);
+  width: 4rem;
+  height: 4rem;
+  top: 76%;
+  left: 91%;
+  border: 1px solid #465064;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.8340527203s; }
+  animation-delay: 0.7534456782s; }
   @media (max-width: 767px) {
     .bg-drop-13 {
       display: none; } }
@@ -657,29 +631,27 @@ p {
   .bg-drop-13::after {
     content: '';
     position: absolute;
-    padding: 1.1923771501rem;
+    padding: 0.4982738145rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #1d2328;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-14 {
   position: absolute;
   z-index: -1;
-  width: 4rem;
-  height: 4rem;
-  top: 96%;
-  left: 75%;
-  border: 1px solid #29333a;
-  border-radius: 29%;
-  transform: rotate(339deg);
+  width: 2rem;
+  height: 2rem;
+  top: 5%;
+  left: 79%;
+  border: 1px solid #4c576d;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.5116845754s; }
+  animation-delay: 1.2994476408s; }
   @media (max-width: 767px) {
     .bg-drop-14 {
       display: none; } }
@@ -689,12 +661,12 @@ p {
   .bg-drop-14::after {
     content: '';
     position: absolute;
-    padding: 0.5719048862rem;
+    padding: 1.0182835716rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #181e22;
+    background: #0b0d10;
     z-index: -1; }
 
 .bg-drop-15 {
@@ -702,16 +674,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 68%;
-  left: 75%;
-  border: 1px solid #323d45;
-  border-radius: 40%;
-  transform: rotate(152deg);
+  top: 35%;
+  left: 96%;
+  border: 1px solid #353d4c;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.3355984714s; }
+  animation-delay: 1.1426241882s; }
   @media (max-width: 767px) {
     .bg-drop-15 {
       display: none; } }
@@ -721,29 +691,27 @@ p {
   .bg-drop-15::after {
     content: '';
     position: absolute;
-    padding: 0.7615622956rem;
+    padding: 0.7295000539rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #1b2025;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-16 {
   position: absolute;
   z-index: -1;
-  width: 1rem;
-  height: 1rem;
-  top: 87%;
-  left: 54%;
-  border: 1px solid #21282e;
-  border-radius: 11%;
-  transform: rotate(17deg);
+  width: 3rem;
+  height: 3rem;
+  top: 42%;
+  left: 75%;
+  border: 1px solid #16191f;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.466034847s; }
+  animation-delay: 0.9717674662s; }
   @media (max-width: 767px) {
     .bg-drop-16 {
       display: none; } }
@@ -753,29 +721,27 @@ p {
   .bg-drop-16::after {
     content: '';
     position: absolute;
-    padding: 1.2505252604rem;
+    padding: 1.0421031947rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #181e22;
+    background: #121419;
     z-index: -1; }
 
 .bg-drop-17 {
   position: absolute;
   z-index: -1;
-  width: 3rem;
-  height: 3rem;
-  top: 97%;
-  left: 97%;
-  border: 1px solid #526472;
-  border-radius: 16%;
-  transform: rotate(220deg);
+  width: 1rem;
+  height: 1rem;
+  top: 13%;
+  left: 56%;
+  border: 1px solid #4e5a70;
   animation-name: appear;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.669459405s; }
+  animation-delay: 0.6046937939s; }
   @media (max-width: 767px) {
     .bg-drop-17 {
       display: none; } }
@@ -785,29 +751,27 @@ p {
   .bg-drop-17::after {
     content: '';
     position: absolute;
-    padding: 1.1694918629rem;
+    padding: 0.8076663763rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #181e22;
+    background: #0f1216;
     z-index: -1; }
 
 .bg-drop-18 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 17%;
-  left: 93%;
-  border: 1px solid #2e3840;
-  border-radius: 41%;
-  transform: rotate(139deg);
+  width: 4rem;
+  height: 4rem;
+  top: 65%;
+  left: 98%;
+  border: 1px solid #485267;
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.4382141716s; }
+  animation-delay: 1.4863145503s; }
   @media (max-width: 767px) {
     .bg-drop-18 {
       display: none; } }
@@ -817,29 +781,27 @@ p {
   .bg-drop-18::after {
     content: '';
     position: absolute;
-    padding: 1.1292395362rem;
+    padding: 0.4598951341rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #181e22;
+    background: #090a0d;
     z-index: -1; }
 
 .bg-drop-19 {
   position: absolute;
   z-index: -1;
-  width: 2rem;
-  height: 2rem;
-  top: 63%;
-  left: 71%;
-  border: 1px solid #50626f;
-  border-radius: 19%;
-  transform: rotate(333deg);
+  width: 3rem;
+  height: 3rem;
+  top: 98%;
+  left: 91%;
+  border: 1px solid #515c73;
   animation-name: appear;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0.6908495771s; }
+  animation-delay: 1.1992996408s; }
   @media (max-width: 767px) {
     .bg-drop-19 {
       display: none; } }
@@ -849,12 +811,12 @@ p {
   .bg-drop-19::after {
     content: '';
     position: absolute;
-    padding: 0.6291244008rem;
+    padding: 1.2019054101rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #181e22;
+    background: #0d0f13;
     z-index: -1; }
 
 .bg-drop-20 {
@@ -862,16 +824,14 @@ p {
   z-index: -1;
   width: 2rem;
   height: 2rem;
-  top: 15%;
-  left: 75%;
-  border: 1px solid #566978;
-  border-radius: 31%;
-  transform: rotate(275deg);
+  top: 28%;
+  left: 87%;
+  border: 1px solid #3e4658;
   animation-name: appear;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1.4857732594s; }
+  animation-delay: 0.7535349187s; }
   @media (max-width: 767px) {
     .bg-drop-20 {
       display: none; } }
@@ -881,12 +841,2412 @@ p {
   .bg-drop-20::after {
     content: '';
     position: absolute;
-    padding: 0.9088273897rem;
+    padding: 0.5389717331rem;
     width: 2px;
     height: 100%;
     top: -300%;
     left: calc(50% - 2px);
-    background: #14191c;
+    background: #090a0d;
+    z-index: -1; }
+
+.bg-drop-21 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 23%;
+  left: 81%;
+  border: 1px solid #16191f;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.373897681s; }
+  @media (max-width: 767px) {
+    .bg-drop-21 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-21 {
+      display: none; } }
+  .bg-drop-21::after {
+    content: '';
+    position: absolute;
+    padding: 0.3651498039rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-22 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 27%;
+  left: 74%;
+  border: 1px solid #242a34;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7827204625s; }
+  @media (max-width: 767px) {
+    .bg-drop-22 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-22 {
+      display: none; } }
+  .bg-drop-22::after {
+    content: '';
+    position: absolute;
+    padding: 0.5488171015rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-23 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 61%;
+  left: 96%;
+  border: 1px solid #0d0f13;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7096698011s; }
+  @media (max-width: 767px) {
+    .bg-drop-23 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-23 {
+      display: none; } }
+  .bg-drop-23::after {
+    content: '';
+    position: absolute;
+    padding: 0.9926309444rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-24 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 30%;
+  left: 99%;
+  border: 1px solid #1a1e25;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.6168370996s; }
+  @media (max-width: 767px) {
+    .bg-drop-24 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-24 {
+      display: none; } }
+  .bg-drop-24::after {
+    content: '';
+    position: absolute;
+    padding: 0.7445442857rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-25 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 60%;
+  left: 59%;
+  border: 1px solid #16191f;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.1068871522s; }
+  @media (max-width: 767px) {
+    .bg-drop-25 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-25 {
+      display: none; } }
+  .bg-drop-25::after {
+    content: '';
+    position: absolute;
+    padding: 1.273931344rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-26 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 87%;
+  left: 66%;
+  border: 1px solid #2b313d;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7875220376s; }
+  @media (max-width: 767px) {
+    .bg-drop-26 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-26 {
+      display: none; } }
+  .bg-drop-26::after {
+    content: '';
+    position: absolute;
+    padding: 0.7166953021rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-27 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 43%;
+  left: 78%;
+  border: 1px solid #0b0d10;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.4633028977s; }
+  @media (max-width: 767px) {
+    .bg-drop-27 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-27 {
+      display: none; } }
+  .bg-drop-27::after {
+    content: '';
+    position: absolute;
+    padding: 0.9490097084rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #090a0d;
+    z-index: -1; }
+
+.bg-drop-28 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 3%;
+  left: 88%;
+  border: 1px solid #1e222b;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.3785121408s; }
+  @media (max-width: 767px) {
+    .bg-drop-28 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-28 {
+      display: none; } }
+  .bg-drop-28::after {
+    content: '';
+    position: absolute;
+    padding: 0.3539232457rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-29 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 53%;
+  left: 69%;
+  border: 1px solid #1e222b;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8762612999s; }
+  @media (max-width: 767px) {
+    .bg-drop-29 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-29 {
+      display: none; } }
+  .bg-drop-29::after {
+    content: '';
+    position: absolute;
+    padding: 0.5720225489rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-30 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 69%;
+  left: 64%;
+  border: 1px solid #2b313d;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8190449829s; }
+  @media (max-width: 767px) {
+    .bg-drop-30 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-30 {
+      display: none; } }
+  .bg-drop-30::after {
+    content: '';
+    position: absolute;
+    padding: 1.0442261107rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-31 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 11%;
+  left: 88%;
+  border: 1px solid #0f1216;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9047690245s; }
+  @media (max-width: 767px) {
+    .bg-drop-31 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-31 {
+      display: none; } }
+  .bg-drop-31::after {
+    content: '';
+    position: absolute;
+    padding: 0.4103951408rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-32 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 72%;
+  left: 74%;
+  border: 1px solid #333a49;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2695103287s; }
+  @media (max-width: 767px) {
+    .bg-drop-32 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-32 {
+      display: none; } }
+  .bg-drop-32::after {
+    content: '';
+    position: absolute;
+    padding: 0.4945196102rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-33 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 72%;
+  left: 59%;
+  border: 1px solid #0d0f13;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9697566855s; }
+  @media (max-width: 767px) {
+    .bg-drop-33 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-33 {
+      display: none; } }
+  .bg-drop-33::after {
+    content: '';
+    position: absolute;
+    padding: 0.4995984709rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-34 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 34%;
+  left: 94%;
+  border: 1px solid #444e61;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.6636704401s; }
+  @media (max-width: 767px) {
+    .bg-drop-34 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-34 {
+      display: none; } }
+  .bg-drop-34::after {
+    content: '';
+    position: absolute;
+    padding: 0.7357608207rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-35 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 12%;
+  left: 68%;
+  border: 1px solid #444e61;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.1669657705s; }
+  @media (max-width: 767px) {
+    .bg-drop-35 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-35 {
+      display: none; } }
+  .bg-drop-35::after {
+    content: '';
+    position: absolute;
+    padding: 0.7524088862rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-36 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 2%;
+  left: 76%;
+  border: 1px solid #4c576d;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9517812402s; }
+  @media (max-width: 767px) {
+    .bg-drop-36 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-36 {
+      display: none; } }
+  .bg-drop-36::after {
+    content: '';
+    position: absolute;
+    padding: 0.6393464112rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-37 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 99%;
+  left: 92%;
+  border: 1px solid #0b0d10;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7252482621s; }
+  @media (max-width: 767px) {
+    .bg-drop-37 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-37 {
+      display: none; } }
+  .bg-drop-37::after {
+    content: '';
+    position: absolute;
+    padding: 0.7813419033rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-38 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 28%;
+  left: 73%;
+  border: 1px solid #2f3643;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9531718862s; }
+  @media (max-width: 767px) {
+    .bg-drop-38 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-38 {
+      display: none; } }
+  .bg-drop-38::after {
+    content: '';
+    position: absolute;
+    padding: 0.9654461595rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-39 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 13%;
+  left: 55%;
+  border: 1px solid #16191f;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8925985002s; }
+  @media (max-width: 767px) {
+    .bg-drop-39 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-39 {
+      display: none; } }
+  .bg-drop-39::after {
+    content: '';
+    position: absolute;
+    padding: 1.2557215673rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-40 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 63%;
+  left: 87%;
+  border: 1px solid #16191f;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9442883542s; }
+  @media (max-width: 767px) {
+    .bg-drop-40 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-40 {
+      display: none; } }
+  .bg-drop-40::after {
+    content: '';
+    position: absolute;
+    padding: 0.530474859rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-41 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 82%;
+  left: 68%;
+  border: 1px solid #242a34;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.4537919911s; }
+  @media (max-width: 767px) {
+    .bg-drop-41 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-41 {
+      display: none; } }
+  .bg-drop-41::after {
+    content: '';
+    position: absolute;
+    padding: 0.5378861421rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-42 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 32%;
+  left: 78%;
+  border: 1px solid #292e3a;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9746150793s; }
+  @media (max-width: 767px) {
+    .bg-drop-42 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-42 {
+      display: none; } }
+  .bg-drop-42::after {
+    content: '';
+    position: absolute;
+    padding: 1.089055047rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-43 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 17%;
+  left: 95%;
+  border: 1px solid #1a1e25;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.4098759019s; }
+  @media (max-width: 767px) {
+    .bg-drop-43 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-43 {
+      display: none; } }
+  .bg-drop-43::after {
+    content: '';
+    position: absolute;
+    padding: 0.5148952369rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-44 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 90%;
+  left: 99%;
+  border: 1px solid #2b313d;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.125762679s; }
+  @media (max-width: 767px) {
+    .bg-drop-44 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-44 {
+      display: none; } }
+  .bg-drop-44::after {
+    content: '';
+    position: absolute;
+    padding: 1.0808330885rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #090a0d;
+    z-index: -1; }
+
+.bg-drop-45 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 5%;
+  left: 74%;
+  border: 1px solid #333a49;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.3085816416s; }
+  @media (max-width: 767px) {
+    .bg-drop-45 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-45 {
+      display: none; } }
+  .bg-drop-45::after {
+    content: '';
+    position: absolute;
+    padding: 0.8492177189rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-46 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 2%;
+  left: 61%;
+  border: 1px solid #272c37;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.6584287193s; }
+  @media (max-width: 767px) {
+    .bg-drop-46 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-46 {
+      display: none; } }
+  .bg-drop-46::after {
+    content: '';
+    position: absolute;
+    padding: 0.5589380245rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-47 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 30%;
+  left: 90%;
+  border: 1px solid #1a1e25;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7237583619s; }
+  @media (max-width: 767px) {
+    .bg-drop-47 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-47 {
+      display: none; } }
+  .bg-drop-47::after {
+    content: '';
+    position: absolute;
+    padding: 0.6652869291rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-48 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 10%;
+  left: 84%;
+  border: 1px solid #16191f;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.912591944s; }
+  @media (max-width: 767px) {
+    .bg-drop-48 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-48 {
+      display: none; } }
+  .bg-drop-48::after {
+    content: '';
+    position: absolute;
+    padding: 0.6157255729rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-49 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 95%;
+  left: 81%;
+  border: 1px solid #16191f;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.6536774009s; }
+  @media (max-width: 767px) {
+    .bg-drop-49 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-49 {
+      display: none; } }
+  .bg-drop-49::after {
+    content: '';
+    position: absolute;
+    padding: 1.0880643714rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-50 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 13%;
+  left: 77%;
+  border: 1px solid #121419;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9844858106s; }
+  @media (max-width: 767px) {
+    .bg-drop-50 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-50 {
+      display: none; } }
+  .bg-drop-50::after {
+    content: '';
+    position: absolute;
+    padding: 0.3402923649rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #090a0d;
+    z-index: -1; }
+
+.bg-drop-51 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 29%;
+  left: 99%;
+  border: 1px solid #353d4c;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.1398117071s; }
+  @media (max-width: 767px) {
+    .bg-drop-51 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-51 {
+      display: none; } }
+  .bg-drop-51::after {
+    content: '';
+    position: absolute;
+    padding: 1.1064625344rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-52 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 99%;
+  left: 75%;
+  border: 1px solid #4c576d;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2533206172s; }
+  @media (max-width: 767px) {
+    .bg-drop-52 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-52 {
+      display: none; } }
+  .bg-drop-52::after {
+    content: '';
+    position: absolute;
+    padding: 0.3164266492rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-53 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 94%;
+  left: 74%;
+  border: 1px solid #222731;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.6585300811s; }
+  @media (max-width: 767px) {
+    .bg-drop-53 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-53 {
+      display: none; } }
+  .bg-drop-53::after {
+    content: '';
+    position: absolute;
+    padding: 0.5257998228rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #090a0d;
+    z-index: -1; }
+
+.bg-drop-54 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 3%;
+  left: 87%;
+  border: 1px solid #121419;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5042820695s; }
+  @media (max-width: 767px) {
+    .bg-drop-54 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-54 {
+      display: none; } }
+  .bg-drop-54::after {
+    content: '';
+    position: absolute;
+    padding: 1.2629227327rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-55 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 31%;
+  left: 73%;
+  border: 1px solid #333a49;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8211724147s; }
+  @media (max-width: 767px) {
+    .bg-drop-55 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-55 {
+      display: none; } }
+  .bg-drop-55::after {
+    content: '';
+    position: absolute;
+    padding: 0.3458502493rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-56 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 35%;
+  left: 68%;
+  border: 1px solid #373f4f;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7794500875s; }
+  @media (max-width: 767px) {
+    .bg-drop-56 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-56 {
+      display: none; } }
+  .bg-drop-56::after {
+    content: '';
+    position: absolute;
+    padding: 0.9156380519rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-57 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 92%;
+  left: 97%;
+  border: 1px solid #2d3340;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.1951907587s; }
+  @media (max-width: 767px) {
+    .bg-drop-57 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-57 {
+      display: none; } }
+  .bg-drop-57::after {
+    content: '';
+    position: absolute;
+    padding: 0.5253237362rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-58 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 83%;
+  left: 65%;
+  border: 1px solid #333a49;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.4501523281s; }
+  @media (max-width: 767px) {
+    .bg-drop-58 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-58 {
+      display: none; } }
+  .bg-drop-58::after {
+    content: '';
+    position: absolute;
+    padding: 1.222261705rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #090a0d;
+    z-index: -1; }
+
+.bg-drop-59 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 11%;
+  left: 99%;
+  border: 1px solid #444e61;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2054122487s; }
+  @media (max-width: 767px) {
+    .bg-drop-59 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-59 {
+      display: none; } }
+  .bg-drop-59::after {
+    content: '';
+    position: absolute;
+    padding: 0.9280564067rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-60 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 10%;
+  left: 58%;
+  border: 1px solid #0f1216;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7570515759s; }
+  @media (max-width: 767px) {
+    .bg-drop-60 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-60 {
+      display: none; } }
+  .bg-drop-60::after {
+    content: '';
+    position: absolute;
+    padding: 1.0353653289rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-61 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 66%;
+  left: 92%;
+  border: 1px solid #1a1e25;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5939919801s; }
+  @media (max-width: 767px) {
+    .bg-drop-61 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-61 {
+      display: none; } }
+  .bg-drop-61::after {
+    content: '';
+    position: absolute;
+    padding: 1.1390778493rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-62 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 97%;
+  left: 62%;
+  border: 1px solid #121419;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8298908426s; }
+  @media (max-width: 767px) {
+    .bg-drop-62 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-62 {
+      display: none; } }
+  .bg-drop-62::after {
+    content: '';
+    position: absolute;
+    padding: 1.1025635165rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-63 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 84%;
+  left: 82%;
+  border: 1px solid #3e4658;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.3392572732s; }
+  @media (max-width: 767px) {
+    .bg-drop-63 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-63 {
+      display: none; } }
+  .bg-drop-63::after {
+    content: '';
+    position: absolute;
+    padding: 0.4332505192rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-64 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 2%;
+  left: 91%;
+  border: 1px solid #2b313d;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9274643058s; }
+  @media (max-width: 767px) {
+    .bg-drop-64 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-64 {
+      display: none; } }
+  .bg-drop-64::after {
+    content: '';
+    position: absolute;
+    padding: 0.4302233328rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #090a0d;
+    z-index: -1; }
+
+.bg-drop-65 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 50%;
+  left: 92%;
+  border: 1px solid #292e3a;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.6928741277s; }
+  @media (max-width: 767px) {
+    .bg-drop-65 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-65 {
+      display: none; } }
+  .bg-drop-65::after {
+    content: '';
+    position: absolute;
+    padding: 1.223065013rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-66 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 17%;
+  left: 76%;
+  border: 1px solid #0b0d10;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5280626405s; }
+  @media (max-width: 767px) {
+    .bg-drop-66 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-66 {
+      display: none; } }
+  .bg-drop-66::after {
+    content: '';
+    position: absolute;
+    padding: 0.9718099522rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-67 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 60%;
+  left: 55%;
+  border: 1px solid #394252;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2509442003s; }
+  @media (max-width: 767px) {
+    .bg-drop-67 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-67 {
+      display: none; } }
+  .bg-drop-67::after {
+    content: '';
+    position: absolute;
+    padding: 1.015560566rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-68 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 96%;
+  left: 78%;
+  border: 1px solid #2d3340;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9830849745s; }
+  @media (max-width: 767px) {
+    .bg-drop-68 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-68 {
+      display: none; } }
+  .bg-drop-68::after {
+    content: '';
+    position: absolute;
+    padding: 0.7066549757rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-69 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 33%;
+  left: 52%;
+  border: 1px solid #4a556a;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9898619849s; }
+  @media (max-width: 767px) {
+    .bg-drop-69 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-69 {
+      display: none; } }
+  .bg-drop-69::after {
+    content: '';
+    position: absolute;
+    padding: 1.0379614267rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-70 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 21%;
+  left: 92%;
+  border: 1px solid #1a1e25;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5613092068s; }
+  @media (max-width: 767px) {
+    .bg-drop-70 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-70 {
+      display: none; } }
+  .bg-drop-70::after {
+    content: '';
+    position: absolute;
+    padding: 1.1353395523rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-71 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 71%;
+  left: 92%;
+  border: 1px solid #394252;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9241350157s; }
+  @media (max-width: 767px) {
+    .bg-drop-71 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-71 {
+      display: none; } }
+  .bg-drop-71::after {
+    content: '';
+    position: absolute;
+    padding: 1.0415224315rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-72 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 11%;
+  left: 98%;
+  border: 1px solid #16191f;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8699638697s; }
+  @media (max-width: 767px) {
+    .bg-drop-72 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-72 {
+      display: none; } }
+  .bg-drop-72::after {
+    content: '';
+    position: absolute;
+    padding: 1.2894698902rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-73 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 28%;
+  left: 84%;
+  border: 1px solid #222731;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5675232382s; }
+  @media (max-width: 767px) {
+    .bg-drop-73 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-73 {
+      display: none; } }
+  .bg-drop-73::after {
+    content: '';
+    position: absolute;
+    padding: 1.2970610663rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-74 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 36%;
+  left: 63%;
+  border: 1px solid #20252e;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.3444520108s; }
+  @media (max-width: 767px) {
+    .bg-drop-74 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-74 {
+      display: none; } }
+  .bg-drop-74::after {
+    content: '';
+    position: absolute;
+    padding: 0.4988300346rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-75 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 36%;
+  left: 70%;
+  border: 1px solid #485267;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7907907541s; }
+  @media (max-width: 767px) {
+    .bg-drop-75 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-75 {
+      display: none; } }
+  .bg-drop-75::after {
+    content: '';
+    position: absolute;
+    padding: 0.7938091312rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-76 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 41%;
+  left: 98%;
+  border: 1px solid #1a1e25;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8561553452s; }
+  @media (max-width: 767px) {
+    .bg-drop-76 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-76 {
+      display: none; } }
+  .bg-drop-76::after {
+    content: '';
+    position: absolute;
+    padding: 1.2902587963rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-77 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 74%;
+  left: 69%;
+  border: 1px solid #485267;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5227284532s; }
+  @media (max-width: 767px) {
+    .bg-drop-77 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-77 {
+      display: none; } }
+  .bg-drop-77::after {
+    content: '';
+    position: absolute;
+    padding: 0.6235976027rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-78 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 97%;
+  left: 99%;
+  border: 1px solid #1a1e25;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2993349838s; }
+  @media (max-width: 767px) {
+    .bg-drop-78 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-78 {
+      display: none; } }
+  .bg-drop-78::after {
+    content: '';
+    position: absolute;
+    padding: 1.0457248626rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-79 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 74%;
+  left: 87%;
+  border: 1px solid #3e4658;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.0858726391s; }
+  @media (max-width: 767px) {
+    .bg-drop-79 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-79 {
+      display: none; } }
+  .bg-drop-79::after {
+    content: '';
+    position: absolute;
+    padding: 0.8058613057rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #090a0d;
+    z-index: -1; }
+
+.bg-drop-80 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 33%;
+  left: 87%;
+  border: 1px solid #373f4f;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.3559285395s; }
+  @media (max-width: 767px) {
+    .bg-drop-80 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-80 {
+      display: none; } }
+  .bg-drop-80::after {
+    content: '';
+    position: absolute;
+    padding: 1.1898294125rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-81 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 6%;
+  left: 77%;
+  border: 1px solid #0d0f13;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2808028163s; }
+  @media (max-width: 767px) {
+    .bg-drop-81 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-81 {
+      display: none; } }
+  .bg-drop-81::after {
+    content: '';
+    position: absolute;
+    padding: 0.787436439rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-82 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 14%;
+  left: 57%;
+  border: 1px solid #1c2028;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2965855525s; }
+  @media (max-width: 767px) {
+    .bg-drop-82 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-82 {
+      display: none; } }
+  .bg-drop-82::after {
+    content: '';
+    position: absolute;
+    padding: 1.1680679495rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-83 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 56%;
+  left: 82%;
+  border: 1px solid #242a34;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9740252742s; }
+  @media (max-width: 767px) {
+    .bg-drop-83 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-83 {
+      display: none; } }
+  .bg-drop-83::after {
+    content: '';
+    position: absolute;
+    padding: 0.5096651905rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-84 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 53%;
+  left: 91%;
+  border: 1px solid #222731;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7815416604s; }
+  @media (max-width: 767px) {
+    .bg-drop-84 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-84 {
+      display: none; } }
+  .bg-drop-84::after {
+    content: '';
+    position: absolute;
+    padding: 0.5051441173rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-85 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 49%;
+  left: 85%;
+  border: 1px solid #373f4f;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2595282622s; }
+  @media (max-width: 767px) {
+    .bg-drop-85 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-85 {
+      display: none; } }
+  .bg-drop-85::after {
+    content: '';
+    position: absolute;
+    padding: 0.7764137013rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-86 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 12%;
+  left: 100%;
+  border: 1px solid #3e4658;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.699849232s; }
+  @media (max-width: 767px) {
+    .bg-drop-86 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-86 {
+      display: none; } }
+  .bg-drop-86::after {
+    content: '';
+    position: absolute;
+    padding: 1.2674317309rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #090a0d;
+    z-index: -1; }
+
+.bg-drop-87 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 45%;
+  left: 78%;
+  border: 1px solid #090a0d;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8464412289s; }
+  @media (max-width: 767px) {
+    .bg-drop-87 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-87 {
+      display: none; } }
+  .bg-drop-87::after {
+    content: '';
+    position: absolute;
+    padding: 1.2432287582rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #121419;
+    z-index: -1; }
+
+.bg-drop-88 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 43%;
+  left: 60%;
+  border: 1px solid #181b22;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2757776381s; }
+  @media (max-width: 767px) {
+    .bg-drop-88 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-88 {
+      display: none; } }
+  .bg-drop-88::after {
+    content: '';
+    position: absolute;
+    padding: 1.0179994294rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-89 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 76%;
+  left: 71%;
+  border: 1px solid #353d4c;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.0790075066s; }
+  @media (max-width: 767px) {
+    .bg-drop-89 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-89 {
+      display: none; } }
+  .bg-drop-89::after {
+    content: '';
+    position: absolute;
+    padding: 0.8704402462rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-90 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 73%;
+  left: 53%;
+  border: 1px solid #272c37;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.3629447799s; }
+  @media (max-width: 767px) {
+    .bg-drop-90 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-90 {
+      display: none; } }
+  .bg-drop-90::after {
+    content: '';
+    position: absolute;
+    padding: 0.3799168595rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-91 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 9%;
+  left: 68%;
+  border: 1px solid #515c73;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2192957518s; }
+  @media (max-width: 767px) {
+    .bg-drop-91 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-91 {
+      display: none; } }
+  .bg-drop-91::after {
+    content: '';
+    position: absolute;
+    padding: 0.7879150438rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-92 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 98%;
+  left: 84%;
+  border: 1px solid #0b0d10;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.6454874193s; }
+  @media (max-width: 767px) {
+    .bg-drop-92 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-92 {
+      display: none; } }
+  .bg-drop-92::after {
+    content: '';
+    position: absolute;
+    padding: 0.64197405rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-93 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 18%;
+  left: 98%;
+  border: 1px solid #0f1216;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.3180872756s; }
+  @media (max-width: 767px) {
+    .bg-drop-93 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-93 {
+      display: none; } }
+  .bg-drop-93::after {
+    content: '';
+    position: absolute;
+    padding: 0.3219491505rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-94 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 5%;
+  left: 85%;
+  border: 1px solid #3c4455;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8669632458s; }
+  @media (max-width: 767px) {
+    .bg-drop-94 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-94 {
+      display: none; } }
+  .bg-drop-94::after {
+    content: '';
+    position: absolute;
+    padding: 0.9965487212rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-95 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 33%;
+  left: 55%;
+  border: 1px solid #2d3340;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9700772443s; }
+  @media (max-width: 767px) {
+    .bg-drop-95 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-95 {
+      display: none; } }
+  .bg-drop-95::after {
+    content: '';
+    position: absolute;
+    padding: 0.9511415213rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-96 {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 4rem;
+  top: 83%;
+  left: 97%;
+  border: 1px solid #2f3643;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7806592884s; }
+  @media (max-width: 767px) {
+    .bg-drop-96 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-96 {
+      display: none; } }
+  .bg-drop-96::after {
+    content: '';
+    position: absolute;
+    padding: 0.6074685662rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0d0f13;
+    z-index: -1; }
+
+.bg-drop-97 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 60%;
+  left: 73%;
+  border: 1px solid #313846;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.4810808852s; }
+  @media (max-width: 767px) {
+    .bg-drop-97 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-97 {
+      display: none; } }
+  .bg-drop-97::after {
+    content: '';
+    position: absolute;
+    padding: 0.6913081484rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-98 {
+  position: absolute;
+  z-index: -1;
+  width: 1rem;
+  height: 1rem;
+  top: 15%;
+  left: 74%;
+  border: 1px solid #353d4c;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.773420919s; }
+  @media (max-width: 767px) {
+    .bg-drop-98 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-98 {
+      display: none; } }
+  .bg-drop-98::after {
+    content: '';
+    position: absolute;
+    padding: 0.7359376024rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0f1216;
+    z-index: -1; }
+
+.bg-drop-99 {
+  position: absolute;
+  z-index: -1;
+  width: 3rem;
+  height: 3rem;
+  top: 7%;
+  left: 73%;
+  border: 1px solid #0f1216;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.9182238594s; }
+  @media (max-width: 767px) {
+    .bg-drop-99 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-99 {
+      display: none; } }
+  .bg-drop-99::after {
+    content: '';
+    position: absolute;
+    padding: 1.1543740439rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #0b0d10;
+    z-index: -1; }
+
+.bg-drop-100 {
+  position: absolute;
+  z-index: -1;
+  width: 2rem;
+  height: 2rem;
+  top: 68%;
+  left: 68%;
+  border: 1px solid #20252e;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5558067467s; }
+  @media (max-width: 767px) {
+    .bg-drop-100 {
+      display: none; } }
+  @media (max-width: 991px) {
+    .bg-drop-100 {
+      display: none; } }
+  .bg-drop-100::after {
+    content: '';
+    position: absolute;
+    padding: 0.5484259339rem;
+    width: 2px;
+    height: 100%;
+    top: -300%;
+    left: calc(50% - 2px);
+    background: #090a0d;
     z-index: -1; }
 
 #stack-engraving {
@@ -934,10 +3294,10 @@ p {
         font-family: monospace;
         font-size: 14px;
         line-height: 1;
-        background: #121619;
+        background: #07080a;
         border-radius: 20px;
         padding: 0.25rem 0.5rem;
-        box-shadow: 1px 1px 0 2px #8497a6; }
+        box-shadow: 1px 1px 0 2px #73819d; }
     #header .navbar .navbar-avatar img {
       width: 45px;
       height: 45px;
@@ -979,7 +3339,7 @@ p {
     border-radius: 10px 0 0 10px;
     padding: 2rem 0 2rem 2rem;
     box-shadow: -2px -2px 0 2px #fff;
-    background-image: linear-gradient(-45deg, #86710a 20% 35%, #121619 100%);
+    background-image: linear-gradient(-45deg, #86710a 20% 35%, #07080a 100%);
     animation: slide-in 0.3s linear; }
     #header .navbar .navbar-menu .navbar-nav.navbar-collapse {
       display: none; }
@@ -1006,20 +3366,20 @@ p {
         font-size: 24px;
         border-radius: 50%;
         box-shadow: 5px 5px 0px #07090a, -5px -5px 0px #1d2328, -6px -6px 0px #333b42;
-        border: 1px solid #323d45;
-        background: #121619;
+        border: 1px solid #272c37;
+        background: #07080a;
         color: #fff;
         transition: 0.3s; }
         #header .navbar .navbar-menu .navbar-nav .nav-item.nav-social .social-link:not(:last-child) {
           margin-right: 0.5rem; }
         #header .navbar .navbar-menu .navbar-nav .nav-item.nav-social .social-link:active, #header .navbar .navbar-menu .navbar-nav .nav-item.nav-social .social-link:focus, #header .navbar .navbar-menu .navbar-nav .nav-item.nav-social .social-link:hover {
           background: #fff;
-          color: #121619; }
+          color: #07080a; }
     #header .navbar .navbar-menu .navbar-nav .nav-link {
       padding: 0.5rem 2.5rem;
       margin-left: auto;
       background: #efcc20;
-      color: #121619;
+      color: #07080a;
       border-radius: 0.25rem 0 0 0.25rem;
       text-decoration: none;
       font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
@@ -1027,9 +3387,9 @@ p {
       font-weight: 600;
       user-select: none;
       transition: 0.3s;
-      box-shadow: 0 0 0 3px #121619, -4px -4px 0 3px dodgerblue; }
+      box-shadow: 0 0 0 3px #07080a, -4px -4px 0 3px dodgerblue; }
       #header .navbar .navbar-menu .navbar-nav .nav-link:active, #header .navbar .navbar-menu .navbar-nav .nav-link:hover {
-        color: #121619;
+        color: #07080a;
         background: #9e850b; }
       @media (min-width: 768px) {
         #header .navbar .navbar-menu .navbar-nav .nav-link:last-child {
@@ -1066,19 +3426,19 @@ p {
     right: 0; } }
 @keyframes rays {
   50% {
-    color: #121619;
-    box-shadow: 0 0 0 1px dodgerblue; }
+    color: #07080a;
+    box-shadow: 0 0 2px 1px dodgerblue; }
   0%,
   100%,
   90% {
     color: #fff;
-    box-shadow: 0 0 0 1px #121619; } }
+    box-shadow: 0 0 0 1px #07080a; } }
 @keyframes appear {
   0% {
     display: none; }
   50% {
     display: initial;
-    background: #151a1d; } }
+    background: #090b0d; } }
 section#landing {
   min-height: 100vh;
   position: relative;
@@ -1090,20 +3450,24 @@ section#landing {
       display: none !important;
       transition: 0.5s; }
   section#landing::before {
-    content: 'CY Kalu';
+    content: 'Welcome';
     position: fixed;
     width: 100%;
     bottom: 0;
     display: flex;
     justify-content: start;
     font-family: monospace;
-    font-size: 200px;
+    font-size: 160px;
     font-weight: bolder;
-    line-height: 140px;
-    letter-spacing: -50px;
-    color: gray;
-    opacity: 0.07;
-    overflow: hidden; }
+    line-height: 120px;
+    letter-spacing: -20px;
+    opacity: 0.4;
+    overflow: hidden;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(45deg, #fff 20%, #5a88bf 30%);
+    background: -webkit-linear-gradient(45deg, #fff 10%, #474747 20%); }
   section#landing .col:first-child {
     width: 100%; }
     @media (min-width: 768px) {
@@ -1124,14 +3488,14 @@ section#landing {
   padding: 0.75rem 1rem;
   border: 1px solid #888888;
   border-radius: 5px;
-  background: #121619 !important;
+  background: #07080a !important;
   color: #fff !important;
   font-size: 1rem;
   font-family: monospace; }
   .form-control:focus {
     box-shadow: 0 0 2px 2px dodgerblue;
     background: #fff;
-    color: #121619; }
+    color: #07080a; }
 
 .ff-primary {
   font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important; }
@@ -1164,7 +3528,7 @@ section#landing {
   color: #efcc20 !important; }
 
 .text-dark {
-  color: #121619 !important; }
+  color: #07080a !important; }
 
 .text-grey {
   color: #edf2f8 !important; }
@@ -1329,16 +3693,32 @@ section#landing {
   background-clip: text !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent; }
+  .text-clip::-moz-selection {
+    background: #efcc20;
+    background-clip: initial !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #07080a !important; }
+  .text-clip::selection {
+    background: #efcc20 !important;
+    background-clip: initial !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #07080a !important; }
 
 .text-gradient-1 {
   background: linear-gradient(-90deg, #92f1c3, #569df0);
   background: -webkit-linear-gradient(-90deg, #92f1c3, #569df0); }
 
 .text-gradient-2 {
+  background: linear-gradient(-75deg, #ff7170, #ffe57f);
   background: -webkit-linear-gradient(-75deg, #ff7170, #ffe57f); }
 
 .text-gradient-3 {
+  background: linear-gradient(45deg, dodgerblue 10%, #fff 90%);
   background: -webkit-linear-gradient(45deg, dodgerblue 10%, #fff 90%); }
+
+.text-gradient-4 {
+  background: linear-gradient(90deg, #fff 10%, #a4bddb 90%);
+  background: -webkit-linear-gradient(90deg, #fff 10%, #a4bddb 90%); }
 
 .bg-primary {
   background-color: dodgerblue; }
@@ -1347,7 +3727,7 @@ section#landing {
   background-color: #efcc20; }
 
 .bg-dark {
-  background-color: #121619; }
+  background-color: #07080a; }
 
 .bg-grey {
   background-color: #edf2f8; }
