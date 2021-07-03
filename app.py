@@ -9,6 +9,30 @@ FILE_PATH = OUTPUT_PATH / 'index.html'
 STATIC_DIR = BASE_DIR / 'assets' / 'static'
 STATIC_OUTPUT = BASE_DIR / 'assets' / 'static'
 
+context = {
+    'languages': [
+        ('Python', 'devicon-python-plain'),
+        ('Ruby', 'devicon-ruby-plain'),
+        ('JavaScript', 'devicon-javascript-plain'),
+        ('HTML', 'devicon-html5-plain'),
+        ('CSS', 'devicon-css3-plain'),
+        ('SASS', 'devicon-sass-original')
+    ],
+    'frameworks': [
+        ('Django', 'devicon-django-plain'),
+        ('Rails', 'devicon-rails-plain'),
+        ('React', 'devicon-react-original'),
+        ('Redux', 'devicon-redux-original'),
+        ('Bootstrap', 'devicon-bootstrap-plain')
+    ],
+    'skills': [
+        'Back-end',
+        'Front-end',
+        'Pair-programming',
+        'Remote collaboration'
+    ]
+}
+
 
 def compile():
     loader = jinja2.FileSystemLoader('templates')
@@ -23,7 +47,7 @@ def compile():
     Path.touch(FILE_PATH)
 
     with open(FILE_PATH, 'w') as file:
-        file.write(sample.render())
+        file.write(sample.render(context))
 
     copytree(STATIC_DIR, OUTPUT_PATH / 'static')
     print('\n===========\nOperation completed successfully.\n')
