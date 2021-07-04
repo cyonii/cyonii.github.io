@@ -42,13 +42,13 @@ section {
       width: 100%;
 
       &:first-child {
-        @include breakpoint-and-up('md') {
+        @include breakpoint-and-up('lg') {
           width: 50%;
         }
       }
 
       &:nth-child(2) {
-        @include breakpoint-and-up('md') {
+        @include breakpoint-and-up('lg') {
           width: 45%;
           min-height: 420px;
         }

@@ -12,7 +12,7 @@
   $size: random(4);
   width: #{$size}rem;
   height: #{$size}rem;
-  top: unquote('#{random(100)}%');
+  top: unquote('#{random(120)}%');
   left: unquote('#{random(50) + 50}%');
   border: 1px solid lighten($dark, random(35));
   animation-name: appear;

@@ -117,13 +117,14 @@
       display: flex;
       align-items: center;
       background: lighten($dark, 3);
+      border: 1px solid #aaa;
       border-radius: 5px;
-      box-shadow: -5px -5px 4px 2px lighten($dark, 2), -6px -6px 0 0 darken($grey, 25),
-        1px 1px 5px 4px darken($dark, 5), 2px 2px 0 0 lighten($dark, 50);
+      box-shadow: inset -5px -5px 11px #060608, inset 5px 5px 11px #161a22;
       color: $primary;
-      font-size: 14px !important;
+      font-size: 14px;
       font-weight: bolder;
-      @include breakpoint-and-up('md') {
+
+      @include breakpoint-and-up('lg') {
         flex-direction: column;
         justify-content: center;
       }
@@ -133,6 +134,9 @@
         color: lighten($dark, 25);
         animation: glow 3s ease-in infinite;
         @include breakpoint-and-up('md') {
+          font-size: 2rem;
+        }
+        @include breakpoint-and-up('lg') {
           font-size: 3.5rem;
         }
       }
@@ -200,14 +204,18 @@
     position: absolute;
     z-index: -1;
     @include celestial-body();
+
     @if $i > 10 {
-      @media (max-width: 767px) {
-        display: none;
-      }
-    }
-    @if $i > 15 {
-      @media (max-width: 991px) {
-        display: none;
+      display: none;
+
+      @if $i < 15 {
+        @include breakpoint-and-up('md') {
+          display: initial;
+        }
+      } @else {
+        @include breakpoint-and-up('lg') {
+          display: initial;
+        }
       }
     }
 
