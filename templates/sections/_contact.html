@@ -10,17 +10,13 @@
     </div>
 
     <div class="colss">
-      <form method="get" action="#contact">
-        <div class="form-group mb-2">
-          <input class="form-control" type="text" name="subject" placeholder="Subject">
+      <form method="POST" action="https://formspree.io/f/mjvjeodg">
+        <div class="form-group mb-3">
+          <input class="form-control" type="email" name="_replyto" placeholder="Your mail">
         </div>
 
         <div class="form-group mb-2">
-          <input class="form-control" type="email" name="email" placeholder="Email">
-        </div>
-
-        <div class="form-group mb-2">
-          <textarea class="form-control" name="message" rows="8" cols="80" placeholder="Message"></textarea>
+          <textarea class="form-control" id="" name="message" rows="8" cols="80" placeholder="Message"></textarea>
         </div>
 
         <input class="btn btn-lg" type="submit" value="Send">
