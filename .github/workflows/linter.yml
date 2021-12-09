@@ -1,0 +1,19 @@
+name: Linters
+
+on: pull_request
+
+env:
+  FORCE_COLOR: 1
+  GITHUB_TOKEN: ${{ secrets.github_token }}
+
+jobs:
+  super-lint:
+    name: Lint code base
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run Super-Linter
+        uses: github/super-linter@v3
+          
