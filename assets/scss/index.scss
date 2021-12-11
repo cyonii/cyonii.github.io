@@ -1,0 +1,45 @@
+$primary: dodgerblue;
+$enable-transitions: false;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+button,
+.btn {
+  &:hover,
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.avatar-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+
+  @include media-breakpoint-up("md") {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+#navbar-content {
+  @include media-breakpoint-down("sm") {
+    position: absolute;
+    min-width: 60vw;
+    max-width: 90vw;
+    padding: 1rem 1.5rem 4rem;
+    top: 66px;
+    right: 1rem;
+    border: 2px solid $gray-800;
+    border-radius: 1rem;
+    box-shadow: -0.5rem 0.5rem 0 0 $gray-600;
+  }
+
+  & .nav-link {
+    font-variant: small-caps;
+
+    @include media-breakpoint-down("sm") {
+      border-bottom: 1px solid $gray-200;
+    }
+  }
+}
