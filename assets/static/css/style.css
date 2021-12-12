@@ -17140,6 +17140,7 @@ button:hover, button:focus,
 
 .navbar-toggler {
   transition: 0.3s;
+  font-size: 40px;
 }
 .navbar-toggler[aria-expanded=true] {
   color: dodgerblue !important;
@@ -17166,6 +17167,15 @@ button:hover, button:focus,
 @media (max-width: 575.98px) {
   #navbar-content .nav-link {
     border-bottom: 1px solid #e9ecef;
+  }
+}
+
+.intro-section {
+  min-height: calc(100vh - 62px);
+}
+@media (min-width: 768px) {
+  .intro-section {
+    min-height: calc(100vh - 76px);
   }
 }
 
