@@ -17161,25 +17161,21 @@ button:hover, button:focus,
     box-shadow: -0.5rem 0.5rem 0 0 #6c757d;
   }
 }
-#navbar-content .nav-link {
-  font-variant: small-caps;
-}
 @media (max-width: 575.98px) {
   #navbar-content .nav-link {
     border-bottom: 1px solid #e9ecef;
   }
 }
 
-.intro-section {
+#intro-section {
   min-height: calc(100vh - 62px);
 }
 @media (min-width: 768px) {
-  .intro-section {
+  #intro-section {
     min-height: calc(100vh - 76px);
   }
 }
-
-#intro-col .hello-pop {
+#intro-section .intro-col .hello-pop {
   position: absolute;
   top: -100%;
   right: 0%;
@@ -17191,7 +17187,7 @@ button:hover, button:focus,
   transform: rotate(10deg);
   animation: scale-bounce 2s ease-in-out infinite alternate;
 }
-#intro-col .hello-pop::after {
+#intro-section .intro-col .hello-pop::after {
   content: "";
   position: absolute;
   top: 98%;
@@ -17203,7 +17199,7 @@ button:hover, button:focus,
   border-right: 8px solid transparent;
   border-top: 8px solid #212529;
 }
-#intro-col .intro-text {
+#intro-section .intro-col .intro-text {
   background-clip: text !important;
   -webkit-background-clip: text !important;
   -moz-background-clip: text !important;

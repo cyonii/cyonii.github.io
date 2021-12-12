@@ -15,33 +15,32 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container d-flex justify-content-sm-center">
           <a class="navbar-brand p-0" href="/">
-            <img class="img-fluid avatar-logo" src="./assets/static/images/cyAvatar.png" alt="CY Avatar">
+            <img class="img-fluid border border-2 border-muted avatar-logo" src="./assets/static/images/cyAvatar.png"
+              alt="CY Avatar">
           </a>
           <button class="navbar-toggler border-0 py-0" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false"
             aria-label="Toggle navigation">
-            <!-- <span class="navbar-toggler-icon"></span> -->
             <i class="bi bi-joystick"></i>
           </button>
           <div class="collapse navbar-collapse flex-grow-0" id="navbar-content">
             <div class="navbar-nav fs-5">
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Projects</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link text-secondary" href="#"><i class="bi bi-info-circle me-2"></i>About</a>
+              <a class="nav-link text-secondary" href="#"><i class="bi bi-building me-2"></i>Projects</a>
+              <a class="nav-link text-secondary" href="#"><i class="bi bi-telephone-inbound me-2"></i>Contact</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section class="intro-section">
+      <section id="intro-section">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 py-5" id="intro-col">
-              <!-- <div class="hello-pop text-muted fs-5">Hello, I am</div> -->
+            <div class="col-md-8 intro-col py-5">
               <div class="intro-title display-4 d-inline-block border position-relative fw-bold mt-5 mb-4">
                 <div class="hello-pop text-white fs-6">Hello, I am</div>
                 <span class="text-muted">Silas</span> <span class="mark text-dark">Kalu</span>

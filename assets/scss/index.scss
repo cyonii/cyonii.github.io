@@ -57,7 +57,7 @@ button,
   }
 
   & .nav-link {
-    font-variant: small-caps;
+    // font-variant: small-caps;
 
     @include media-breakpoint-down("sm") {
       border-bottom: 1px solid $gray-200;
@@ -65,49 +65,49 @@ button,
   }
 }
 
-.intro-section {
+#intro-section {
   min-height: calc(100vh - 62px);
 
   @include media-breakpoint-up("md") {
     min-height: calc(100vh - 76px);
   }
-}
 
-#intro-col {
-  // Hello popover
-  .hello-pop {
-    position: absolute;
-    top: -100%;
-    right: 0%;
-    padding: 0.75rem 1rem;
-    background-color: $dark;
-    border-radius: 5px;
-    box-shadow: -3px -3px $gray-400;
-    font-weight: 300;
-    transform: rotate(10deg);
-    animation: scale-bounce 2s ease-in-out infinite alternate;
-
-    &::after {
-      content: "";
+  .intro-col {
+    // Hello popover
+    .hello-pop {
       position: absolute;
-      top: 98%;
-      right: 10%;
-      transform: translateX(-50%);
-      width: 0;
-      height: 0;
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-top: 8px solid $dark;
-    }
-  }
+      top: -100%;
+      right: 0%;
+      padding: 0.75rem 1rem;
+      background-color: $dark;
+      border-radius: 5px;
+      box-shadow: -3px -3px $gray-400;
+      font-weight: 300;
+      transform: rotate(10deg);
+      animation: scale-bounce 2s ease-in-out infinite alternate;
 
-  .intro-text {
-    background-clip: text !important;
-    -webkit-background-clip: text !important;
-    -moz-background-clip: text !important;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
-    background: -webkit-linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
+      &::after {
+        content: "";
+        position: absolute;
+        top: 98%;
+        right: 10%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid $dark;
+      }
+    }
+
+    .intro-text {
+      background-clip: text !important;
+      -webkit-background-clip: text !important;
+      -moz-background-clip: text !important;
+      -webkit-text-fill-color: transparent;
+      background: linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
+      background: -webkit-linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
+    }
   }
 }
 
