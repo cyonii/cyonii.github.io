@@ -1,7 +1,15 @@
 $primary: dodgerblue;
 $enable-transitions: false;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  // xxl: 1320px, // not used
+) !default;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 
 button,
 .btn {
@@ -22,6 +30,15 @@ button,
   }
 }
 
+// Navbar
+.navbar-toggler {
+  transition: 0.3s;
+
+  &[aria-expanded="true"] {
+    color: $primary !important;
+  }
+}
+
 #navbar-content {
   @include media-breakpoint-down("sm") {
     position: absolute;
@@ -30,6 +47,8 @@ button,
     padding: 1rem 1.5rem 4rem;
     top: 66px;
     right: 1rem;
+    z-index: 1;
+    background-color: $white;
     border: 2px solid $gray-800;
     border-radius: 1rem;
     box-shadow: -0.5rem 0.5rem 0 0 $gray-600;
@@ -42,4 +61,35 @@ button,
       border-bottom: 1px solid $gray-200;
     }
   }
+}
+
+// Micellaneous components
+.hello-pop {
+  position: absolute;
+  top: -100%;
+  right: 0%;
+  padding: 0.75rem 1rem;
+  background-color: $dark;
+  border-radius: 5px;
+  box-shadow: -0.5rem 0.5rem 0.75rem 1px $gray-600;
+  font-weight: 300;
+  transform: rotate(10deg);
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 98%;
+    right: 10%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid $dark;
+  }
+}
+
+// Utilities
+.font-mono {
+  font-family: "JetBrains Mono", monospace !important;
 }
