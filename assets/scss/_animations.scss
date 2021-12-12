@@ -1,9 +1,21 @@
 @keyframes scale-bounce {
   0%,
   100% {
-    transform: rotate(10deg) scale(1) translateY(-10%);
+    transform: rotate(10deg) scale(0.9) translateY(-50%);
   }
   50% {
-    transform: rotate(10deg) scale(1.1) translateY(10%);
+    transform: rotate(10deg) scale(1) translateY(-40%);
+  }
+}
+
+@include media-breakpoint-up("md") {
+  @keyframes scale-bounce {
+    0%,
+    100% {
+      transform: rotate(10deg) scale(0.9) translateY(-10%);
+    }
+    50% {
+      transform: rotate(10deg) scale(1) translateY(-5%);
+    }
   }
 }
