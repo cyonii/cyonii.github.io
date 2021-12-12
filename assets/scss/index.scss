@@ -10,6 +10,7 @@ $container-max-widths: (
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import "./animations";
 
 button,
 .btn {
@@ -63,29 +64,41 @@ button,
   }
 }
 
-// Micellaneous components
-.hello-pop {
-  position: absolute;
-  top: -100%;
-  right: 0%;
-  padding: 0.75rem 1rem;
-  background-color: $dark;
-  border-radius: 5px;
-  box-shadow: -0.5rem 0.5rem 0.75rem 1px $gray-600;
-  font-weight: 300;
-  transform: rotate(10deg);
-
-  &::after {
-    content: "";
+#intro-col {
+  // Hello popover
+  .hello-pop {
     position: absolute;
-    top: 98%;
-    right: 10%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid $dark;
+    top: -100%;
+    right: 0%;
+    padding: 0.75rem 1rem;
+    background-color: $dark;
+    border-radius: 5px;
+    box-shadow: -0.5rem 0.5rem 0.75rem 1px $gray-600;
+    font-weight: 300;
+    transform: rotate(10deg);
+    animation: scale-bounce 2s ease-in-out infinite alternate;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 98%;
+      right: 10%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 8px solid $dark;
+    }
+  }
+
+  .intro-text {
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
+    background: -webkit-linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
   }
 }
 

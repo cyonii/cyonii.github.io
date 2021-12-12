@@ -1,0 +1,11 @@
+@keyframes scale-bounce {
+  0% {
+    transform: rotate(10deg) scale(1);
+  }
+  50% {
+    transform: rotate(10deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(10deg) scale(1);
+  }
+}

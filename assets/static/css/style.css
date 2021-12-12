@@ -17102,6 +17102,17 @@ textarea.form-control-lg {
   content: "";
 }
 
+@keyframes scale-bounce {
+  0% {
+    transform: rotate(10deg) scale(1);
+  }
+  50% {
+    transform: rotate(10deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(10deg) scale(1);
+  }
+}
 button:hover, button:focus,
 .btn:hover,
 .btn:focus {
@@ -17151,7 +17162,7 @@ button:hover, button:focus,
   }
 }
 
-.hello-pop {
+#intro-col .hello-pop {
   position: absolute;
   top: -100%;
   right: 0%;
@@ -17161,8 +17172,9 @@ button:hover, button:focus,
   box-shadow: -0.5rem 0.5rem 0.75rem 1px #6c757d;
   font-weight: 300;
   transform: rotate(10deg);
+  animation: scale-bounce 2s ease-in-out infinite alternate;
 }
-.hello-pop::after {
+#intro-col .hello-pop::after {
   content: "";
   position: absolute;
   top: 98%;
@@ -17173,6 +17185,14 @@ button:hover, button:focus,
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-top: 8px solid #212529;
+}
+#intro-col .intro-text {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #212529 10%, #00509e 90%);
+  background: -webkit-linear-gradient(90deg, #212529 10%, #00509e 90%);
 }
 
 .font-mono {
