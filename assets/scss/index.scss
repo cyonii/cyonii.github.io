@@ -57,8 +57,6 @@ button,
   }
 
   & .nav-link {
-    // font-variant: small-caps;
-
     @include media-breakpoint-down("sm") {
       border-bottom: 1px solid $gray-200;
     }
@@ -107,6 +105,26 @@ button,
       -webkit-text-fill-color: transparent;
       background: linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
       background: -webkit-linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
+    }
+  }
+}
+
+// Miscellaneous components ============================
+
+// floating social media icons
+.floating-social-nav {
+  display: none;
+
+  @include media-breakpoint-up("sm") {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  @each $screen, $width in $container-max-widths {
+    @include media-breakpoint-up($screen) {
+      left: calc(((100vw - #{$width}) / 2) * 0.8);
     }
   }
 }
