@@ -113,18 +113,19 @@ button,
 
 // floating social media icons
 .floating-social-nav {
+  padding-bottom: 2rem;
   display: none;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
 
   @include media-breakpoint-up("sm") {
     display: block;
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
   }
 
   @each $screen, $width in $container-max-widths {
     @include media-breakpoint-up($screen) {
-      left: calc(((100vw - #{$width}) / 2) * 0.8);
+      left: calc(((100vw - #{$width}) / 2) * 0.7);
     }
   }
 }

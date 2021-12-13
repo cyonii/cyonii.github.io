@@ -17209,34 +17209,35 @@ button:hover, button:focus,
 }
 
 .floating-social-nav {
+  padding-bottom: 2rem;
   display: none;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
 }
 @media (min-width: 576px) {
   .floating-social-nav {
     display: block;
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
   }
 }
 @media (min-width: 576px) {
   .floating-social-nav {
-    left: calc(((100vw - 540px) / 2) * 0.8);
+    left: calc(((100vw - 540px) / 2) * 0.7);
   }
 }
 @media (min-width: 768px) {
   .floating-social-nav {
-    left: calc(((100vw - 720px) / 2) * 0.8);
+    left: calc(((100vw - 720px) / 2) * 0.7);
   }
 }
 @media (min-width: 992px) {
   .floating-social-nav {
-    left: calc(((100vw - 960px) / 2) * 0.8);
+    left: calc(((100vw - 960px) / 2) * 0.7);
   }
 }
 @media (min-width: 1200px) {
   .floating-social-nav {
-    left: calc(((100vw - 1140px) / 2) * 0.8);
+    left: calc(((100vw - 1140px) / 2) * 0.7);
   }
 }
 
