@@ -20,6 +20,8 @@ button,
   }
 }
 
+// Navbar =====================================
+
 .avatar-logo {
   width: 45px;
   height: 45px;
@@ -31,7 +33,6 @@ button,
   }
 }
 
-// Navbar =====================================
 .navbar-toggler {
   transition: 0.3s;
   font-size: 40px;
@@ -41,7 +42,7 @@ button,
   }
 }
 
-#navbar-content {
+.navbar-content {
   @include media-breakpoint-down("sm") {
     position: absolute;
     min-width: 60vw;
@@ -63,7 +64,9 @@ button,
   }
 }
 
-#intro-section {
+// Intro section
+
+.intro-section {
   min-height: calc(100vh - 62px);
 
   @include media-breakpoint-up("md") {
