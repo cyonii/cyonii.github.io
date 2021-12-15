@@ -117,8 +117,9 @@ button,
 // floating social media icons
 .floating-social-nav {
   padding-bottom: 2rem;
-  bottom: 0;
+  bottom: -100%;
   z-index: 1;
+  animation: slide-up 0.5s ease-in 0.3s forwards;
 
   @each $screen, $width in $container-max-widths {
     @include media-breakpoint-up($screen) {

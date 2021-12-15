@@ -19,3 +19,14 @@
     }
   }
 }
+
+// Slide up
+@keyframes slide-up {
+  from {
+    bottom: -100%;
+  }
+
+  to {
+    bottom: 0;
+  }
+}
