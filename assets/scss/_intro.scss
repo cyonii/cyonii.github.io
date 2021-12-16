@@ -16,7 +16,7 @@ section#intro {
   }
 
   &::before {
-    content: 'Welcome';
+    content: "Welcome";
     position: absolute;
     width: 100%;
     left: 0;
@@ -33,17 +33,18 @@ section#intro {
     background: -webkit-linear-gradient(45deg, $white 10%, rgb(71, 71, 71) 20%);
     background-clip: text !important;
     -webkit-background-clip: text !important;
+    -moz-background-clip: text !important;
     -webkit-text-fill-color: transparent;
   }
 
   .col:first-child {
     width: 100%;
 
-    @include breakpoint-and-up('md') {
+    @include breakpoint-and-up("md") {
       width: 70%;
     }
 
-    @include breakpoint-and-up('lg') {
+    @include breakpoint-and-up("lg") {
       width: 50%;
     }
 
@@ -51,11 +52,11 @@ section#intro {
       font-size: 4em;
       color: $white;
 
-      @include breakpoint-and-up('md') {
+      @include breakpoint-and-up("md") {
         font-size: 5em;
       }
 
-      @include breakpoint-and-up('lg') {
+      @include breakpoint-and-up("lg") {
         font-size: 6em;
       }
     }

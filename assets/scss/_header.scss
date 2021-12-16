@@ -7,7 +7,7 @@
   z-index: 1;
   transition: 0.5s;
 
-  @include breakpoint-and-up('md') {
+  @include breakpoint-and-up("md") {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -35,7 +35,7 @@
         box-shadow: 0 0 0 3px lighten($primary, 5%);
 
         &::after {
-          content: 'Hire me 😎';
+          content: "Hire me 😎";
           position: absolute;
           width: 100px;
           display: inline-flex;
@@ -58,9 +58,8 @@
         border-radius: 50%;
         transition: 0.3s;
         background: $white;
-        transition: 0.3s;
 
-        @include breakpoint-and-up('md') {
+        @include breakpoint-and-up("md") {
           width: 60px;
           height: 60px;
         }
@@ -76,7 +75,7 @@
         padding: 0.25rem;
         transition: 0.3s;
         cursor: pointer;
-        @include breakpoint-and-up('md') {
+        @include breakpoint-and-up("md") {
           display: none;
         }
 
@@ -113,7 +112,7 @@
         &.navbar-collapse {
           display: none;
 
-          @include breakpoint-and-up('md') {
+          @include breakpoint-and-up("md") {
             display: flex;
           }
 
@@ -125,7 +124,7 @@
         .nav-item:not(:last-child) {
           margin-bottom: 1.5rem;
           margin-left: auto;
-          @include breakpoint-and-up('md') {
+          @include breakpoint-and-up("md") {
             margin-left: unset;
           }
         }
@@ -183,7 +182,7 @@
             background: darken($secondary, 20%);
           }
 
-          @include breakpoint-and-up('md') {
+          @include breakpoint-and-up("md") {
             &:last-child {
               border-top-right-radius: 0.25rem;
               border-bottom-right-radius: 0.25rem;
@@ -192,7 +191,7 @@
         }
 
         // From medium screen and up
-        @include breakpoint-and-up('md') {
+        @include breakpoint-and-up("md") {
           padding: 0;
           flex-direction: row;
           justify-content: flex-end;

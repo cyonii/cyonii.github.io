@@ -12,12 +12,12 @@
   $size: random(4);
   width: #{$size}rem;
   height: #{$size}rem;
-  top: unquote('#{random(120)}%');
-  left: unquote('#{random(50) + 50}%');
+  top: unquote("#{random(120)}%");
+  left: unquote("#{random(50) + 50}%");
   border: 1px solid lighten($dark, random(35));
   animation-name: appear;
-  animation-duration: unquote('#{random(2)}s');
+  animation-duration: unquote("#{random(2)}s");
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: unquote('#{random() + 0.5}s');
+  animation-delay: unquote("#{random() + 0.5}s");
 }

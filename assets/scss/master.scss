@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 // Menu-open class for body
 body.menu-open {
@@ -14,7 +14,7 @@ section {
 // Pad sections on the top to give enough space to fixed heder
 .pt-header-justice {
   padding-top: 61px;
-  @include breakpoint-and-up('md') {
+  @include breakpoint-and-up("md") {
     padding-top: 92px;
   }
 }
@@ -42,13 +42,13 @@ section {
       width: 100%;
 
       &:first-child {
-        @include breakpoint-and-up('lg') {
+        @include breakpoint-and-up("lg") {
           width: 50%;
         }
       }
 
       &:nth-child(2) {
-        @include breakpoint-and-up('lg') {
+        @include breakpoint-and-up("lg") {
           width: 45%;
           min-height: 420px;
         }
@@ -59,7 +59,7 @@ section {
 
 // Contact section
 #contact {
-  @include breakpoint-and-up('md') {
+  @include breakpoint-and-up("md") {
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@ section {
     grid-gap: 2rem;
     grid-template-columns: auto;
     align-items: center;
-    @include breakpoint-and-up('md') {
+    @include breakpoint-and-up("md") {
       grid-template-columns: auto auto;
     }
   }
@@ -91,10 +91,10 @@ section {
   }
 }
 
-@import 'defaults';
-@import 'components';
-@import 'header';
-@import 'animations';
-@import 'intro';
-@import 'forms';
-@import 'utilities';
+@import "defaults";
+@import "components";
+@import "header";
+@import "animations";
+@import "intro";
+@import "forms";
+@import "utilities";
