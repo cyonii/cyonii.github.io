@@ -17271,7 +17271,6 @@ button:hover, button:focus,
   border: 1px solid #212529;
   color: #212529;
   font-size: 1.25rem;
-  box-shadow: 0 0 2px #212529;
   transition: all 0.3s;
 }
 .floating-socials .nav-link:hover {
@@ -17284,7 +17283,6 @@ button:hover, button:focus,
   writing-mode: vertical-lr;
   animation: contact-slide-down 1s ease-in forwards;
   top: calc(61px + 5rem);
-  box-shadow: 0 0 2px #212529;
 }
 @media (min-width: 576px) {
   .floating-contact {
