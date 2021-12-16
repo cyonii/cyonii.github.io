@@ -17125,7 +17125,7 @@ textarea.form-control-lg {
     bottom: -100%;
   }
   to {
-    bottom: 0;
+    bottom: 5rem;
   }
 }
 @keyframes contact-slide-down {
@@ -17234,7 +17234,6 @@ button:hover, button:focus,
 }
 
 .floating-socials {
-  padding-bottom: 5rem;
   bottom: -100%;
   animation: socials-slide-up 1s ease-in 0.3s forwards;
 }
@@ -17259,26 +17258,25 @@ button:hover, button:focus,
   }
 }
 .floating-socials ::after {
-  bottom: 0;
+  height: calc(100% + 5rem);
+  top: 0;
+  background-color: #adb5bd;
 }
-.floating-socials .social-link {
+.floating-socials .nav-link {
   width: 40px;
   height: 40px;
-  margin-bottom: 0.5rem;
-  padding: 0;
   display: flex;
   place-content: center;
   place-items: center;
-  border-radius: 50%;
   border: 1px solid #212529;
-  background-color: #dee2e6;
   color: #212529;
   font-size: 1.25rem;
-  line-height: 1;
+  box-shadow: 0 0 2px #212529;
   transition: all 0.3s;
 }
-.floating-socials .social-link:hover {
-  background-color: #adb5bd;
+.floating-socials .nav-link:hover {
+  background-color: #000;
+  color: #fff !important;
 }
 
 .floating-contact {
@@ -17286,6 +17284,7 @@ button:hover, button:focus,
   writing-mode: vertical-lr;
   animation: contact-slide-down 1s ease-in forwards;
   top: calc(61px + 5rem);
+  box-shadow: 0 0 2px #212529;
 }
 @media (min-width: 576px) {
   .floating-contact {

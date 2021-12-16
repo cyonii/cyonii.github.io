@@ -126,7 +126,6 @@ button,
 
 // floating social media icons
 .floating-socials {
-  padding-bottom: 5rem;
   bottom: -100%;
   animation: socials-slide-up 1s ease-in 0.3s forwards;
 
@@ -137,27 +136,26 @@ button,
   }
 
   ::after {
-    bottom: 0;
+    height: calc(100% + 5rem);
+    top: 0;
+    background-color: $gray-500;
   }
 
-  .social-link {
+  .nav-link {
     width: 40px;
     height: 40px;
-    margin-bottom: 0.5rem;
-    padding: 0;
     display: flex;
     place-content: center;
     place-items: center;
-    border-radius: 50%;
     border: 1px solid $dark;
-    background-color: $gray-300;
     color: $dark;
     font-size: 1.25rem;
-    line-height: 1;
+    box-shadow: 0 0 2px $dark;
     transition: all 0.3s;
 
     &:hover {
-      background-color: $gray-500;
+      background-color: $black;
+      color: $white !important;
     }
   }
 }
@@ -168,6 +166,7 @@ button,
   writing-mode: vertical-lr;
   animation: contact-slide-down 1s ease-in forwards;
   top: calc(#{$header-height} + 5rem);
+  box-shadow: 0 0 2px $dark;
 
   @each $screen, $width in $container-max-widths {
     @include media-breakpoint-up($screen) {
