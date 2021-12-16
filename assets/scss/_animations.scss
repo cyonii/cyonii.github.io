@@ -20,13 +20,26 @@
   }
 }
 
-// Slide up
-@keyframes slide-up {
+// Social icons slide up
+@keyframes socials-slide-up {
   from {
     bottom: -100%;
   }
 
   to {
     bottom: 0;
+  }
+}
+
+// Email contact slide down
+@keyframes contact-slide-down {
+  from {
+    top: -100%;
+    z-index: -2;
+  }
+
+  to {
+    top: calc(#{$header-height} + 5rem);
+    z-index: -1;
   }
 }
