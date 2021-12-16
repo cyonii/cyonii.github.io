@@ -66,43 +66,6 @@ button,
 
 .intro-section {
   min-height: calc(100vh - #{$header-height});
-
-  // Hello popover
-  .hello-pop {
-    position: absolute;
-    top: -100%;
-    right: 0%;
-    padding: 0.75rem 1rem;
-    background-color: $dark;
-    border-radius: 5px;
-    box-shadow: -3px -3px $gray-400;
-    font-weight: 300;
-    // transform: rotate(10deg);
-    transform-origin: 50% -30px;
-    animation: swing 2s ease-in-out infinite alternate;
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 98%;
-      right: 50%;
-      transform: translateX(50%);
-      width: 0;
-      height: 0;
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-top: 8px solid $dark;
-    }
-
-    .intro-text {
-      background-clip: text !important;
-      -webkit-background-clip: text !important;
-      -moz-background-clip: text !important;
-      -webkit-text-fill-color: transparent;
-      background: linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
-      background: -webkit-linear-gradient(90deg, $dark 10%, darken($primary, 25%) 90%);
-    }
-  }
 }
 
 // Miscellaneous components =====================================
@@ -177,7 +140,27 @@ button,
   }
 }
 
+#call-to-action {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  border-radius: 50%;
+  transform: rotate(40deg);
+  font-size: 40px;
+  z-index: -1;
+  animation: signal 5s linear infinite;
+}
+
 // Utilities =====================================
 .font-mono {
   font-family: "JetBrains Mono", "Courier New", Courier, monospace !important;
+}
+
+%text-clip {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
 }

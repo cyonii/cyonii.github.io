@@ -17138,6 +17138,23 @@ textarea.form-control-lg {
     z-index: -1;
   }
 }
+@keyframes signal {
+  0%, 100% {
+    transform: rotate(40deg);
+    box-shadow: 0 0 0 0 #e04b59;
+  }
+  50% {
+    transform: rotate(50deg);
+    box-shadow: 0 0 0 16px #e77681, 0 0 0 32px #eb8c95, 0 0 0 48px #fae3e5;
+  }
+  75% {
+    transform: rotate(40deg);
+    box-shadow: 0 0 0 8px #f3b7bd, 0 0 0 16px #eb8c95, 0 0 0 32px #e4606d;
+  }
+  90% {
+    transform: rotate(50deg);
+  }
+}
 button:hover, button:focus,
 .btn:hover,
 .btn:focus {
@@ -17183,38 +17200,6 @@ button:hover, button:focus,
 
 .intro-section {
   min-height: calc(100vh - 61px);
-}
-.intro-section .hello-pop {
-  position: absolute;
-  top: -100%;
-  right: 0%;
-  padding: 0.75rem 1rem;
-  background-color: #212529;
-  border-radius: 5px;
-  box-shadow: -3px -3px #ced4da;
-  font-weight: 300;
-  transform-origin: 50% -30px;
-  animation: swing 2s ease-in-out infinite alternate;
-}
-.intro-section .hello-pop::after {
-  content: "";
-  position: absolute;
-  top: 98%;
-  right: 50%;
-  transform: translateX(50%);
-  width: 0;
-  height: 0;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-top: 8px solid #212529;
-}
-.intro-section .hello-pop .intro-text {
-  background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -moz-background-clip: text !important;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(90deg, #212529 10%, #00509e 90%);
-  background: -webkit-linear-gradient(90deg, #212529 10%, #00509e 90%);
 }
 
 .floating-socials,
@@ -17306,6 +17291,19 @@ button:hover, button:focus,
 }
 .floating-contact ::after {
   top: -100%;
+}
+
+#call-to-action {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  border-radius: 50%;
+  transform: rotate(40deg);
+  font-size: 40px;
+  z-index: -1;
+  animation: signal 5s linear infinite;
 }
 
 .font-mono {
