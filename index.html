@@ -22,7 +22,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div class="container d-flex justify-content-sm-center">
+        <div class="container d-flex">
           <a class="navbar-brand p-0" href="/">
             <img class="img-fluid border border-2 border-muted avatar-logo" src="./assets/static/images/cyAvatar.png"
               alt="CY Avatar">
@@ -32,11 +32,12 @@
             aria-label="Toggle navigation">
             <i class="bi bi-joystick"></i>
           </button>
-          <div class="collapse navbar-collapse navbar-content flex-grow-0">
-            <div class="navbar-nav fs-5">
-              <a class="nav-link text-secondary" href="#"><i class="bi bi-info-circle me-2"></i>About</a>
-              <a class="nav-link text-secondary" href="#"><i class="bi bi-building me-2"></i>Projects</a>
-              <a class="nav-link text-secondary" href="#"><i class="bi bi-telephone-inbound me-2"></i>Contact</a>
+          <div class="collapse navbar-collapse font-mono fw-lighter flex-grow-0" id="navbar-content">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#"><i class="bi bi-info-circle me-2"></i>About</a>
+              <a class="nav-link" href="#"><i class="bi bi-chevron-bar-expand me-2"></i>Experience</a>
+              <a class="nav-link" href="#"><i class="bi bi-building me-2"></i>Projects</a>
+              <a class="nav-link" href="#"><i class="bi bi-telephone-inbound me-2"></i>Contact</a>
             </div>
           </div>
         </div>
@@ -45,16 +46,16 @@
 
     <!-- Hanging Social Profile Links -->
     <div class="nav floating-social-nav d-none d-sm-block position-fixed fs-4">
-      <a class="nav-link" href="https://github.com/cyonii" target="_blank">
+      <a class="nav-link text-muted" href="https://github.com/cyonii" target="_blank">
         <i class="bi bi-github"></i>
       </a>
-      <a class="nav-link" href="https://linkedin.com/in/cyonii" target="_blank">
+      <a class="nav-link text-muted" href="https://linkedin.com/in/cyonii" target="_blank">
         <i class="bi bi-linkedin"></i>
       </a>
-      <a class="nav-link" href="https://twitter/__cypy__" target="_blank">
+      <a class="nav-link text-muted" href="https://twitter/__cypy__" target="_blank">
         <i class="bi bi-twitter"></i>
       </a>
-      <a class="nav-link" href="https://stackoverflow.com/users/11855904/cy23" target="_blank">
+      <a class="nav-link text-muted" href="https://stackoverflow.com/users/11855904/cy23" target="_blank">
         <i class="bi bi-stack-overflow"></i>
       </a>
     </div>

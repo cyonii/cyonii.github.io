@@ -9,7 +9,7 @@ $container-max-widths: (
 ) !default;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import "./animations";
 
 button,
@@ -26,11 +26,6 @@ button,
   width: 45px;
   height: 45px;
   border-radius: 50%;
-
-  @include media-breakpoint-up("md") {
-    width: 60px;
-    height: 60px;
-  }
 }
 
 .navbar-toggler {
@@ -42,7 +37,7 @@ button,
   }
 }
 
-.navbar-content {
+#navbar-content {
   @include media-breakpoint-down("sm") {
     position: absolute;
     min-width: 60vw;
@@ -59,7 +54,9 @@ button,
 
   & .nav-link {
     @include media-breakpoint-down("sm") {
+      font-size: 18px;
       border-bottom: 1px solid $gray-200;
+      color: $dark;
     }
   }
 }
@@ -67,11 +64,7 @@ button,
 // Intro section
 
 .intro-section {
-  min-height: calc(100vh - 62px);
-
-  @include media-breakpoint-up("md") {
-    min-height: calc(100vh - 76px);
-  }
+  min-height: calc(100vh - 61px);
 
   .intro-col {
     // Hello popover
