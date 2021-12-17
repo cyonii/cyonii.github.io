@@ -17201,20 +17201,16 @@ button:hover, button:focus,
   min-height: calc(100vh - 61px);
 }
 
-.floating-socials,
-.floating-contact {
-  z-index: 1050;
-}
 .floating-socials ::after,
 .floating-contact ::after {
   content: "";
-  width: 1px;
+  width: 2px;
   height: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
-  background-color: #212529;
+  background-color: #d8dbdd;
 }
 
 .floating-socials {
@@ -17244,7 +17240,6 @@ button:hover, button:focus,
 .floating-socials ::after {
   height: calc(100% + 5rem);
   top: 0;
-  background-color: #adb5bd;
 }
 .floating-socials .nav-link {
   width: 40px;
@@ -17252,7 +17247,6 @@ button:hover, button:focus,
   display: flex;
   place-content: center;
   place-items: center;
-  border: 1px solid #212529;
   color: #212529;
   font-size: 1.25rem;
   transition: all 0.3s;
@@ -17301,7 +17295,6 @@ button:hover, button:focus,
   border-radius: 50%;
   transform: rotate(40deg);
   font-size: 40px;
-  z-index: 1050;
   animation: signal 5s linear infinite;
 }
 
