@@ -17183,7 +17183,6 @@ button:hover, button:focus,
     padding: 1rem 1.5rem 4rem;
     top: 66px;
     right: 1rem;
-    z-index: 1;
     background-color: #fff;
     border: 2px solid #343a40;
     border-radius: 1rem;
@@ -17204,7 +17203,7 @@ button:hover, button:focus,
 
 .floating-socials,
 .floating-contact {
-  z-index: 1;
+  z-index: 1050;
 }
 .floating-socials ::after,
 .floating-contact ::after {
@@ -17302,7 +17301,7 @@ button:hover, button:focus,
   border-radius: 50%;
   transform: rotate(40deg);
   font-size: 40px;
-  z-index: -1;
+  z-index: 1050;
   animation: signal 5s linear infinite;
 }
 

@@ -46,7 +46,6 @@ button,
     padding: 1rem 1.5rem 4rem;
     top: 66px;
     right: 1rem;
-    z-index: 1;
     background-color: $white;
     border: 2px solid $gray-800;
     border-radius: 1rem;
@@ -73,7 +72,7 @@ button,
 // Floating widgets
 .floating-socials,
 .floating-contact {
-  z-index: 1;
+  z-index: $zindex-modal-backdrop;
 
   ::after {
     content: "";
@@ -149,7 +148,7 @@ button,
   border-radius: 50%;
   transform: rotate(40deg);
   font-size: 40px;
-  z-index: -1;
+  z-index: $zindex-modal-backdrop;
   animation: signal 5s linear infinite;
 }
 
