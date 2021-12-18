@@ -65,6 +65,63 @@ button,
 
 .intro-section {
   min-height: calc(100vh - #{$header-height});
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 5%;
+    right: 0;
+    height: 100%;
+    padding-top: 1rem;
+    border-radius: 0 0 20px 20px;
+    font-size: 8rem;
+    font-weight: bolder;
+    line-height: 1;
+    opacity: 0.9;
+    z-index: -2;
+  }
+
+  &::before {
+    content: '';
+    top: 5%;
+    writing-mode: vertical-lr;
+    background-color: $gray-300;
+    color: $gray-500;
+    animation: engrave-programmer 1s linear 0.5s forwards;
+
+    @each $screen, $width in $container-max-widths {
+      @include media-breakpoint-up($screen) {
+        right: calc(((100vw - #{$width}) / 2));
+        transform: translateX(calc(-10% - 6rem));
+
+        @if $screen == 'sm' {
+          transform: translateX(calc(-10%));
+        }
+      }
+    }
+  }
+
+  &::after {
+    content: '';
+    top: 15%;
+    display: none;
+    writing-mode: vertical-rl;
+    background-color: $gray-500;
+    color: $gray-400;
+    animation: engrave-software 1s linear 1s forwards;
+
+    @include media-breakpoint-up('md') {
+      display: initial;
+    }
+
+    @each $screen, $width in $container-max-widths {
+      @include media-breakpoint-up($screen) {
+        right: calc(((100vw - #{$width}) / 2));
+        transform: translateX(-10%);
+      }
+    }
+  }
 }
 
 // Miscellaneous components =====================================
@@ -72,7 +129,7 @@ button,
 // Floating widgets
 .floating-socials,
 .floating-contact {
-  ::after {
+  &::after {
     content: '';
     width: 2px;
     height: 100%;
@@ -96,12 +153,12 @@ button,
     }
   }
 
-  ::after {
+  &::after {
     height: calc(100% + 5rem);
     top: 0;
   }
 
-  .nav-link {
+  & .nav-link {
     width: 40px;
     height: 40px;
     display: flex;
@@ -132,7 +189,7 @@ button,
     }
   }
 
-  ::after {
+  &::after {
     top: -100%;
   }
 }

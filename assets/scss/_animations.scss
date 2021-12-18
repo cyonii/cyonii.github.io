@@ -66,3 +66,66 @@
     box-shadow: 0 0 4px 4px lighten($danger, 40%);
   }
 }
+
+@keyframes engrave-programmer {
+  0% {
+    content: 'P_';
+  }
+  10% {
+    content: 'Pr_';
+  }
+  20% {
+    content: 'Pro_';
+  }
+  30% {
+    content: 'Prog_';
+  }
+  40% {
+    content: 'Progr_';
+  }
+  50% {
+    content: 'Progra_';
+  }
+  60% {
+    content: 'Program_';
+  }
+  70% {
+    content: 'Programm_';
+  }
+  80% {
+    content: 'Programme_';
+  }
+  90% {
+    content: 'Programmer_';
+  }
+  100% {
+    content: 'Programmer!';
+  }
+}
+
+@keyframes engrave-software {
+  0% {
+    content: 'S';
+  }
+  10% {
+    content: 'So';
+  }
+  25% {
+    content: 'Sof';
+  }
+  35% {
+    content: 'Soft';
+  }
+  45% {
+    content: 'Softw';
+  }
+  60% {
+    content: 'Softwa';
+  }
+  65% {
+    content: 'Softwar';
+  }
+  100% {
+    content: 'Software';
+  }
+}

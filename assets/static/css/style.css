@@ -17155,6 +17155,67 @@ textarea.form-control-lg {
     box-shadow: 0 0 4px 4px #fae3e5;
   }
 }
+@keyframes engrave-programmer {
+  0% {
+    content: "P_";
+  }
+  10% {
+    content: "Pr_";
+  }
+  20% {
+    content: "Pro_";
+  }
+  30% {
+    content: "Prog_";
+  }
+  40% {
+    content: "Progr_";
+  }
+  50% {
+    content: "Progra_";
+  }
+  60% {
+    content: "Program_";
+  }
+  70% {
+    content: "Programm_";
+  }
+  80% {
+    content: "Programme_";
+  }
+  90% {
+    content: "Programmer_";
+  }
+  100% {
+    content: "Programmer!";
+  }
+}
+@keyframes engrave-software {
+  0% {
+    content: "S";
+  }
+  10% {
+    content: "So";
+  }
+  25% {
+    content: "Sof";
+  }
+  35% {
+    content: "Soft";
+  }
+  45% {
+    content: "Softw";
+  }
+  60% {
+    content: "Softwa";
+  }
+  65% {
+    content: "Softwar";
+  }
+  100% {
+    content: "Software";
+  }
+}
 button:hover, button:focus,
 .btn:hover,
 .btn:focus {
@@ -17200,9 +17261,94 @@ button:hover, button:focus,
 .intro-section {
   min-height: calc(100vh - 61px);
 }
+.intro-section::before, .intro-section::after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  right: 0;
+  height: 100%;
+  padding-top: 1rem;
+  border-radius: 0 0 20px 20px;
+  font-size: 8rem;
+  font-weight: bolder;
+  line-height: 1;
+  opacity: 0.9;
+  z-index: -2;
+}
+.intro-section::before {
+  content: "";
+  top: 5%;
+  writing-mode: vertical-lr;
+  background-color: #dee2e6;
+  color: #adb5bd;
+  animation: engrave-programmer 1s linear 0.5s forwards;
+}
+@media (min-width: 576px) {
+  .intro-section::before {
+    right: calc(((100vw - 540px) / 2));
+    transform: translateX(calc(-10% - 6rem));
+    transform: translateX(calc(-10%));
+  }
+}
+@media (min-width: 768px) {
+  .intro-section::before {
+    right: calc(((100vw - 720px) / 2));
+    transform: translateX(calc(-10% - 6rem));
+  }
+}
+@media (min-width: 992px) {
+  .intro-section::before {
+    right: calc(((100vw - 960px) / 2));
+    transform: translateX(calc(-10% - 6rem));
+  }
+}
+@media (min-width: 1200px) {
+  .intro-section::before {
+    right: calc(((100vw - 1140px) / 2));
+    transform: translateX(calc(-10% - 6rem));
+  }
+}
+.intro-section::after {
+  content: "";
+  top: 15%;
+  display: none;
+  writing-mode: vertical-rl;
+  background-color: #adb5bd;
+  color: #ced4da;
+  animation: engrave-software 1s linear 1s forwards;
+}
+@media (min-width: 768px) {
+  .intro-section::after {
+    display: initial;
+  }
+}
+@media (min-width: 576px) {
+  .intro-section::after {
+    right: calc(((100vw - 540px) / 2));
+    transform: translateX(-10%);
+  }
+}
+@media (min-width: 768px) {
+  .intro-section::after {
+    right: calc(((100vw - 720px) / 2));
+    transform: translateX(-10%);
+  }
+}
+@media (min-width: 992px) {
+  .intro-section::after {
+    right: calc(((100vw - 960px) / 2));
+    transform: translateX(-10%);
+  }
+}
+@media (min-width: 1200px) {
+  .intro-section::after {
+    right: calc(((100vw - 1140px) / 2));
+    transform: translateX(-10%);
+  }
+}
 
-.floating-socials ::after,
-.floating-contact ::after {
+.floating-socials::after,
+.floating-contact::after {
   content: "";
   width: 2px;
   height: 100%;
@@ -17241,7 +17387,7 @@ button:hover, button:focus,
     transform: translateX(-100%);
   }
 }
-.floating-socials ::after {
+.floating-socials::after {
   height: calc(100% + 5rem);
   top: 0;
 }
@@ -17290,7 +17436,7 @@ button:hover, button:focus,
     transform: translateX(100%);
   }
 }
-.floating-contact ::after {
+.floating-contact::after {
   top: -100%;
 }
 
