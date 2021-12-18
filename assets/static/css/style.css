@@ -17141,7 +17141,7 @@ textarea.form-control-lg {
 @keyframes signal {
   0% {
     transform: rotate(0deg);
-    box-shadow: 0 0 #e04b59;
+    box-shadow: 0 0 4px 4px #fae3e5;
   }
   50% {
     transform: rotate(180deg);
@@ -17152,7 +17152,7 @@ textarea.form-control-lg {
   }
   100% {
     transform: rotate(360deg);
-    box-shadow: 0 0 #e04b59;
+    box-shadow: 0 0 4px 4px #fae3e5;
   }
 }
 button:hover, button:focus,
@@ -17304,6 +17304,10 @@ button:hover, button:focus,
   transform: rotate(40deg);
   font-size: 40px;
   animation: signal 5s linear infinite;
+}
+
+.zindex-1 {
+  z-index: 1;
 }
 
 .font-mono {
