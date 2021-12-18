@@ -91,7 +91,8 @@ button,
 
   @each $screen, $width in $container-max-widths {
     @include media-breakpoint-up($screen) {
-      left: calc(((100vw - #{$width}) / 2) * 0.7);
+      left: calc(((100vw - #{$width}) / 2));
+      transform: translateX(-100%);
     }
   }
 
@@ -126,7 +127,8 @@ button,
 
   @each $screen, $width in $container-max-widths {
     @include media-breakpoint-up($screen) {
-      right: calc(((100vw - #{$width}) / 2) * 0.7);
+      right: calc(((100vw - #{$width}) / 2));
+      transform: translateX(100%);
     }
   }
 

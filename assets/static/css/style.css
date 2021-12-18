@@ -17219,22 +17219,26 @@ button:hover, button:focus,
 }
 @media (min-width: 576px) {
   .floating-socials {
-    left: calc(((100vw - 540px) / 2) * 0.7);
+    left: calc(((100vw - 540px) / 2));
+    transform: translateX(-100%);
   }
 }
 @media (min-width: 768px) {
   .floating-socials {
-    left: calc(((100vw - 720px) / 2) * 0.7);
+    left: calc(((100vw - 720px) / 2));
+    transform: translateX(-100%);
   }
 }
 @media (min-width: 992px) {
   .floating-socials {
-    left: calc(((100vw - 960px) / 2) * 0.7);
+    left: calc(((100vw - 960px) / 2));
+    transform: translateX(-100%);
   }
 }
 @media (min-width: 1200px) {
   .floating-socials {
-    left: calc(((100vw - 1140px) / 2) * 0.7);
+    left: calc(((100vw - 1140px) / 2));
+    transform: translateX(-100%);
   }
 }
 .floating-socials ::after {
@@ -17264,22 +17268,26 @@ button:hover, button:focus,
 }
 @media (min-width: 576px) {
   .floating-contact {
-    right: calc(((100vw - 540px) / 2) * 0.7);
+    right: calc(((100vw - 540px) / 2));
+    transform: translateX(100%);
   }
 }
 @media (min-width: 768px) {
   .floating-contact {
-    right: calc(((100vw - 720px) / 2) * 0.7);
+    right: calc(((100vw - 720px) / 2));
+    transform: translateX(100%);
   }
 }
 @media (min-width: 992px) {
   .floating-contact {
-    right: calc(((100vw - 960px) / 2) * 0.7);
+    right: calc(((100vw - 960px) / 2));
+    transform: translateX(100%);
   }
 }
 @media (min-width: 1200px) {
   .floating-contact {
-    right: calc(((100vw - 1140px) / 2) * 0.7);
+    right: calc(((100vw - 1140px) / 2));
+    transform: translateX(100%);
   }
 }
 .floating-contact ::after {
