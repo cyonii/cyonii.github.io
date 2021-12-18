@@ -65,20 +65,19 @@ button,
 
 .intro-section {
   min-height: calc(100vh - #{$header-height});
+  position: relative;
 
   &::before,
   &::after {
     content: '';
     position: absolute;
-    top: $header-height;
+    top: 0;
     right: 1rem;
     height: 100%;
-    border-radius: 0 0 20px 20px;
     font-size: 8rem;
     font-weight: bolder;
     line-height: 1;
     opacity: 0.9;
-    z-index: -2;
   }
 
   &::before {
@@ -126,6 +125,8 @@ button,
 // Floating widgets
 .floating-socials,
 .floating-contact {
+  z-index: 1;
+
   &::after {
     content: '';
     width: 2px;
