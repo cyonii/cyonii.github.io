@@ -8,7 +8,7 @@
   }
 }
 
-@include media-breakpoint-up("md") {
+@include media-breakpoint-up('md') {
   @keyframes scale-bounce {
     0%,
     100% {
@@ -45,23 +45,24 @@
 }
 
 @keyframes signal {
-  0%,
-  100% {
-    transform: rotate(40deg);
-    box-shadow: 0 0 0 0 lighten($danger, 5%);
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 0 0 lighten($danger, 5%);
   }
 
   50% {
-    transform: rotate(50deg);
-    box-shadow: 0 0 0 16px lighten($danger, 15%), 0 0 0 32px lighten($danger, 20%), 0 0 0 48px lighten($danger, 40%);
+    transform: rotate(180deg);
+    box-shadow: 0 0 0 16px lighten($danger, 20%), 0 0 0 32px lighten($danger, 30%),
+      0 0 0 48px lighten($danger, 40%);
   }
 
   75% {
-    transform: rotate(40deg);
-    box-shadow: 0 0 0 8px lighten($danger, 30%), 0 0 0 16px lighten($danger, 20%), 0 0 0 32px lighten($danger, 10%);
+    box-shadow: 0 0 0 8px lighten($danger, 20%), 0 0 0 16px lighten($danger, 30%),
+      0 0 0 32px lighten($danger, 40%);
   }
 
-  90% {
-    transform: rotate(50deg);
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 0 0 lighten($danger, 5%);
   }
 }

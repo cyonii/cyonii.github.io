@@ -9,9 +9,9 @@ $container-max-widths: (
 ) !default;
 $header-height: 61px;
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons";
-@import "./animations";
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons';
+@import './animations';
 
 button,
 .btn {
@@ -33,13 +33,13 @@ button,
   transition: 0.3s;
   font-size: 40px;
 
-  &[aria-expanded="true"] {
+  &[aria-expanded='true'] {
     color: $primary !important;
   }
 }
 
 #navbar-content {
-  @include media-breakpoint-down("sm") {
+  @include media-breakpoint-down('sm') {
     position: absolute;
     min-width: 60vw;
     max-width: 90vw;
@@ -53,7 +53,7 @@ button,
   }
 
   & .nav-link {
-    @include media-breakpoint-down("sm") {
+    @include media-breakpoint-down('sm') {
       font-size: 18px;
       border-bottom: 1px solid $gray-200;
       color: $dark;
@@ -73,7 +73,7 @@ button,
 .floating-socials,
 .floating-contact {
   ::after {
-    content: "";
+    content: '';
     width: 2px;
     height: 100%;
     position: absolute;
@@ -149,7 +149,7 @@ button,
 
 // Utilities =====================================
 .font-mono {
-  font-family: "JetBrains Mono", "Courier New", Courier, monospace !important;
+  font-family: 'JetBrains Mono', 'Courier New', Courier, monospace !important;
 }
 
 %text-clip {
