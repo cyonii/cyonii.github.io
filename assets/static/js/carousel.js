@@ -5,7 +5,12 @@ function getCarouselItems(el) {
   const nextItem = activeItem.nextElementSibling;
   const prevItem = activeItem.previousElementSibling;
 
-  return { items, activeItem, nextItem, prevItem };
+  return {
+    items,
+    activeItem,
+    nextItem,
+    prevItem,
+  };
 }
 
 const carouselControls = document.querySelectorAll('[data-slide-target]');
@@ -15,7 +20,9 @@ carouselControls.forEach((control) => {
 
     const carouselID = e.currentTarget.getAttribute('data-slide-target');
     const carousel = document.querySelector(carouselID);
-    const { items, activeItem, nextItem, prevItem } = getCarouselItems(carousel);
+    const {
+      items, activeItem, nextItem, prevItem,
+    } = getCarouselItems(carousel);
     const slideControl = e.currentTarget.getAttribute('data-slide-ctrl');
 
     if (items.length < 2) return; // return if only 1 .carosuel-item exists
@@ -29,6 +36,8 @@ carouselControls.forEach((control) => {
       case 'prev':
         if (prevItem) prevItem.classList.add('active');
         else items[items.length - 1].classList.add('active');
+        break;
+      default:
         break;
     }
   };

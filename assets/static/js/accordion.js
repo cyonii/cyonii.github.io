@@ -6,9 +6,7 @@ stackTogglers.forEach((toggler) => {
     event.preventDefault();
 
     const activeStack = document.querySelector('.stack-toggler.active');
-    if (activeStack.contains(event.target)) {
-      return;
-    } else {
+    if (!activeStack.contains(event.target)) {
       activeStack.classList.remove('active');
       activeStack.nextElementSibling.classList.remove('show');
 

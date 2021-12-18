@@ -1,5 +1,5 @@
 // Toggle Navigation Menu - Mobile
-const body = document.body;
+const { body } = document;
 const navToggler = document.getElementById('navbar-menu-toggler');
 const navbarCollapse = document.querySelector('.navbar-collapse');
 
@@ -12,7 +12,7 @@ function closeMenu(event) {
   }
 }
 
-function showMenu(event) {
+function showMenu() {
   navbarCollapse.classList.add('show');
   navToggler.classList.add('close');
   body.classList.add('menu-open');
@@ -25,5 +25,9 @@ function menuIsOpen() {
 
 navToggler.addEventListener('click', (event) => {
   event.stopPropagation();
-  menuIsOpen() ? closeMenu(event) : showMenu(event);
+  if (menuIsOpen()) {
+    closeMenu(event);
+  } else {
+    showMenu(event);
+  }
 });

@@ -15,24 +15,26 @@ let textIndex = 0;
 let featuredStack = '';
 
 function engraveStack() {
-  let span = document.createElement('span');
+  const span = document.createElement('span');
 
   featuredStack = stack[stackIndex];
   span.style.color = '#fff';
   span.append(featuredStack[textIndex]);
-  span.onmouseenter = (event) => console.log(event);
+  span.onmouseenter = (event) => event;
 
   stackEngraving.appendChild(span);
-  textIndex++;
+  textIndex += 1;
 
-  setTimeout(() => (span.style.opacity = 0.16), 100);
+  setTimeout(() => {
+    span.style.opacity = 0.16;
+  }, 100);
 
   if (textIndex >= featuredStack.length) {
     textIndex = 0;
     stackEngraving.appendChild(document.createElement('br'));
 
     if (stackIndex < stack.length - 1) {
-      stackIndex++;
+      stackIndex += 1;
     } else {
       stackIndex = 0;
       stackEngraving.innerHTML = '';
