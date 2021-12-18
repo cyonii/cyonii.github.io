@@ -57,6 +57,7 @@
 .text-clip {
   background-clip: text !important;
   -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
   -webkit-text-fill-color: transparent;
 
   & > *::-moz-selection,
@@ -64,6 +65,7 @@
     background: $secondary;
     background-clip: initial !important;
     -webkit-background-clip: none !important;
+    -moz-background-clip: none !important;
     -webkit-text-fill-color: $dark !important;
   }
 
@@ -72,6 +74,7 @@
     background: $secondary;
     background-clip: initial !important;
     -webkit-background-clip: none !important;
+    -moz-background-clip: none !important;
     -webkit-text-fill-color: $dark !important;
   }
 }

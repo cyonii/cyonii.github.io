@@ -11,7 +11,7 @@
   border-radius: 1rem;
   overflow: hidden;
 
-  @include breakpoint-and-up("md") {
+  @include breakpoint-and-up('md') {
     flex-direction: row;
     align-items: end;
   }
@@ -19,13 +19,13 @@
   & > div {
     width: 100%;
 
-    @include breakpoint-and-up("md") {
+    @include breakpoint-and-up('md') {
       width: 50%;
     }
   }
 
   .project-cover {
-    @include breakpoint-and-up("md") {
+    @include breakpoint-and-up('md') {
       height: 400px;
     }
 
@@ -34,7 +34,7 @@
       height: auto;
       box-shadow: 100px 0 160px 0 $primary;
 
-      @include breakpoint-and-up("md") {
+      @include breakpoint-and-up('md') {
         height: 100%;
         object-fit: cover;
       }
@@ -46,7 +46,7 @@
     flex-direction: column;
     justify-content: end;
 
-    @include breakpoint-and-up("md") {
+    @include breakpoint-and-up('md') {
       border-left: 2px solid $grey;
     }
   }
@@ -64,7 +64,7 @@
 
 // Stack cards
 .stack-collection {
-  .stack-toggler {
+  & .stack-toggler {
     overflow: hidden;
     transition: 0.3s;
     width: 100%;
@@ -73,6 +73,11 @@
     align-items: center;
     border-bottom: 1px solid lighten($dark, 7);
     padding-bottom: 0.5rem;
+
+    i {
+      font-size: 14px;
+      transition: 0.3s;
+    }
 
     &.active {
       color: $white;
@@ -89,22 +94,19 @@
     &:not(.active) {
       color: darken($white, 40%);
     }
-
-    i {
-      font-size: 14px;
-      transition: 0.3s;
-    }
   }
 
   .stack-group {
     display: none;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
-    @include breakpoint-and-up("sm") {
+
+    @include breakpoint-and-up('sm') {
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1rem;
     }
-    @include breakpoint-and-up("lg") {
+
+    @include breakpoint-and-up('lg') {
       grid-template-columns: repeat(4, 1fr);
     }
 
@@ -124,7 +126,7 @@
       font-size: 14px;
       font-weight: bolder;
 
-      @include breakpoint-and-up("lg") {
+      @include breakpoint-and-up('lg') {
         flex-direction: column;
         justify-content: center;
       }
@@ -133,10 +135,12 @@
         font-size: 1.5rem;
         color: lighten($dark, 25);
         animation: glow 3s ease-in infinite;
-        @include breakpoint-and-up("md") {
+
+        @include breakpoint-and-up('md') {
           font-size: 2rem;
         }
-        @include breakpoint-and-up("lg") {
+
+        @include breakpoint-and-up('lg') {
           font-size: 3.5rem;
         }
       }
@@ -203,26 +207,27 @@
   .bg-drop-#{$i} {
     position: absolute;
     z-index: -1;
+
     @include celestial-body();
 
     @if $i > 10 {
       display: none;
 
       @if $i < 15 {
-        @include breakpoint-and-up("md") {
+        @include breakpoint-and-up('md') {
           display: initial;
         }
       } @else {
-        @include breakpoint-and-up("lg") {
+        @include breakpoint-and-up('lg') {
           display: initial;
         }
       }
     }
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
-      padding: unquote("#{random() + 0.3}rem");
+      padding: unquote('#{random() + 0.3}rem');
       width: 2px;
       height: 100%;
       top: -300%;

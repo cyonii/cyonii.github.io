@@ -14,6 +14,7 @@ section {
 // Pad sections on the top to give enough space to fixed heder
 .pt-header-justice {
   padding-top: 61px;
+
   @include breakpoint-and-up("md") {
     padding-top: 92px;
   }
@@ -34,10 +35,38 @@ section {
   animation: rays 5s linear infinite alternate;
 }
 
+// Contact section
+#contact {
+  @include breakpoint-and-up("md") {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    display: grid !important;
+    grid-gap: 2rem;
+    grid-template-columns: auto;
+    align-items: center;
+
+    @include breakpoint-and-up("md") {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 // About section columns
 #about {
   .row {
     justify-content: space-between;
+
     .col {
       width: 100%;
 
@@ -54,32 +83,6 @@ section {
         }
       }
     }
-  }
-}
-
-// Contact section
-#contact {
-  @include breakpoint-and-up("md") {
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .row {
-    display: grid !important;
-    grid-gap: 2rem;
-    grid-template-columns: auto;
-    align-items: center;
-    @include breakpoint-and-up("md") {
-      grid-template-columns: auto auto;
-    }
-  }
-
-  .col {
-    display: flex;
-    flex-direction: column;
   }
 }
 

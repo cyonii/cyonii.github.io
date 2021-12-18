@@ -54,7 +54,7 @@ a {
   color: $primary;
   text-decoration: none;
 
-  &:hover {
+  :hover {
     color: lighten($primary, 10%);
   }
 }
