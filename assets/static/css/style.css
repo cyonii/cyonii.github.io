@@ -17286,7 +17286,6 @@ button:hover, button:focus,
 @media (min-width: 576px) {
   .intro-section::before {
     right: calc(((100vw - 540px) / 2));
-    transform: translateX(calc(-10% - 6rem));
     transform: translateX(calc(-10%));
   }
 }
