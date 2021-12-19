@@ -34,10 +34,10 @@
           </button>
           <div class="collapse navbar-collapse font-mono fw-lighter flex-grow-0" id="navbar-content">
             <div class="navbar-nav">
-              <a class="nav-link" href="#"><i class="bi bi-info-circle me-2"></i>About</a>
-              <a class="nav-link" href="#"><i class="bi bi-chevron-bar-expand me-2"></i>Experience</a>
-              <a class="nav-link" href="#"><i class="bi bi-building me-2"></i>Projects</a>
-              <a class="nav-link" href="#"><i class="bi bi-telephone-inbound me-2"></i>Contact</a>
+              <a class="nav-link" href="#"><i class="bi bi-info-circle text-info me-2"></i>About</a>
+              <a class="nav-link" href="#"><i class="bi bi-chevron-bar-expand text-info me-2"></i>Experience</a>
+              <a class="nav-link" href="#"><i class="bi bi-building text-info me-2"></i>Projects</a>
+              <a class="nav-link" href="#"><i class="bi bi-telephone-inbound text-info me-2"></i>Contact</a>
             </div>
 
             <div class="navbar-nav flex-row justify-content-between d-sm-none mt-3">
@@ -63,62 +63,39 @@
       </nav>
     </header>
 
-    <!-- Fixed Social Profile Links -->
-    <div class="nav floating-socials d-none d-sm-block position-fixed">
-      <a class="nav-link rounded-3 alert-dark text-dark mb-2" href="https://github.com/cyonii" target="_blank">
-        <i class="bi bi-github"></i>
-      </a>
-      <a class="nav-link rounded-3 alert-dark text-dark mb-2" href="https://linkedin.com/in/cyonii" target="_blank">
-        <i class="bi bi-linkedin"></i>
-      </a>
-      <a class="nav-link rounded-3 alert-dark text-dark mb-2" href="https://twitter/__cypy__" target="_blank">
-        <i class="bi bi-twitter"></i>
-      </a>
-      <a class="nav-link rounded-3 alert-dark text-dark" href="https://stackoverflow.com/users/11855904/cy23"
-        target="_blank">
-        <i class="bi bi-stack-overflow"></i>
-      </a>
-    </div>
-
-    <!-- Fixed contact -->
-    <div class="floating-contact shadow-sm alert-dark rounded-pill d-none d-sm-block position-fixed">
-      <a class="text-decoration-none text-dark font-mono lh-1 px-1 py-3" href="mailto:cy23@tutanota.com">
-        cy23@tutanota.com
-      </a>
-    </div>
-
     <main>
-      <section class="intro-section">
-        <div class="container">
+      <section class="bg-black">
+        <div class="container" id="intro-container">
           <div class="row">
-            <div class="col-md-8 py-5">
-              <p class="font-mono fw-bold fs-5 text-secondary mb-0">Hello, I am</p>
-              <h1 class="display-1 fw-bolder lh-1 mt-0">Silas Kalu</h1>
+            <div class="col-md-8 zindex-1 py-5">
+              <p class="font-mono fw-bold fs-5 text-muted mb-0">Hello, I am</p>
+              <h1 class="display-1 text-white fw-bolder lh-1 mt-0">Silas Kalu</h1>
 
-              <p class="display-4 lh-1 mt-4 fw-bold text-muted">I build efficient and performant software.</p>
+              <p class="display-4 lh-1 mt-4 fw-bold text-info">I build efficient and performant software.</p>
 
-              <p
-                class="font-mono border border-2 border-secondary fw-light mark shadow-sm rounded-3 p-3 fs-5 mt-4 lh-1">
+              <p class="font-mono alert-secondary opacity-75 text-black p-3 fw-lighter text-light fs-5 mt-4 lh-2">
                 I'm a software developer with high-end potential and proficiency in modern web technologies.
                 I help businesses mould concepts into functional computer software. Let's connect 👋.
               </p>
 
-              <div class="d-flex justify-content-center align-items-center mt-5">
-                <a href="#" class="link-secondary" id="call-to-action">
-                  <i class="bi bi-phone-vibrate-fill"></i>
+              <div class="d-flex justify-content-center mt-5">
+                <a href="#"
+                  class="d-inline-flex align-items-center text-center link-secondary text-decoration-none mt-5">
+                  <i class="bi bi-phone-vibrate-fill" id="call-to-connect"></i>
+                  <span class="fw-bold ms-3 zindex-1">Let's connect</span>
                 </a>
-                <span class="fw-bold ms-3 zindex-1">Let's Talk</span>
               </div>
             </div>
-            <div class="col-md-4">
-              <!-- <img class="img-fluid" width="100" src="./assets/static/images/cy-avatar.png" alt="CY Kalu"> -->
-            </div>
+
+            <div class="col-md-4"></div>
           </div>
         </div>
       </section>
 
       <!-- Temporary empty container for dev - 100 vh -->
-      <section class="vh-100"></section>
+      <section class="vh-100 bg-danger">
+
+      </section>
     </main>
 
     <!-- JavaScript Bundle with Popper -->

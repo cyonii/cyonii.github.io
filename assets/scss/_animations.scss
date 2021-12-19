@@ -51,7 +51,6 @@
   }
 
   50% {
-    transform: rotate(180deg);
     box-shadow: 0 0 0 16px lighten($danger, 20%), 0 0 0 32px lighten($danger, 30%),
       0 0 0 48px lighten($danger, 40%);
   }
@@ -99,7 +98,7 @@
     content: 'Programmer_';
   }
   100% {
-    content: 'Programmer!';
+    content: 'Programmer';
   }
 }
 

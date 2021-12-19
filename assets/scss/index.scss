@@ -13,6 +13,10 @@ $header-height: 61px;
 @import '../../node_modules/bootstrap-icons/font/bootstrap-icons';
 @import './animations';
 
+html {
+  background-color: $black;
+}
+
 button,
 .btn {
   &:hover,
@@ -55,6 +59,7 @@ button,
   & .nav-link {
     @include media-breakpoint-down('sm') {
       font-size: 18px;
+      font-weight: normal;
       border-bottom: 1px solid $gray-200;
       color: $dark;
     }
@@ -63,17 +68,20 @@ button,
 
 // Intro section
 
-.intro-section {
+#intro-container {
   min-height: calc(100vh - #{$header-height});
   position: relative;
 
   &::before,
   &::after {
     content: '';
+    width: 8rem;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
     position: absolute;
     top: 0;
     right: 1rem;
-    height: 100%;
     font-size: 8rem;
     font-weight: bolder;
     line-height: 1;
@@ -81,118 +89,35 @@ button,
   }
 
   &::before {
+    right: 8rem + 1rem;
     writing-mode: vertical-lr;
-    background-color: $gray-300;
-    color: $gray-500;
+    background-color: lighten($black, 10);
+    color: lighten($black, 20);
     animation: engrave-programmer 1s linear 0.5s forwards;
 
-    @each $screen, $width in $container-max-widths {
-      @include media-breakpoint-up($screen) {
-        right: calc(((100vw - #{$width}) / 2));
-
-        @if $screen == 'sm' {
-          transform: translateX(calc(-10%));
-        } @else {
-          transform: translateX(calc(-10% - 6rem));
-        }
-      }
+    @include media-breakpoint-down('md') {
+      right: 1rem;
     }
   }
 
   &::after {
+    right: 1rem;
     padding-top: 2.5rem;
     display: none;
     writing-mode: vertical-rl;
-    background-color: $gray-500;
-    color: $gray-400;
+    background-color: lighten($black, 20);
+    color: lighten($black, 10);
     animation: engrave-software 1s linear 1s forwards;
 
     @include media-breakpoint-up('md') {
       display: initial;
-    }
-
-    @each $screen, $width in $container-max-widths {
-      @include media-breakpoint-up($screen) {
-        right: calc(((100vw - #{$width}) / 2));
-        transform: translateX(-10%);
-      }
     }
   }
 }
 
 // Miscellaneous components =====================================
 
-// Floating widgets
-.floating-socials,
-.floating-contact {
-  z-index: 1;
-
-  &::after {
-    content: '';
-    width: 2px;
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-    background-color: lighten($color: $secondary, $amount: 40%);
-  }
-}
-
-// floating social media icons
-.floating-socials {
-  bottom: -100%;
-  animation: socials-slide-up 1s ease-in 0.3s forwards;
-
-  @each $screen, $width in $container-max-widths {
-    @include media-breakpoint-up($screen) {
-      left: calc(((100vw - #{$width}) / 2));
-      transform: translateX(-100%);
-    }
-  }
-
-  &::after {
-    height: calc(100% + 5rem);
-    top: 0;
-  }
-
-  & .nav-link {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    place-content: center;
-    place-items: center;
-    color: $dark;
-    font-size: 1.25rem;
-    transition: all 0.3s;
-
-    &:hover {
-      background-color: $black;
-      color: $white !important;
-    }
-  }
-}
-
-// Floating contact info
-.floating-contact {
-  top: -100%;
-  writing-mode: vertical-lr;
-  animation: contact-slide-down 1s ease-in forwards;
-  top: calc(#{$header-height} + 5rem);
-
-  @each $screen, $width in $container-max-widths {
-    @include media-breakpoint-up($screen) {
-      right: calc(((100vw - #{$width}) / 2));
-      transform: translateX(100%);
-    }
-  }
-
-  &::after {
-    top: -100%;
-  }
-}
-
-#call-to-action {
+#call-to-connect {
   width: 60px;
   height: 60px;
   display: flex;
@@ -213,6 +138,12 @@ button,
 .font-mono {
   font-family: 'JetBrains Mono', 'Courier New', Courier, monospace !important;
 }
+
+.lh-2 {
+  line-height: 1.25;
+}
+
+// Placeholder Selectors =====================================
 
 %text-clip {
   background-clip: text !important;
