@@ -17281,11 +17281,12 @@ button:hover, button:focus,
   opacity: 0.9;
 }
 #intro-container::before {
+  content: "Welcome!";
   right: 9rem;
   writing-mode: vertical-lr;
   background-color: #1a1a1a;
   color: #333333;
-  animation: engrave-programmer 1s linear 0.5s forwards;
+  animation: engrave-programmer 1s linear 1s forwards;
 }
 @media (max-width: 767.98px) {
   #intro-container::before {
@@ -17293,13 +17294,14 @@ button:hover, button:focus,
   }
 }
 #intro-container::after {
+  content: "Hello,";
   right: 1rem;
   padding-top: 2.5rem;
   display: none;
   writing-mode: vertical-rl;
   background-color: #333333;
   color: #1a1a1a;
-  animation: engrave-software 1s linear 1s forwards;
+  animation: engrave-software 1s linear 0.5s forwards;
 }
 @media (min-width: 768px) {
   #intro-container::after {

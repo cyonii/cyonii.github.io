@@ -89,11 +89,12 @@ button,
   }
 
   &::before {
+    content: 'Welcome!';
     right: 8rem + 1rem;
     writing-mode: vertical-lr;
     background-color: lighten($black, 10);
     color: lighten($black, 20);
-    animation: engrave-programmer 1s linear 0.5s forwards;
+    animation: engrave-programmer 1s linear 1s forwards;
 
     @include media-breakpoint-down('md') {
       right: 1rem;
@@ -101,13 +102,14 @@ button,
   }
 
   &::after {
+    content: 'Hello,';
     right: 1rem;
     padding-top: 2.5rem;
     display: none;
     writing-mode: vertical-rl;
     background-color: lighten($black, 20);
     color: lighten($black, 10);
-    animation: engrave-software 1s linear 1s forwards;
+    animation: engrave-software 1s linear 0.5s forwards;
 
     @include media-breakpoint-up('md') {
       display: initial;
