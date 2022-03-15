@@ -17182,7 +17182,6 @@ button:hover, button:focus,
   INTRO SECTION =====================================
 */
 #intro-container {
-  min-height: calc(100vh - 61px);
   position: relative;
 }
 #intro-container::after {
@@ -17261,6 +17260,10 @@ button:hover, button:focus,
     font-size: 7.5rem;
     min-height: 7.5rem;
   }
+}
+
+.h-full-safe {
+  min-height: calc(100vh - 61px);
 }
 
 /*
