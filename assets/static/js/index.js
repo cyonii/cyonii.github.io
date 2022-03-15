@@ -1,12 +1,29 @@
-/* Print name */
+/* PRINT NAME */
 const nameTag = document.getElementById("intro-name");
 const name = "Silas Kalu";
-let count = 0;
+let nameTimer = 0;
 
+// set minimun height of element to it's original height with content,
+// remove initial content and re-fill with content
+nameTag.style.minHeight = nameTag.offsetHeight + "px";
+nameTag.innerHTML = "";
 name.split("").forEach((letter) => {
   setTimeout(() => {
     nameTag.innerHTML += letter;
-  }, (count += 200));
+  }, (nameTimer += 200));
+});
+
+// PRINT SHORT INTRO
+const introText = `I'm a software developer with high-end proficiency in modern web technologies. I help businesses mould concepts into functional computer software. Let's connect 👋.`;
+const introTag = document.getElementById("intro");
+let introTimer = 0;
+
+// set minimun height of element to it's original height with content,
+// remove initial content and re-fill with content
+introTag.style.minHeight = introTag.offsetHeight + "px";
+introTag.innerHTML = "";
+introText.split("").forEach((letter) => {
+  setTimeout(() => (introTag.innerHTML += letter), (introTimer += 10));
 });
 
 // Call to scroll

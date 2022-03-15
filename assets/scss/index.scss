@@ -149,16 +149,13 @@ button,
 
 #intro-name {
   font-size: 5rem;
-  min-height: 5rem;
 
   @include media-breakpoint-up("sm") {
     font-size: 6rem;
-    min-height: 6rem;
   }
 
   @include media-breakpoint-up("md") {
     font-size: 7.5rem;
-    min-height: 7.5rem;
   }
 }
 
