@@ -17118,12 +17118,12 @@ textarea.form-control-lg {
 }
 @keyframes glow {
   0%, 100%, 90% {
-    box-shadow: 0 0 0 1px #021530;
+    box-shadow: 0 0 0 1px #00aeff;
     background-color: #021530;
     color: #00aeff;
   }
   50% {
-    box-shadow: 0 0 2px 1px #99dfff;
+    box-shadow: 0 0 2px 1px #0855c3;
     background-color: #00aeff;
     color: #021530;
   }

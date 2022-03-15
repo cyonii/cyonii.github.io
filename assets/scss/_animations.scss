@@ -22,14 +22,14 @@
   0%,
   100%,
   90% {
-    box-shadow: 0 0 0 1px $dark;
+    box-shadow: 0 0 0 1px $primary;
     background-color: $dark;
     color: $primary;
   }
 
   50% {
     // color: #07080a;
-    box-shadow: 0 0 2px 1px lighten($primary, 30);
+    box-shadow: 0 0 2px 1px lighten($dark, 30);
     background-color: $primary;
     color: $dark;
   }
