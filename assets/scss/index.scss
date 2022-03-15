@@ -78,16 +78,19 @@ button,
   position: relative;
 
   &::after {
-    content: "Welcome";
+    $content-height: calc(100vh * 0.2);
+
+    content: "{}🏗️🛠️</>👷🏽‍♂️";
     position: absolute;
     width: 100%;
+    max-height: $content-height;
     left: 0;
     bottom: 0;
     font-family: "JetBrains Mono", monospace;
-    font-size: calc(100vh * 0.2);
+    font-size: $content-height;
     font-weight: bolder;
-    line-height: 120px;
-    letter-spacing: -20px;
+    line-height: $content-height;
+    letter-spacing: -10px;
     opacity: 0.4;
     overflow: hidden;
     background: linear-gradient(

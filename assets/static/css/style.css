@@ -17185,16 +17185,17 @@ button:hover, button:focus,
   position: relative;
 }
 #intro-container::after {
-  content: "Welcome";
+  content: "{}🏗️🛠️</>👷🏽‍♂️";
   position: absolute;
   width: 100%;
+  max-height: calc(100vh * 0.2);
   left: 0;
   bottom: 0;
   font-family: "JetBrains Mono", monospace;
   font-size: calc(100vh * 0.2);
   font-weight: bolder;
-  line-height: 120px;
-  letter-spacing: -20px;
+  line-height: calc(100vh * 0.2);
+  letter-spacing: -10px;
   opacity: 0.4;
   overflow: hidden;
   background: linear-gradient(45deg, #99dfff 20%, #33beff 30%);
