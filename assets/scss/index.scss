@@ -137,7 +137,7 @@ button,
   padding: 1rem 0.25rem;
   border: none;
   position: fixed;
-  z-index: 1;
+  z-index: $zindex-tooltip;
   left: 50%;
   bottom: 0.75rem;
   transform: translateX(-50%);
