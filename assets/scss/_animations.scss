@@ -1,130 +1,36 @@
-@keyframes scale-bounce {
-  0%,
-  100% {
-    transform: rotate(10deg) scale(0.9) translateY(-50%);
-  }
-  50% {
-    transform: rotate(10deg) scale(1) translateY(-40%);
-  }
-}
-
-@include media-breakpoint-up('md') {
-  @keyframes scale-bounce {
-    0%,
-    100% {
-      transform: rotate(10deg) scale(0.9) translateY(-10%);
-    }
-    50% {
-      transform: rotate(10deg) scale(1) translateY(-5%);
-    }
-  }
-}
-
-// Social icons slide up
-@keyframes socials-slide-up {
-  from {
-    bottom: -100%;
-  }
-
-  to {
-    bottom: 5rem;
-  }
-}
-
-// Email contact slide down
-@keyframes contact-slide-down {
-  from {
-    top: -100%;
-    z-index: -2;
-  }
-
-  to {
-    top: calc(#{$header-height} + 5rem);
-    z-index: -1;
-  }
-}
-
 @keyframes signal {
   0% {
-    transform: rotate(0deg);
-    box-shadow: 0 0 4px 4px lighten($danger, 40%);
+    box-shadow: 0 0 4px 4px lighten($warning, 40%);
   }
 
   50% {
-    box-shadow: 0 0 0 16px lighten($danger, 20%), 0 0 0 32px lighten($danger, 30%),
-      0 0 0 48px lighten($danger, 40%);
+    box-shadow: 0 0 0 16px lighten($warning, 20%),
+      0 0 0 32px lighten($warning, 30%), 0 0 0 48px lighten($warning, 40%);
   }
 
   75% {
-    box-shadow: 0 0 0 8px lighten($danger, 20%), 0 0 0 16px lighten($danger, 30%),
-      0 0 0 32px lighten($danger, 40%);
+    box-shadow: 0 0 0 8px lighten($warning, 20%),
+      0 0 0 16px lighten($warning, 30%), 0 0 0 32px lighten($warning, 40%);
   }
 
   100% {
-    transform: rotate(360deg);
-    box-shadow: 0 0 4px 4px lighten($danger, 40%);
+    box-shadow: 0 0 4px 4px lighten($warning, 40%);
   }
 }
 
-@keyframes engrave-programmer {
-  0% {
-    content: 'P_';
-  }
-  10% {
-    content: 'Pr_';
-  }
-  20% {
-    content: 'Pro_';
-  }
-  30% {
-    content: 'Prog_';
-  }
-  40% {
-    content: 'Progr_';
-  }
-  50% {
-    content: 'Progra_';
-  }
-  60% {
-    content: 'Program_';
-  }
-  70% {
-    content: 'Programm_';
-  }
-  80% {
-    content: 'Programme_';
-  }
+@keyframes glow {
+  0%,
+  100%,
   90% {
-    content: 'Programmer_';
+    box-shadow: 0 0 0 1px $dark;
+    background-color: $dark;
+    color: $primary;
   }
-  100% {
-    content: 'Programmer';
-  }
-}
 
-@keyframes engrave-software {
-  0% {
-    content: 'S';
-  }
-  10% {
-    content: 'So';
-  }
-  25% {
-    content: 'Sof';
-  }
-  35% {
-    content: 'Soft';
-  }
-  45% {
-    content: 'Softw';
-  }
-  60% {
-    content: 'Softwa';
-  }
-  65% {
-    content: 'Softwar';
-  }
-  100% {
-    content: 'Software';
+  50% {
+    // color: #07080a;
+    box-shadow: 0 0 2px 1px lighten($primary, 30);
+    background-color: $primary;
+    color: $dark;
   }
 }

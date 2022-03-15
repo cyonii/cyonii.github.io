@@ -1,108 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silas Kalu | Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silas Kalu | Portfolio</title>
 
-    <link rel="icon" href="assets/static/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href='assets/static/favicon/apple-touch-icon.png'>
-    <link rel="icon" type="image/png" sizes="32x32" href='assets/static/favicon/favicon-32x32.png'>
-    <link rel="icon" type="image/png" sizes="16x16" href='assets/static/favicon/favicon-16x16.png'>
-    <link rel="manifest" href='static/favicon/site.webmanifest'>
+  <link rel="icon" href="assets/static/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href='assets/static/favicon/apple-touch-icon.png'>
+  <link rel="icon" type="image/png" sizes="32x32" href='assets/static/favicon/favicon-32x32.png'>
+  <link rel="icon" type="image/png" sizes="16x16" href='assets/static/favicon/favicon-16x16.png'>
+  <link rel="manifest" href='static/favicon/site.webmanifest'>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/static/css/style.css">
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./assets/static/css/style.css">
+</head>
 
-  <body>
-    <header class="sticky-top">
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div class="container d-flex">
-          <a class="navbar-brand p-0" href="/">
-            <img class="img-fluid border border-2 border-muted avatar-logo" src="./assets/static/images/cy-avatar.png"
-              alt="CY Avatar">
-          </a>
-          <button class="navbar-toggler border-0 py-0" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="bi bi-joystick"></i>
-          </button>
-          <div class="collapse navbar-collapse font-mono fw-lighter flex-grow-0" id="navbar-content">
-            <div class="navbar-nav">
-              <a class="nav-link" href="#"><i class="bi bi-info-circle text-info me-2"></i>About</a>
-              <a class="nav-link" href="#"><i class="bi bi-chevron-bar-expand text-info me-2"></i>Experience</a>
-              <a class="nav-link" href="#"><i class="bi bi-building text-info me-2"></i>Projects</a>
-              <a class="nav-link" href="#"><i class="bi bi-telephone-inbound text-info me-2"></i>Contact</a>
-            </div>
+<body>
+  <!-- Call to Scroll -->
+  <a id="call-to-scroll" class="text-primarys visually-hidden" href="#about">
+    <i class="bi bi-mouse2-fill"></i>
+  </a>
 
-            <div class="navbar-nav flex-row justify-content-between d-sm-none mt-3">
-              <a class="nav-link shadow-sm rounded-3 border border-dark p-2 alert-dark text-dark"
-                href="https://github.com/cyonii" target="_blank">
-                <i class="bi bi-github"></i>
-              </a>
-              <a class="nav-link rounded-3 border border-dark p-2 alert-dark text-dark"
-                href="https://linkedin.com/in/cyonii" target="_blank">
-                <i class="bi bi-linkedin"></i>
-              </a>
-              <a class="nav-link rounded-3 border border-dark p-2 alert-dark text-dark" href="https://twitter/__cypy__"
-                target="_blank">
-                <i class="bi bi-twitter"></i>
-              </a>
-              <a class="nav-link rounded-3 border border-dark p-2 alert-dark text-dark"
-                href="https://stackoverflow.com/users/11855904/cy23" target="_blank">
-                <i class="bi bi-stack-overflow"></i>
-              </a>
-            </div>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+      <div class="container d-flex">
+        <a class="navbar-brand p-0" href="/">
+          <img class="img-fluid border border-2 border-muted avatar-logo" src="./assets/static/images/cy-avatar.png"
+            alt="CY Avatar">
+        </a>
+        <button class="navbar-toggler border-0 py-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="bi bi-joystick"></i>
+        </button>
+        <div class="collapse navbar-collapse font-mono fw-lighter flex-grow-0" id="navbar-content">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#"><i class="bi bi-info-circle text-info me-2"></i>About</a>
+            <a class="nav-link" href="#"><i class="bi bi-chevron-bar-expand text-info me-2"></i>Experience</a>
+            <a class="nav-link" href="#"><i class="bi bi-building text-info me-2"></i>Projects</a>
+            <a class="nav-link" href="#"><i class="bi bi-telephone-inbound text-info me-2"></i>Contact</a>
+          </div>
+
+          <div class="navbar-nav flex-row justify-content-between d-sm-none mt-3">
+            <a class="nav-link shadow-sm rounded-3 border border-dark p-2 alert-dark text-dark"
+              href="https://github.com/cyonii" target="_blank">
+              <i class="bi bi-github"></i>
+            </a>
+            <a class="nav-link rounded-3 border border-dark p-2 alert-dark text-dark"
+              href="https://linkedin.com/in/cyonii" target="_blank">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a class="nav-link rounded-3 border border-dark p-2 alert-dark text-dark" href="https://twitter/__cypy__"
+              target="_blank">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a class="nav-link rounded-3 border border-dark p-2 alert-dark text-dark"
+              href="https://stackoverflow.com/users/11855904/cy23" target="_blank">
+              <i class="bi bi-stack-overflow"></i>
+            </a>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-      <section class="bg-black">
-        <div class="container" id="intro-container">
-          <div class="row">
-            <div class="col-md-8 zindex-1 py-5">
-              <p class="font-mono fw-bold fs-5 text-muted mb-0">Hello, I am</p>
-              <h1 class="display-1 text-white fw-bolder lh-1 mt-0">Silas Kalu</h1>
+  <main>
+    <section class="bg-primary bg-img-circuit">
+      <div class="container" id="intro-container">
+        <div class="row align-items-center">
+          <div class="col-md-8 zindex-1 py-5">
+            <p class="font-mono fw-bold fs-5 text-light mb-0">Hey there 👋, I'm</p>
+            <h1 class="font-handwriting text-light fw-bolder lh-1 mt-0" id="intro-name"></h1>
 
-              <p class="display-4 lh-1 mt-4 fw-bold text-info">I build efficient and performant software.</p>
+            <p class="display-4 lh-1 mt-4 fw-bold text-dark">I build efficient and performant software</p>
+            <p class="text-info fw-light fs-4 lh-1 font-mono">
+              <span class="bg-dark rounded px-2">for the web</span>
+            </p>
 
-              <p class="font-mono alert-secondary opacity-75 text-black p-3 fw-lighter text-light fs-5 mt-4 lh-2">
-                I'm a software developer with high-end potential and proficiency in modern web technologies.
-                I help businesses mould concepts into functional computer software. Let's connect 👋.
-              </p>
-
-              <div class="d-flex justify-content-center mt-5">
+            <div class="row align-content-center justify-content-center mt-5">
+              <div class="col-sm-6 text-center text-md-start">
                 <a href="#"
-                  class="d-inline-flex align-items-center text-center link-secondary text-decoration-none mt-5">
-                  <i class="bi bi-phone-vibrate-fill" id="call-to-connect"></i>
+                  class="btn bg-white shadow-dark-sm rounded-pill d-inline-flex align-items-center justify-content-center animate__animated animate__tada">
+                  <i class="bi bi-phone-vibrate-fill border border-dark border-2" id="call-to-connect"></i>
                   <span class="fw-bold ms-3 zindex-1">Let's connect</span>
                 </a>
               </div>
+
+              <div class="col-sm-6 mt-4 mt-sm-0">
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start h-100">
+                  <a class="btn-classic border border-2 border-dark" href="https://github.com/cyonii" target="_blank">
+                    <i class="bi bi-github" aria-hidden="true"></i>
+                  </a>
+                  <a class="btn-classic border border-2 border-dark mx-3" href="http://twitter.com/__cypy__"
+                    target="_blank">
+                    <i class="bi bi-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a class="btn-classic border border-2 border-dark" href="http://linkedin.com/in/cyonii"
+                    target="_blank">
+                    <i class="bi bi-linkedin" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div
+              class="d-flex box-200 place-center rounded-circle shadow-dark-md  alert-secondary border border-2 border-dark p-4 my-5 mx-auto">
+              <img class="animate__animated animate__bounceIn" height="150" width="150"
+                src="assets/static/images/cy-avatar.png" alt="CY's Avatar">
             </div>
 
-            <div class="col-md-4"></div>
+            <p class="text-start rounded font-mono alert-secondary text-dark p-3 fw-light lh-2">
+              I'm a software developer with high-end proficiency in modern web technologies.
+              I help businesses mould concepts into functional computer software. Let's connect 👋.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Temporary empty container for dev - 100 vh -->
-      <section class="vh-100 bg-danger">
+    <!-- Temporary empty container for dev - 100 vh -->
+    <section class="vh-100 alert-secondary" id="about">
 
-      </section>
-    </main>
+    </section>
+  </main>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <script src="assets/static/js/index.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/static/js/index.js"></script>
+</body>
 
 </html>
