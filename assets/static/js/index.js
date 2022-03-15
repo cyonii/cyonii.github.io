@@ -3,10 +3,6 @@ const nameTag = document.getElementById("intro-name");
 const name = "Silas Kalu";
 let nameTimer = 0;
 
-// set minimun height of element to it's original height with content,
-// remove initial content and re-fill with content
-nameTag.style.minHeight = nameTag.offsetHeight + "px";
-nameTag.innerHTML = "";
 name.split("").forEach((letter) => {
   setTimeout(() => {
     nameTag.innerHTML += letter;

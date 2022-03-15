@@ -17248,15 +17248,18 @@ button:hover, button:focus,
 
 #intro-name {
   font-size: 5rem;
+  min-height: 5rem;
 }
 @media (min-width: 576px) {
   #intro-name {
     font-size: 6rem;
+    min-height: 6rem;
   }
 }
 @media (min-width: 768px) {
   #intro-name {
     font-size: 7.5rem;
+    min-height: 7.5rem;
   }
 }
 
