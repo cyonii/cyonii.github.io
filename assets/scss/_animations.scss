@@ -34,3 +34,15 @@
     color: $dark;
   }
 }
+
+@keyframes doorSlideLeft {
+  100% {
+    left: -50%;
+  }
+}
+
+@keyframes doorSlideRight {
+  100% {
+    right: -50%;
+  }
+}

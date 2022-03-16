@@ -164,9 +164,36 @@ button,
   }
 }
 
-// structure
-.h-full-safe {
-  min-height: calc(100vh - #{$header-height});
+#avatar-wrapper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  animation-duration: 0.5s;
+  cursor: help;
+
+  @mixin half-door {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    background-color: lighten($primary, 15%);
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  &::before {
+    @include half-door;
+    left: 0;
+    animation: doorSlideLeft 1s ease-in-out 0.2s forwards;
+  }
+
+  &::after {
+    @include half-door;
+    right: 0;
+    animation: doorSlideRight 1s ease-in-out 0.2s forwards;
+  }
 }
 
 /*
@@ -225,17 +252,16 @@ button,
   place-items: center;
 }
 
-.box-200 {
-  width: 200px;
-  height: 200px;
-}
-
 .shadow-dark-sm {
   box-shadow: 4px 4px 0 1px $dark;
 }
 
 .shadow-dark-md {
   box-shadow: 8px 8px 0 1px $dark;
+}
+
+.h-full-safe {
+  min-height: calc(100vh - #{$header-height});
 }
 
 /*
