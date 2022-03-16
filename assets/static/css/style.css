@@ -17306,6 +17306,14 @@ button:hover, button:focus,
   animation: doorSlideRight 1s ease-in-out 0.2s forwards;
 }
 
+.text-gradient-flaming {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(-75deg, #ff7170, #ffe57f);
+  background: -webkit-linear-gradient(-75deg, #ff7170, #ffe57f);
+}
+
 /*
   BUTTONS ===========================================
 */
