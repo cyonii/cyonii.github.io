@@ -91,16 +91,7 @@ button,
     letter-spacing: -10px;
     opacity: 0.4;
     overflow: hidden;
-    background: linear-gradient(
-      45deg,
-      lighten($primary, 30%) 20%,
-      lighten($primary, 10%) 30%
-    );
-    background: -webkit-linear-gradient(
-      45deg,
-      lighten($primary, 30%) 20%,
-      lighten($primary, 10%) 30%
-    );
+    background: lighten($color: $primary, $amount: 0%);
     background-clip: text !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent;
@@ -168,7 +159,7 @@ button,
   position: relative;
   overflow: hidden;
   animation-duration: 0.5s;
-  cursor: help;
+  cursor: none;
 
   @mixin half-door {
     content: "";
