@@ -1,6 +1,6 @@
 $primary: #00aeff;
 $success: #00ffbb;
-$dark: #021530;
+// $dark: #021530;
 $enable-transitions: false;
 $container-max-widths: (
   sm: 540px,
@@ -17,6 +17,13 @@ $header-height: 61px;
 
 html {
   background-color: $black;
+}
+
+body {
+  background-image: url(/assets/static/images/body-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 button,
@@ -89,9 +96,10 @@ button,
     font-weight: bolder;
     line-height: $content-height;
     letter-spacing: -10px;
+    word-break: break-all;
     opacity: 0.4;
     overflow: hidden;
-    background: lighten($color: $primary, $amount: 0%);
+    background: lighten($color: $black, $amount: 70%);
     background-clip: text !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent;

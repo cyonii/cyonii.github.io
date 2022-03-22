@@ -35,7 +35,7 @@
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #021530;
+  --bs-dark: #212529;
   --bs-primary-rgb: 0, 174, 255;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 0, 255, 187;
@@ -43,7 +43,7 @@
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 2, 21, 48;
+  --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -2092,15 +2092,15 @@ progress {
 }
 
 .table-dark {
-  --bs-table-bg: #021530;
-  --bs-table-striped-bg: #0f213a;
+  --bs-table-bg: #212529;
+  --bs-table-striped-bg: #2c3034;
   --bs-table-striped-color: #fff;
-  --bs-table-active-bg: #1b2c45;
+  --bs-table-active-bg: #373b3e;
   --bs-table-active-color: #fff;
-  --bs-table-hover-bg: #152740;
+  --bs-table-hover-bg: #323539;
   --bs-table-hover-color: #fff;
   color: #fff;
-  border-color: #1b2c45;
+  border-color: #373b3e;
 }
 
 .table-responsive {
@@ -3078,32 +3078,32 @@ textarea.form-control-lg {
 
 .btn-dark {
   color: #fff;
-  background-color: #021530;
-  border-color: #021530;
+  background-color: #212529;
+  border-color: #212529;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #021229;
-  border-color: #021126;
+  background-color: #1c1f23;
+  border-color: #1a1e21;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
-  background-color: #021229;
-  border-color: #021126;
-  box-shadow: 0 0 0 0.25rem rgba(40, 56, 79, 0.5);
+  background-color: #1c1f23;
+  border-color: #1a1e21;
+  box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
 }
 .btn-check:checked + .btn-dark, .btn-check:active + .btn-dark, .btn-dark:active, .btn-dark.active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #021126;
-  border-color: #021024;
+  background-color: #1a1e21;
+  border-color: #191c1f;
 }
 .btn-check:checked + .btn-dark:focus, .btn-check:active + .btn-dark:focus, .btn-dark:active:focus, .btn-dark.active:focus, .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(40, 56, 79, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
 }
 .btn-dark:disabled, .btn-dark.disabled {
   color: #fff;
-  background-color: #021530;
-  border-color: #021530;
+  background-color: #212529;
+  border-color: #212529;
 }
 
 .btn-outline-primary {
@@ -3282,27 +3282,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dark {
-  color: #021530;
-  border-color: #021530;
+  color: #212529;
+  border-color: #212529;
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #021530;
-  border-color: #021530;
+  background-color: #212529;
+  border-color: #212529;
 }
 .btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
-  box-shadow: 0 0 0 0.25rem rgba(2, 21, 48, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
 }
 .btn-check:checked + .btn-outline-dark, .btn-check:active + .btn-outline-dark, .btn-outline-dark:active, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show {
   color: #fff;
-  background-color: #021530;
-  border-color: #021530;
+  background-color: #212529;
+  border-color: #212529;
 }
 .btn-check:checked + .btn-outline-dark:focus, .btn-check:active + .btn-outline-dark:focus, .btn-outline-dark:active:focus, .btn-outline-dark.active:focus, .btn-outline-dark.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(2, 21, 48, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
 }
 .btn-outline-dark:disabled, .btn-outline-dark.disabled {
-  color: #021530;
+  color: #212529;
   background-color: transparent;
 }
 
@@ -4776,12 +4776,12 @@ textarea.form-control-lg {
 }
 
 .alert-dark {
-  color: #010d1d;
-  background-color: #ccd0d6;
-  border-color: #b3b9c1;
+  color: #141619;
+  background-color: #d3d3d4;
+  border-color: #bcbebf;
 }
 .alert-dark .alert-link {
-  color: #010a17;
+  color: #101214;
 }
 
 .progress {
@@ -5130,17 +5130,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-dark {
-  color: #010d1d;
-  background-color: #ccd0d6;
+  color: #141619;
+  background-color: #d3d3d4;
 }
 .list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {
-  color: #010d1d;
-  background-color: #b8bbc1;
+  color: #141619;
+  background-color: #bebebf;
 }
 .list-group-item-dark.list-group-item-action.active {
   color: #fff;
-  background-color: #010d1d;
-  border-color: #010d1d;
+  background-color: #141619;
+  border-color: #141619;
 }
 
 .btn-close {
@@ -6154,10 +6154,10 @@ textarea.form-control-lg {
 }
 
 .link-dark {
-  color: #021530;
+  color: #212529;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #021126;
+  color: #1a1e21;
 }
 
 .ratio {
@@ -6579,7 +6579,7 @@ textarea.form-control-lg {
 }
 
 .border-dark {
-  border-color: #021530 !important;
+  border-color: #212529 !important;
 }
 
 .border-white {
@@ -17119,13 +17119,13 @@ textarea.form-control-lg {
 @keyframes glow {
   0%, 100%, 90% {
     box-shadow: 0 0 0 1px #00aeff;
-    background-color: #021530;
+    background-color: #212529;
     color: #00aeff;
   }
   50% {
-    box-shadow: 0 0 2px 1px #0855c3;
+    box-shadow: 0 0 2px 1px #65727e;
     background-color: #00aeff;
-    color: #021530;
+    color: #212529;
   }
 }
 @keyframes doorSlideLeft {
@@ -17140,6 +17140,13 @@ textarea.form-control-lg {
 }
 html {
   background-color: #000;
+}
+
+body {
+  background-image: url(/assets/static/images/body-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 button:hover, button:focus,
@@ -17184,7 +17191,7 @@ button:hover, button:focus,
     font-size: 18px;
     font-weight: normal;
     border-bottom: 1px solid #e9ecef;
-    color: #021530;
+    color: #212529;
   }
 }
 
@@ -17206,9 +17213,10 @@ button:hover, button:focus,
   font-weight: bolder;
   line-height: calc(100vh * 0.2);
   letter-spacing: -10px;
+  word-break: break-all;
   opacity: 0.4;
   overflow: hidden;
-  background: #00aeff;
+  background: #b3b3b3;
   background-clip: text !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
@@ -17366,11 +17374,11 @@ button:hover, button:focus,
 }
 
 .shadow-dark-sm {
-  box-shadow: 4px 4px 0 1px #021530;
+  box-shadow: 4px 4px 0 1px #212529;
 }
 
 .shadow-dark-md {
-  box-shadow: 8px 8px 0 1px #021530;
+  box-shadow: 8px 8px 0 1px #212529;
 }
 
 .h-full-safe {
