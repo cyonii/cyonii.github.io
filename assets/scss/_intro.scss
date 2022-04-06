@@ -1,0 +1,63 @@
+section#intro {
+  $title-height: calc(100vh * 0.2);
+
+  position: relative;
+  transition: 0.5s;
+  z-index: -1;
+  margin-bottom: $title-height;
+
+  &.scrolled {
+    transition: 0.5s;
+
+    &::after {
+      display: none !important;
+      transition: 0.5s;
+    }
+  }
+
+  &::before {
+    content: 'Welcome';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    font-family: $font-mono;
+    font-size: $title-height;
+    font-weight: bolder;
+    line-height: 120px;
+    letter-spacing: -20px;
+    opacity: 0.4;
+    overflow: hidden;
+    background: linear-gradient(45deg, $white 20%, darken($grey, 40%) 30%);
+    background: -webkit-linear-gradient(45deg, $white 10%, rgb(71, 71, 71) 20%);
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .col:first-child {
+    width: 100%;
+
+    @include breakpoint-and-up('md') {
+      width: 70%;
+    }
+
+    @include breakpoint-and-up('lg') {
+      width: 50%;
+    }
+
+    .mega-title {
+      font-size: 4em;
+      color: $white;
+
+      @include breakpoint-and-up('md') {
+        font-size: 5em;
+      }
+
+      @include breakpoint-and-up('lg') {
+        font-size: 6em;
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+// Font families
+@each $name, $family in $font-families {
+  .ff-#{$name} {
+    font-family: $family !important;
+  }
+}
+
+// Font weights
+@each $name, $weight in $font-weights {
+  .fw-#{$name} {
+    font-weight: $weight !important;
+  }
+}
+
+// Colors
+@each $name, $value in $color-map {
+  .text-#{$name} {
+    color: $value !important;
+  }
+}
+
+// Positioning
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+// Sizes
+@for $size from 16 to 60 {
+  .fs-#{$size} {
+    font-size: #{$size}px !important;
+  }
+}
+
+// Style
+.fst-italic {
+  font-style: italic !important;
+}
+
+// Line heights
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-2 {
+  line-height: 1.5;
+}
+
+.lh-normal {
+  line-height: normal;
+}
+
+// Text clip and backgrounds
+.text-clip {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+
+  & > *::-moz-selection,
+  &::-moz-selection {
+    background: $secondary;
+    background-clip: initial !important;
+    -webkit-background-clip: none !important;
+    -moz-background-clip: none !important;
+    -webkit-text-fill-color: $dark !important;
+  }
+
+  & > *::selection,
+  &::selection {
+    background: $secondary;
+    background-clip: initial !important;
+    -webkit-background-clip: none !important;
+    -moz-background-clip: none !important;
+    -webkit-text-fill-color: $dark !important;
+  }
+}
+
+.text-gradient-1 {
+  background: linear-gradient(-90deg, #92f1c3, #569df0);
+  background: -webkit-linear-gradient(-90deg, #92f1c3, #569df0);
+}
+
+.text-gradient-2 {
+  background: linear-gradient(-75deg, #ff7170, #ffe57f);
+  background: -webkit-linear-gradient(-75deg, #ff7170, #ffe57f);
+}
+
+.text-gradient-3 {
+  background: linear-gradient(45deg, $primary 10%, $white 90%);
+  background: -webkit-linear-gradient(45deg, $primary 10%, $white 90%);
+}
+
+.text-gradient-4 {
+  background: linear-gradient(90deg, $white 10%, darken($grey, 20%) 90%);
+  background: -webkit-linear-gradient(90deg, $white 10%, darken($grey, 20%) 90%);
+}

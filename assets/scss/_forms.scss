@@ -1,0 +1,16 @@
+.form-control {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid $muted;
+  border-radius: 5px;
+  background: lighten($dark, 0%) !important;
+  color: $white !important;
+  font-size: 1rem;
+  font-family: $font-mono;
+
+  &:focus {
+    box-shadow: 0 0 2px 2px $primary;
+    background: $white;
+    color: $dark;
+  }
+}

@@ -1,0 +1,116 @@
+::-moz-selection {
+  background: $secondary;
+  color: $dark;
+}
+
+::selection {
+  background: $secondary;
+  color: $dark;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+// Placeholders
+::-webkit-input-placeholder {
+  /* Edge */
+  font-family: $font-primary;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: $font-primary;
+  font-weight: 300;
+}
+
+::placeholder {
+  font-family: $font-primary;
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  background: $dark;
+  font-family: $font-primary;
+  font-size: $font-size-base;
+  overflow-x: hidden;
+}
+
+body {
+  color: $primary;
+  font-family: $font-primary;
+  overflow: hidden;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+
+  :hover {
+    color: lighten($primary, 10%);
+  }
+}
+
+a,
+button {
+  &:active,
+  &:focus,
+  &:hover {
+    outline: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.25em;
+}
+
+h1 {
+  font-size: $font-size-base * 2.5;
+}
+
+h2 {
+  font-size: $font-size-base * 2;
+}
+
+h3 {
+  font-size: $font-size-base * 1.75;
+}
+
+h4 {
+  font-size: $font-size-base * 1.5;
+}
+
+h5 {
+  font-size: $font-size-base * 1.25;
+}
+
+h6 {
+  font-size: $font-size-base * 1;
+}
+
+mark {
+  background-color: lighten($secondary, 40%);
+  color: $dark !important;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+p {
+  margin-bottom: 0.25em;
+}
